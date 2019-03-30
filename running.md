@@ -2,18 +2,18 @@
 
 To build:
 
-```python
+```bash
 $ . ./activate
 ```
 
 To run tests:
 
-```python
+```bash
 $ invoke test -m pset1
 ```
 
 To watch / build tests:
 
-```python
+```bash
 $ invoke watch
 ```
