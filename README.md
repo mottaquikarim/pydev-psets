@@ -4,25 +4,25 @@
 
 | Problem        | Desc           |
 | -------------  |:-------------: |
-| [pset1/shopping_list/__init__.py](pset1/shopping_list/__init__.py) | Simple Shopping List problem |
+| [pset1/shopping_list/__init__.py](pset1/shopping_list/__init__.py) | Simple Shopping List problem  |
 | [pset2/shopping_list/__init__.py](pset2/shopping_list/__init__.py) | testing |
 
 ## Getting Started
 
 To build:
 
-```python
+```bash
 $ . ./activate
 ```
 
 To run tests:
 
-```python
+```bash
 $ invoke test -m pset1
 ```
 
 To watch / build tests:
 
-```python
+```bash
 $ invoke watch
 ```
