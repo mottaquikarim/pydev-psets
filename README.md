@@ -14,18 +14,30 @@
 | Shopping List Calculator III | [pset_basic_data_types.shopping_list.p3](pset_basic_data_types/shopping_list/p3.py) | 
 
 ## Getting Started
+## Getting Started
 
-To build:
-
-```bash
-$ . ./activate
-```
-
-To run tests:
+CD into the directory
 
 ```bash
-$ invoke test -m pset1
+cd pydev-psets
 ```
+
+Then, build:
+
+```bash
+. ./activate
+```
+
+Then, run tests:
+
+```bash
+invoke test -m pset_basic_data_types
+```
+
+
+Done!
+
+## Dev notes
 
 To watch / build tests:
 
