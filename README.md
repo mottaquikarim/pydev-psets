@@ -14,7 +14,6 @@
 | Shopping List Calculator III | [pset_basic_data_types.shopping_list.p3](pset_basic_data_types/shopping_list/p3.py) | 
 
 ## Getting Started
-## Getting Started
 
 CD into the directory
 
