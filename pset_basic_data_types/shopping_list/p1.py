@@ -2,7 +2,7 @@
 Shopping List Calculator I
 """
 
-# Create five variables,
+# Create five variables, 
 # set them to strings that represent 5 common shopping list items
 
 
@@ -12,7 +12,7 @@ item_name_3 = None
 item_name_4 = None
 item_name_5 = None
 
-# Create five more variables,
+# Create five more variables, 
 # set them to floats that represent the prices of each of the items above
 
 item_price_1 = None
@@ -21,9 +21,8 @@ item_price_3 = None
 item_price_4 = None
 item_price_5 = None
 
-# Create five more variables,
+# Create five more variables, 
 # set them to ints that represent the quantity of each of the items above
-
 item_quant_1 = None
 item_quant_2 = None
 item_quant_3 = None

@@ -15,17 +15,28 @@
 
 ## Getting Started
 
-To build:
+CD into the directory
 
 ```bash
-$ . ./activate
+cd pydev-psets
 ```
 
-To run tests:
+Then, build:
 
 ```bash
-$ invoke test -m pset1
+. ./activate
 ```
+
+Then, run tests:
+
+```bash
+invoke test -m pset_basic_data_types
+```
+
+
+Done!
+
+## Dev notes
 
 To watch / build tests:
 
