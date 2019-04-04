@@ -38,6 +38,12 @@ Done!
 
 ## Dev notes
 
+To build for dev, activate the dev script:
+
+```bash
+. ./activate-dev
+```
+
 To watch / build tests:
 
 ```bash
