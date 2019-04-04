@@ -43,7 +43,7 @@ def get_psets(pattern):
             valid_types = (ast.FunctionDef, ast.ClassDef, ast.Module)
             for node in ast.walk(code):
                 if isinstance(node, valid_types):
-                    docstring = ast.get_docstring(node)
+                    docstring = ast.get_docstring(node) or "No Desc Provided"
                     if docstring:
                         ptr[as_module]["docstring"] = docstring
 
@@ -70,7 +70,7 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
             print('----------------------------')
             str_ += ['', f'### {pset.replace("_", " ").title()}']
             for subitem in psets[pset]:
-                str_ += ['', f'#### {subitem}']
+                str_ += ['', f'#### {subitem.replace("_", " ").title()}']
                 print('----------------------------')
                 print(subitem)
                 print(psets[pset][subitem])
