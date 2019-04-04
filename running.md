@@ -12,12 +12,17 @@ Then, build:
 . ./activate
 ```
 
-Then, run tests:
+Then, `cd` into the pset you want to solve and run:
 
 ```bash
-invoke test -m pset_basic_data_types
+invoke test
 ```
 
+To test your code manually, just run:
+
+```bash
+python {filename.py}
+```
 
 Done!
 

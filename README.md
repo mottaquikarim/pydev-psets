@@ -35,7 +35,7 @@ Then, build:
 Then, run tests:
 
 ```bash
-invoke test -m pset_basic_data_types
+invoke test
 ```
 
 
