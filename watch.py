@@ -91,7 +91,7 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
                         '/')[0:-1] + [(filename)]
                     # print('HERE', item, module, pset, subitem, psets)
                     # str_.append(f"| {item['docstring']} | [{module}]({item['filename']}) | ")
-                    str_.append(f"* **{item['docstring']}**: **[{module}]({item['filename']})** | **[tests]({'/'.join(testfilename)})**")
+                    str_.append(f"* **[{item['docstring']}]({item['filename']})** | **[Tests]({'/'.join(testfilename)})**")
 
         f = open("README.md", "w")
         f.write("\n".join(str_ + ['', open('running.md', 'r').read()]))
