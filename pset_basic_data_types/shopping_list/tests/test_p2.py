@@ -11,7 +11,7 @@ class TestPrint(TestCase):
     @pytest.mark.it('Print statements are correctly formatted')
     @patch('sys.stdout', new_callable=io.StringIO)
     def test_output(self, mock_stdout):
-        from pset_basic_data_types.shopping_list.p2 import (
+        from p2 import (
             total,
             tax,
             total_total,
@@ -28,7 +28,7 @@ class TestShoppingListItems(TestCase):
 
     @pytest.mark.it('`total` is the sum of item_prices')
     def test_item_total(self):
-        from pset_basic_data_types.shopping_list.p1 import (
+        from p1 import (
             item_price_1,
             item_price_2,
             item_price_3,
@@ -36,14 +36,14 @@ class TestShoppingListItems(TestCase):
             item_price_5,
         )
 
-        from pset_basic_data_types.shopping_list.p2 import total
+        from p2 import total
 
         assert total == item_price_1 + item_price_2 + \
             item_price_3 + item_price_4 + item_price_5
 
     @pytest.mark.it('`tax` is `total` * `TAX_RATE`')
     def test_item_tax(self):
-        from pset_basic_data_types.shopping_list.p2 import (
+        from p2 import (
             total,
             TAX_RATE,
             tax
@@ -53,7 +53,7 @@ class TestShoppingListItems(TestCase):
 
     @pytest.mark.it('`total_total` is `total` + `tax`')
     def test_item_total_total(self):
-        from pset_basic_data_types.shopping_list.p2 import (
+        from p2 import (
             total,
             tax,
             total_total,

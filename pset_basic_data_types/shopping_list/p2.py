@@ -2,7 +2,7 @@
 Shopping List Calculator II
 """
 
-from pset_basic_data_types.shopping_list.p1 import *
+from p1 import *
 
 # Given the item names and prices from p1.py
 # calculate the total price and price with tax.
