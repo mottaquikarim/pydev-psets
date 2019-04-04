@@ -77,8 +77,8 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
                 print('----------------------------')
                 str_ += [
                     '',
-                    '| Module Name        | Desc           |',
-                    '| -------------  |:-------------: |',
+                    # '| Desc        | ModuleName           |',
+                    # '| -------------  |:-------------: |',
                 ]
                 for module in psets[pset][subitem]:
                     print('----------------------------')
@@ -86,8 +86,12 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
                     print(psets[pset][subitem][module])
                     print('----------------------------')
                     item = psets[pset][subitem][module]
+                    filename = "tests/test_"+item['filename'].split('/').pop()
+                    testfilename = item['filename'].split(
+                        '/')[0:-1] + [(filename)]
                     # print('HERE', item, module, pset, subitem, psets)
-                    str_.append(f"| {item['docstring']} | [{module}]({item['filename']}) | ")
+                    # str_.append(f"| {item['docstring']} | [{module}]({item['filename']}) | ")
+                    str_.append(f"* **{item['docstring']}**: **[{module}]({item['filename']})** | **[tests]({'/'.join(testfilename)})**")
 
         f = open("README.md", "w")
         f.write("\n".join(str_ + ['', open('running.md', 'r').read()]))
