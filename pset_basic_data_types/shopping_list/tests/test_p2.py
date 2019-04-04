@@ -38,8 +38,8 @@ class TestShoppingListItems(TestCase):
 
         from p2 import total
 
-        assert total == item_price_1 + item_price_2 + \
-            item_price_3 + item_price_4 + item_price_5
+        assert total == pytest.approx(item_price_1 + item_price_2 +
+                                      item_price_3 + item_price_4 + item_price_5, 0.1)
 
     @pytest.mark.it('`tax` is `total` * `TAX_RATE`')
     def test_item_tax(self):
@@ -49,7 +49,7 @@ class TestShoppingListItems(TestCase):
             tax
         )
 
-        assert tax == total * TAX_RATE * 0.01
+        assert tax == pytest.approx(total * TAX_RATE * 0.01, 0.1)
 
     @pytest.mark.it('`total_total` is `total` + `tax`')
     def test_item_total_total(self):
@@ -59,4 +59,4 @@ class TestShoppingListItems(TestCase):
             total_total,
         )
 
-        assert total_total == total + tax
+        assert total_total == pytest.approx(total + tax, 0.1)
