@@ -12,6 +12,9 @@ def get_psets(pattern):
     psets = {}
 
     for filename in glob.iglob(pattern, recursive=True):
+        if "__pycache__" in filename or "solution" in filename:
+            continue
+
         print(filename)
         parts = filename.split('/')
 
@@ -70,7 +73,7 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
             print('----------------------------')
             str_ += ['', f'### {pset.replace("_", " ").replace("pset ", "").title()}']
             for subitem in psets[pset]:
-                str_ += ['', f'#### {subitem.replace("_", " ").title()}']
+                str_ += ['', f'#### {subitem.replace("_", " ").title()} ({len(psets[pset][subitem].items())} problems)']
                 print('----------------------------')
                 print(subitem)
                 print(psets[pset][subitem])
