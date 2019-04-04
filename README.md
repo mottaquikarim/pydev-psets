@@ -13,6 +13,14 @@
 
 ### Conditionals
 
+#### Logic (5 problems)
+
+* **[Calculate Grade](pset_conditionals/logic/p1.py)** | **[Tests](pset_conditionals/logic/tests/test_p1.py)**
+* **[Sign of Product](pset_conditionals/logic/p2.py)** | **[Tests](pset_conditionals/logic/tests/test_p2.py)**
+* **[Any Uppercase](pset_conditionals/logic/p3.py)** | **[Tests](pset_conditionals/logic/tests/test_p3.py)**
+* **[IsEmptyString](pset_conditionals/logic/p4.py)** | **[Tests](pset_conditionals/logic/tests/test_p4.py)**
+* **[truthTableEvaluator](pset_conditionals/logic/p5.py)** | **[Tests](pset_conditionals/logic/tests/test_p5.py)**
+
 #### Random Nums (2 problems)
 
 * **[Generate Traffic Light](pset_conditionals/random_nums/p1.py)** | **[Tests](pset_conditionals/random_nums/tests/test_p1.py)**
