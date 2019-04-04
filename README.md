@@ -3,7 +3,7 @@
 ## Problems
 
 
-### Pset Basic Data Types
+### Basic Data Types
 
 #### Shopping List
 
@@ -13,7 +13,7 @@
 | Shopping List Calculator II | [pset_basic_data_types.shopping_list.p2](pset_basic_data_types/shopping_list/p2.py) | 
 | Shopping List Calculator III | [pset_basic_data_types.shopping_list.p3](pset_basic_data_types/shopping_list/p3.py) | 
 
-### Pset Conditionals
+### Conditionals
 
 #### Random Nums
 

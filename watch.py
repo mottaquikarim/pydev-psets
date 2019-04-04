@@ -68,7 +68,7 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
             print('----------------------------')
             print(pset)
             print('----------------------------')
-            str_ += ['', f'### {pset.replace("_", " ").title()}']
+            str_ += ['', f'### {pset.replace("_", " ").replace("pset ", "").title()}']
             for subitem in psets[pset]:
                 str_ += ['', f'#### {subitem.replace("_", " ").title()}']
                 print('----------------------------')
