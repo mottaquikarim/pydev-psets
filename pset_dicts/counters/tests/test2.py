@@ -1,5 +1,5 @@
 """
-Cool Runnings!
+Summing Dict Values
 """
 
 # import io
@@ -9,15 +9,17 @@ Cool Runnings!
 # from unittest.mock import patch
 
 
-@pytest.mark.describe('Cool Runnings! - XXX')
+
+
+@pytest.mark.describe('Summing Dict Values - XXX')
 class TestPrint(TestCase):
 
 
 
-@pytest.mark.describe('Cool Runnings! - XXX')
+@pytest.mark.describe('Summing Dict Values - XXX')
 class TestPrint(TestCase):
 
 
 
-@pytest.mark.describe('Cool Runnings! - XXX')
+@pytest.mark.describe('Summing Dict Values - XXX')
 class TestPrint(TestCase):

@@ -1,5 +1,5 @@
 """
-Contact List
+Shopping List Calculator w/User Input
 """
 
 # You went to a conference and got people to sign up

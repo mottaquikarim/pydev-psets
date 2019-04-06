@@ -2,7 +2,6 @@
 Basic Dict Concepts
 """
 
-
 # 1. Declare an empty dict as d1.
 
 
@@ -13,20 +12,24 @@ Basic Dict Concepts
 
 
 
-# 3. Add a person to d2.
+# 3. Add Allison Zhang person to d2.
 
 
 
-# 4. How many people are now in d2? Print out all their *first* names.
+# 4. How many people are now in d2? Print out all their *first* names in the vars below.
+
+### num_people = 
+
+### first_names = 
 
 
+# 5. Delete a random person from d2 and print his/her name in the var below.
 
-# 5. Delete a random person from d2 and print his/her name.
-
+### x = 
 
 
 # 6. Re-add the name you deleted to the end of d2.
 
 
 
-# 7. Alphabetize the list by last name.
+
