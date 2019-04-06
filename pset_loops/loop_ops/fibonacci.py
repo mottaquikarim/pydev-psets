@@ -7,4 +7,5 @@ Fibonacci Sequence
 i = 0
 
 while i <= 100:
+	pass
 	## add i to ... how to reference the last num...?

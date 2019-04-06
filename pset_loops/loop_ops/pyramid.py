@@ -7,12 +7,13 @@ Build a Pyramid
 
 count = 0
 while count < 5 :
-print("count =", count)
-count += 1
-Use a while loop to print a triangle of astericks, like this:
-*
-***
-*****
-*******
-*********
+	print("count =", count)
+	count += 1
+
+# Use a while loop to print a triangle of astericks, like this:
+# *
+# ***
+# *****
+# *******
+# *********
 

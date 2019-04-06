@@ -28,8 +28,9 @@ def get_psets(pattern):
             psets[pset_name] = {}
 
         ptr = psets[pset_name]
-        print('PTR', pset_name, as_module, problem_name)
+        print('PTR', pset_name, as_module, problem_name, parts)
         if problem_name and not ptr.get(problem_name):
+            print("problem_name", problem_name, as_module)
             ptr[problem_name] = {}
             ptr[problem_name][as_module] = {
                 "filename": filename,
@@ -95,7 +96,7 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
                     # print('HERE', item, module, pset, subitem, psets)
                     # str_.append(f"| {item['docstring']} | [{module}]({item['filename']}) | ")
                     str_.append(f"* **[{item['docstring']}]({item['filename']})** | **[Tests]({'/'.join(testfilename)})**")
-
+        print('here')
         f = open("README.md", "w")
         f.write("\n".join(str_ + ['', open('running.md', 'r').read()]))
         f.close()
