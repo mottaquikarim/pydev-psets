@@ -1,5 +1,7 @@
 .env
 .pytest_cache
 ./**/.pytest_cache
+*/.DS_STORE/*
+*/**/.DS_STORE/*
 */__pycache__/*
 */**/__pycache__/*
