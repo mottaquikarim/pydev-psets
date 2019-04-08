@@ -68,6 +68,39 @@
 * **[Cool Runnings!](pset_lists/list_ops/p3.py)** | **[Tests](pset_lists/list_ops/tests/test_p3.py)**
 * **[Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)** | **[Tests](pset_lists/list_ops/tests/test_p4.py)**
 
+### Loops
+
+#### Control Flow (2 problems)
+
+* **[Control Flow - I](pset_loops/control_flow/p1.py)** | **[Tests](pset_loops/control_flow/tests/test_p1.py)**
+* **[Control Flow II](pset_loops/control_flow/p2.py)** | **[Tests](pset_loops/control_flow/tests/test_p2.py)**
+
+#### Dict Loops (3 problems)
+
+* **[Contacts](pset_loops/dict_loops/p1.py)** | **[Tests](pset_loops/dict_loops/tests/test_p1.py)**
+* **[Grades](pset_loops/dict_loops/p2.py)** | **[Tests](pset_loops/dict_loops/tests/test_p2.py)**
+* **[Price Inventory](pset_loops/dict_loops/p3.py)** | **[Tests](pset_loops/dict_loops/tests/test_p3.py)**
+
+#### Loop Basics (6 problems)
+
+* **[Odds & Evens](pset_loops/loop_basics/p1.py)** | **[Tests](pset_loops/loop_basics/tests/test_p1.py)**
+* **[Lists with Duplicates](pset_loops/loop_basics/p2.py)** | **[Tests](pset_loops/loop_basics/tests/test_p2.py)**
+* **[Temperature Conversions](pset_loops/loop_basics/p3.py)** | **[Tests](pset_loops/loop_basics/tests/test_p3.py)**
+* **[Factorial](pset_loops/loop_basics/p4.py)** | **[Tests](pset_loops/loop_basics/tests/test_p4.py)**
+* **[Factors](pset_loops/loop_basics/p5.py)** | **[Tests](pset_loops/loop_basics/tests/test_p5.py)**
+* **[GCD](pset_loops/loop_basics/p6.py)** | **[Tests](pset_loops/loop_basics/tests/test_p6.py)**
+
+#### Loop Challenges (2 problems)
+
+* **[Valid Passwords](pset_loops/loop_challenges/p1.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p1.py)**
+* **[Prime Numbers I](pset_loops/loop_challenges/p2.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p2.py)**
+
+#### Shapes (3 problems)
+
+* **[Build a Triangle](pset_loops/shapes/p1.py)** | **[Tests](pset_loops/shapes/tests/test_p1.py)**
+* **[Build a Pyramid](pset_loops/shapes/p2.py)** | **[Tests](pset_loops/shapes/tests/test_p2.py)**
+* **[Build a Diamond](pset_loops/shapes/p3.py)** | **[Tests](pset_loops/shapes/tests/test_p3.py)**
+
 ## Getting Started
 
 CD into the directory
