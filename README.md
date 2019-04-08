@@ -2,7 +2,6 @@
 
 ## Problems
 
-
 ### Basic Data Types
 
 #### Shopping List (3 problems)
