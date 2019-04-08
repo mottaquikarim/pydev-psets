@@ -7,3 +7,8 @@ def test(c, module=None):
 @task
 def watch(c):
     c.run("python watch.py")
+
+@task
+def flask(c):
+    c.run('FLASK_ENV=development FLASK_APP=api.py flask run')
+    #c.run('FLASK_APP=api.py flask run')

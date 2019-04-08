@@ -6,11 +6,12 @@ Shopping List Calculator I
 # set them to strings that represent 5 common shopping list items
 
 
-item_name_1 = None
-item_name_2 = None
-item_name_3 = None
-item_name_4 = None
-item_name_5 = None
+item_name_1 = 'None'
+item_name_2 = 'None'
+item_name_3 = 'None'
+item_name_4 = 'None'
+item_name_5 = 'None'
+
 
 # Create five more variables,
 # set them to floats that represent the prices of each of the items above
