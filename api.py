@@ -88,10 +88,33 @@ def filepath_test(subpath):
     curr = os.getcwd()
     os.chdir(f"{os.getcwd()}/{app_dir}")
     output = ""
-    with Popen(['python',
+    with Popen(['python3',
                 '-m',  # shorter traceback format
                 'pytest',
                 f"tests",], stdout=PIPE, bufsize=1, universal_newlines=True) as p:
+        ansi = "".join(p.stdout)
+
+    os.chdir(curr)
+
+    return (json.dumps({
+        "content": conv.convert(ansi),
+    }), 200, {"Content-Type": "application/json"})
+
+@app.route('/run/<path:subpath>', methods=["POST"])
+def filepath_run(subpath):
+
+    newpath = get_newpath(subpath)
+    #abspath = os.path.abspath(newpath)
+    app_dir = '/'.join(newpath.split('/')[0:-1])
+    test_dir = '/'.join(newpath.split('/')[0:-1] + ['tests'])
+
+    print('NEWPATH', newpath, app_dir, os.path.abspath(test_dir))
+    print(f"{os.getcwd()}/{test_dir}")
+    curr = os.getcwd()
+    os.chdir(f"{os.getcwd()}/{app_dir}")
+    output = ""
+    with Popen(['python3',
+                newpath.split('/')[-1],], stdout=PIPE, bufsize=1, universal_newlines=True) as p:
         ansi = "".join(p.stdout)
 
     os.chdir(curr)

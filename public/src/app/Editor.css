@@ -1,0 +1,52 @@
+.no-file {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #2F3129;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-file__msg {
+    border: 1px solid #00ADB5;
+    border-radius: 3px;
+    padding: 20px;
+    color: white;
+    width: 40%;
+}
+
+.no-file-header, .no-file-footer {
+    font-weight: bolder;
+    color: #00ADB5;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.no-file-header {
+    text-align: center;
+}
+
+.editor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-top: 29px;
+}
+
+.terminal {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    color: white;
+}
+
+.ace_editor {
+    height: 100% !important;
+    width: 50% !important;
+}

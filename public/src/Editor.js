@@ -6,10 +6,39 @@ import 'brace/mode/python';
 import 'brace/theme/monokai';
 
 import "./Editor.css";
-const Terminal = props => {
+const Editor = props => {
+    const [val, setVal] = useState('')
+    let loading = false
+    const url = 'http://localhost:5000' + props.locationData.pathname
+
+    fetch(url)
+        .then(resp => resp.json())
+        .then(data => {
+            setVal(data.content)
+        })
+
+    let timeout = null;
+    const onChange = e => {
+        clearTimeout(timeout);
+        loading = true
+        timeout = setTimeout(() => {
+            fetch(url, {
+                method: "POST",            
+                mode: "cors",
+                cache: "no-cache",
+                credentials: "same-origin",
+                headers: {
+                    "Content-Type": "application/json",
+                }, 
+                body: JSON.stringify({"content": e}),
+            })
+            .then(() => loading = false)
+        }, 2000);
+    }
+
     const [term, setTerm] = useState('>> Loading...')
     const iframeEl = useRef(null);
-    const url = 'http://localhost:5000' + '/test/' + props.locationData.pathname.split('/').slice(2).join('/')
+    const tUrl = 'http://localhost:5000' + '/test/' + props.locationData.pathname.split('/').slice(2).join('/')
     if (term === ">> Loading...") {
         fetch('http://localhost:5000/pyversion')
             .then(resp => resp.json())
@@ -20,9 +49,10 @@ const Terminal = props => {
                 doc.body.innerHTML = data.content;
             })
     }
-
     const run = e => {
-        fetch(url, {
+        if (loading) return;
+
+        fetch(tUrl, {
             method: "POST",
             mode: "cors",
             cache: "no-cache",
@@ -40,45 +70,11 @@ const Terminal = props => {
             doc.body.innerHTML = data.content;
         })
     }
-    return <div className="terminal">
-        <div className="terminal-bar" onClick={run}>
-            Run Tests 
-        </div>
-        <iframe ref={iframeEl} style={{
-            border: 'none',
-            width: '100%',
-            height: '100%',
-        }}/>
-   </div>
-}
-
-const Editor = props => {
-    const [val, setVal] = useState('')
-    const url = 'http://localhost:5000' + props.locationData.pathname
-
-    fetch(url)
-        .then(resp => resp.json())
-        .then(data => {
-            setVal(data.content)
-        })
-
-    let timeout = null;
-    const onChange = e => {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => {
-            fetch(url, {
-                method: "POST",            
-                mode: "cors",
-                cache: "no-cache",
-                credentials: "same-origin",
-                headers: {
-                    "Content-Type": "application/json",
-                }, 
-                body: JSON.stringify({"content": e}),
-            })
-        }, 2000);
-    }
+    console.log('loading', loading)
     return <div className="editor">
+        <div className="terminal-bar" onClick={run}>
+            {loading ? "Loading...": "Run Tests"}
+        </div>
         <AceEditor
           placeholder="Placeholder Text"
           mode="python"
@@ -99,7 +95,13 @@ const Editor = props => {
               wrap: true,
               useWrapMode: true,
           }}/>
-         <Terminal {...props} />
+          <div className="terminal">
+            <iframe ref={iframeEl} style={{
+                border: 'none',
+                width: '100%',
+                height: '100%',
+            }}/>
+         </div>
     </div>
 }
 

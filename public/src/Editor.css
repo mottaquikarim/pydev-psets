@@ -2,9 +2,12 @@
     height: 100%;
     width: 100%;
     display: flex;
+    position: relative;
+    padding-top: 23px;
 }
 
 .terminal-bar {
+    color: white;
     position: absolute;
     top: 0;
     left: 0;
