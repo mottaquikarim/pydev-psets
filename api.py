@@ -2,6 +2,7 @@ import json
 import os
 import pathlib
 import sys
+import threading, webbrowser
 
 
 from ansi2html import Ansi2HTMLConverter
@@ -137,3 +138,5 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
     return response
+
+threading.Timer(1.25, lambda: webbrowser.open('http://localhost:5000/index.html') ).start()

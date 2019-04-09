@@ -3,5 +3,4 @@
 python3 -m venv .env
 source .env/bin/activate
 pip3 install -r requirements.txt
-echo "OPEN YOUR BROWSER TO: http://localhost:5000/index.html"
 FLASK_APP=api.py flask run
