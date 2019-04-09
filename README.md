@@ -36,37 +36,70 @@
 
 ### Dicts
 
-#### Dict Ops (6 problems)
+#### Counters (2 problems)
 
-* **[Basic Dict Concepts](pset_dicts/dict_ops/basic_dict_concepts.py)** | **[Tests](pset_dicts/dict_ops/tests/test_basic_dict_concepts.py)**
-* **[Basic Login](pset_dicts/dict_ops/basic_login_search.py)** | **[Tests](pset_dicts/dict_ops/tests/test_basic_login_search.py)**
-* **[Trending](pset_dicts/dict_ops/counter_becomes_dict.py)** | **[Tests](pset_dicts/dict_ops/tests/test_counter_becomes_dict.py)**
-* **[No Desc Provided](pset_dicts/dict_ops/invert_kvs.py)** | **[Tests](pset_dicts/dict_ops/tests/test_invert_kvs.py)**
-* **[Math with Dicts](pset_dicts/dict_ops/math.py)** | **[Tests](pset_dicts/dict_ops/tests/test_math.py)**
-* **[Prime Numbers](pset_dicts/dict_ops/primes.py)** | **[Tests](pset_dicts/dict_ops/tests/test_primes.py)**
+* **[Word Frequency](pset_dicts/counters/p1.py)** | **[Tests](pset_dicts/counters/tests/test_p1.py)**
+* **[Summing Dict Values](pset_dicts/counters/p2.py)** | **[Tests](pset_dicts/counters/tests/test_p2.py)**
+
+#### Dict Ops (5 problems)
+
+* **[Basic Dict Concepts](pset_dicts/dict_ops/p1.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p1.py)**
+* **[Merging Dicts](pset_dicts/dict_ops/p2.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p2.py)**
+* **[Math with Girl Scout Cookies](pset_dicts/dict_ops/p3.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p3.py)**
+* **[Inverting Keys & Values](pset_dicts/dict_ops/p4.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p4.py)**
+* **[Lists to Dicts](pset_dicts/dict_ops/p5.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p5.py)**
+
+#### Search Validation (1 problems)
+
+* **[Basic Login](pset_dicts/search_validation/p1.py)** | **[Tests](pset_dicts/search_validation/tests/test_p1.py)**
 
 ### Lists
 
-#### List Ops (8 problems)
+#### List Manipulation (3 problems)
+
+* **[Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p5.py)**
+* **[Phone Numbers](pset_lists/list_manipulation/p6.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p6.py)**
+* **[CHALLENGE - Extensions](pset_lists/list_manipulation/p7.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p7.py)**
+
+#### List Ops (4 problems)
 
 * **[Basic List Operations](pset_lists/list_ops/p1.py)** | **[Tests](pset_lists/list_ops/tests/test_p1.py)**
 * **[Core Statistics Calculations](pset_lists/list_ops/p2.py)** | **[Tests](pset_lists/list_ops/tests/test_p2.py)**
 * **[Cool Runnings!](pset_lists/list_ops/p3.py)** | **[Tests](pset_lists/list_ops/tests/test_p3.py)**
 * **[Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)** | **[Tests](pset_lists/list_ops/tests/test_p4.py)**
-* **[Merge Lists with Duplicates](pset_lists/list_ops/p5.py)** | **[Tests](pset_lists/list_ops/tests/test_p5.py)**
-* **[Phone Numbers](pset_lists/list_ops/p6.py)** | **[Tests](pset_lists/list_ops/tests/test_p6.py)**
-* **[CHALLENGE - Extensions](pset_lists/list_ops/p7.py)** | **[Tests](pset_lists/list_ops/tests/test_p7.py)**
-* **[CHALLENGE: Tuple Sorting](pset_lists/list_ops/p8.py)** | **[Tests](pset_lists/list_ops/tests/test_p8.py)**
 
 ### Loops
 
-#### Loop Ops (5 problems)
+#### Control Flow (2 problems)
 
-* **[Dice Odds](pset_loops/loop_ops/dice_odds.py)** | **[Tests](pset_loops/loop_ops/tests/test_dice_odds.py)**
-* **[Fibonacci Sequence](pset_loops/loop_ops/fibonacci.py)** | **[Tests](pset_loops/loop_ops/tests/test_fibonacci.py)**
-* **[Contact List](pset_loops/loop_ops/p8.py)** | **[Tests](pset_loops/loop_ops/tests/test_p8.py)**
-* **[Build a Pyramid](pset_loops/loop_ops/pyramid.py)** | **[Tests](pset_loops/loop_ops/tests/test_pyramid.py)**
-* **[No Desc Provided](pset_loops/loop_ops/word_freq.py)** | **[Tests](pset_loops/loop_ops/tests/test_word_freq.py)**
+* **[Control Flow - I](pset_loops/control_flow/p1.py)** | **[Tests](pset_loops/control_flow/tests/test_p1.py)**
+* **[Control Flow II](pset_loops/control_flow/p2.py)** | **[Tests](pset_loops/control_flow/tests/test_p2.py)**
+
+#### Dict Loops (3 problems)
+
+* **[Contacts](pset_loops/dict_loops/p1.py)** | **[Tests](pset_loops/dict_loops/tests/test_p1.py)**
+* **[Grades](pset_loops/dict_loops/p2.py)** | **[Tests](pset_loops/dict_loops/tests/test_p2.py)**
+* **[Price Inventory](pset_loops/dict_loops/p3.py)** | **[Tests](pset_loops/dict_loops/tests/test_p3.py)**
+
+#### Loop Basics (6 problems)
+
+* **[Odds & Evens](pset_loops/loop_basics/p1.py)** | **[Tests](pset_loops/loop_basics/tests/test_p1.py)**
+* **[Lists with Duplicates](pset_loops/loop_basics/p2.py)** | **[Tests](pset_loops/loop_basics/tests/test_p2.py)**
+* **[Temperature Conversions](pset_loops/loop_basics/p3.py)** | **[Tests](pset_loops/loop_basics/tests/test_p3.py)**
+* **[Factorial](pset_loops/loop_basics/p4.py)** | **[Tests](pset_loops/loop_basics/tests/test_p4.py)**
+* **[Factors](pset_loops/loop_basics/p5.py)** | **[Tests](pset_loops/loop_basics/tests/test_p5.py)**
+* **[GCD](pset_loops/loop_basics/p6.py)** | **[Tests](pset_loops/loop_basics/tests/test_p6.py)**
+
+#### Loop Challenges (2 problems)
+
+* **[Valid Passwords](pset_loops/loop_challenges/p1.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p1.py)**
+* **[Prime Numbers I](pset_loops/loop_challenges/p2.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p2.py)**
+
+#### Shapes (3 problems)
+
+* **[Build a Triangle](pset_loops/shapes/p1.py)** | **[Tests](pset_loops/shapes/tests/test_p1.py)**
+* **[Build a Pyramid](pset_loops/shapes/p2.py)** | **[Tests](pset_loops/shapes/tests/test_p2.py)**
+* **[Build a Diamond](pset_loops/shapes/p3.py)** | **[Tests](pset_loops/shapes/tests/test_p3.py)**
 
 ## Getting Started
 
