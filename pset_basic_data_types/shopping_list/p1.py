@@ -12,7 +12,6 @@ item_name_3 = None
 item_name_4 = None
 item_name_5 = None
 
-
 # Create five more variables,
 # set them to floats that represent the prices of each of the items above
 

@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE
 
 from watch import get_psets
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='public/build',static_url_path='',)
 conv = Ansi2HTMLConverter()
 
 def get_newpath(subpath):
@@ -113,9 +113,10 @@ def filepath_run(subpath):
     curr = os.getcwd()
     os.chdir(f"{os.getcwd()}/{app_dir}")
     output = ""
-    with Popen(['python3',
-                newpath.split('/')[-1],], stdout=PIPE, bufsize=1, universal_newlines=True) as p:
-        ansi = "".join(p.stdout)
+    p = Popen(['python3', newpath.split('/')[-1],], stdout=PIPE, stderr=PIPE, bufsize=1, universal_newlines=True)
+    output, error = p.communicate()
+    ansi = "".join(output)
+    ansi += "".join(error)
 
     os.chdir(curr)
 
