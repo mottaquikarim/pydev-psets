@@ -4,6 +4,19 @@ Calculate Grade
 
 grade = 15  # expect this to be a number
 
+if 100 >= grade >= 90:
+	print('A')
+elif 89 >= grade >= 80:
+	print('B')
+elif 79 >= grade >= 70:
+	print('C')
+elif 69 >= grade >= 60:
+	print('D')
+elif 59 >= grade >= 0:
+	print('F')
+else:
+	print('Error')
+
 # write a program that will print the "letter"
 # equivalent of the grade, for example:
 # when grade = 90 # -> expect A
