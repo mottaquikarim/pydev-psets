@@ -14,12 +14,14 @@ elif p1 == 2:
 else:
     p1val = 's'
 
+
 if p2 == 1:
     p2val = 'r'
 elif p2 == 2:
     p2val = 'p'
 else:
     p2val = 's'
+
 
 if p1val == p2val:
     print(0)

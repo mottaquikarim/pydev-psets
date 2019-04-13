@@ -18,3 +18,52 @@ that input can be anything like...
 Implement conditional statements that will sanitize the 
 user input or let user know that input is invalid.
 """
+
+
+p1 = input('Choose r, p , or s, Player 1: ')  # from user input
+p2 = input('Choose r, p , or s, Player 2: ')  # from user input
+
+
+##### with data that must be corrected by user
+
+p1 = 'R'
+p2 = 'ROCK'
+
+p1 = p1.lower()
+p2 = p2.lower()
+
+
+if p1 == 'r' or 'p' or 's':
+    val1 = True
+else:
+	print("Player 1, please enter 'r', 'p', or 's' in the correct format.")
+
+if p2 == 'r' or 'p' or 's':
+    val2 = True
+else:
+	print("Player 2, please enter 'r', 'p', or 's' in the correct format.")
+
+
+
+#### with data that can be sanitized
+
+p1 = 'R'
+p2 = 'p'
+
+p1 = p1.lower()
+p2 = p2.lower()
+
+if p1 == p2:
+    print(0)
+elif p1 == 'r' and p2 == 's':
+    print(1)
+elif p1 == 'r' and p2 == 'p':
+    print(2)
+elif p1 == 'p' and p2 == 's':
+    print(2)
+elif p1 == 'p' and p2 == 'r':
+    print(1)
+elif p1 == 's' and p2 == 'r':
+    print(2)
+elif p1 == 's' and p2 == 'p':
+    print(1)
