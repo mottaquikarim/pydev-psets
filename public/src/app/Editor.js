@@ -1,4 +1,6 @@
 import React, { useContext, useRef, useState } from 'react';
+import useReactRouter from 'use-react-router';
+
 import "./Editor.css"
 import "./Loader.css"
 import "./Terminal-bar.css"
@@ -41,17 +43,30 @@ const Loading = props => {
 }
 
 const Terminal = props => {
+    const { history, location, match } = useReactRouter();
     const {state, dispatch} = useContext(StateContext)
-    const {currentFile,} = state;
-
+    const {currentFile,} = props;
     const iframeEl = useRef(null);
     const iframe = iframeEl.current;
-    if (iframe) {
+
+    if (Object.keys(currentFile).length === 0 && iframe) {
+        fetch('http://localhost:5000/pyversion')
+            .then(resp => resp.json())
+            .then(data => {
+                const doc = iframe.contentDocument;
+                doc.body.style.color = 'white';
+                doc.body.style.fontFamily = 'Roboto Mono';
+                doc.body.innerHTML = data.content;
+            })
+    }
+    else if (iframe) {
         const doc = iframe.contentDocument;
         doc.body.style.color = 'white';
         doc.body.style.fontFamily = 'Roboto Mono';
         doc.body.innerHTML = currentFile.testContent;
     }
+
+
 
     return <div className="terminal">
         <iframe ref={iframeEl} style={{
@@ -63,39 +78,32 @@ const Terminal = props => {
 }
 
 const Editor = props => {
+    const { history, location, match } = useReactRouter();
     const {state, dispatch} = useContext(StateContext)
     const {currentFile,} = state;
+    const terminalEl = useRef(null);
+    const inputEl = useRef(null);
+    const [term, setTerm] = useState({})
     const [l, setL] = useState(false)
-    const [c, setC] = useState('')
 
-    if (!Object.keys(currentFile).length) {
+
+    if (location.pathname === '/') {
         return <NoFile />
     }
 
-    if (!currentFile.content) {
-        return <Loading />
-    }
-
-    console.log('C is', c)
-    if (!c) setC(currentFile.content)
-
-    if (!currentFile.testContent) {
-        fetch('http://localhost:5000/pyversion')
-            .then(resp => resp.json())
-            .then(data => dispatch({
-                type: 'UPDATE_CURRENT_FILE_CONTENT',
-                payload: Object.assign({}, currentFile, {
-                    testContent: data.content,
-                }),
-            }))
-     }
+    console.log(history, location)
+    const url = 'http://localhost:5000' + location.pathname;
+    fetch(url)
+        .then(resp => resp.json())
+        .then(data => {
+            inputEl.current.editor.setValue(data.content, -1)
+        })
 
     let timeout = null;
-    const url = 'http://localhost:5000/path/' + currentFile.filename;
     const onChange = e => {
         clearTimeout(timeout);
         timeout = setTimeout(() => {
-            setL(true)
+            //setL(true)
             fetch(url, {
                 method: "POST",            
                 mode: "cors",
@@ -107,37 +115,14 @@ const Editor = props => {
                 body: JSON.stringify({"content": e}),
             })
             .then(d => {
-                setC(e)
-                setL(false)
+                //setC(e)
+                //setL(false)
             })
-        }, 750);
+        }, 250);
     }
 
-    const run = e => {
-        if (l) {console.log('nope'); return;}
-        const tUrl = 'http://localhost:5000/test/' + currentFile.filename;
-        fetch(tUrl, {
-            method: "POST",
-            mode: "cors",
-            cache: "no-cache",
-            credentials: "same-origin",
-            headers: {
-                "Content-Type": "application/json",
-            }, 
-            body: JSON.stringify({}),
-        })
-        .then(response => response.json())
-        .then(data => dispatch({
-            type: 'UPDATE_CURRENT_FILE_CONTENT',
-            payload: Object.assign({}, currentFile, {
-                testContent: data.content,
-            }),
-        }))
-    }
-
-    const exec = e => {
-
-        const rUrl = 'http://localhost:5000/run/' + currentFile.filename;
+    const exec = (e, repl) => {
+        const rUrl = url.replace('path', repl)
         fetch(rUrl, {
             method: "POST",
             mode: "cors",
@@ -149,24 +134,31 @@ const Editor = props => {
             body: JSON.stringify({}),
         })
         .then(response => response.json())
-        .then(data => dispatch({
-            type: 'UPDATE_CURRENT_FILE_CONTENT',
-            payload: Object.assign({}, currentFile, {
-                testContent: data.content,
-            }),
-        }))
+        .then(data => {
+            setTerm({testContent: data.content})
+        })
     }
 
+    let fileObj = {}
+    if (Object.keys(state.files).length > 0) {
+        const {pathname} = location;
+        const parts = pathname.split('/')
+        const pathparts = parts.slice(2, -1).concat([parts.slice(2).join('.').replace('.py', '')])
+        fileObj = pathparts.reduce((obj, part) => {
+            obj = obj[part]; 
+            return obj;
+        }, {...state.files});
+    }
     return <div className="editor">
         <div className="terminal-bar">
             <div className="terminal-bar-header">
-                {currentFile.docstring}
+                {fileObj.docstring}
             </div>
             <div className={"terminal-bar-buttons " + (l ? "terminal-bar-buttons--inactive" : "")}>
-                <div className="terminal-bar-run" onClick={exec}>
+                <div className="terminal-bar-run" onClick={e => exec(e, "run")}>
                    Run
                 </div>
-                <div className="terminal-bar-test" onClick={run}>
+                <div className="terminal-bar-test" onClick={e => exec(e, "test")}>
                    Test
                 </div>
             </div>
@@ -180,8 +172,8 @@ const Editor = props => {
           showPrintMargin={true}
           showGutter={true}
           highlightActiveLine={true}
-          value={c}
           onChange={onChange}
+          ref={inputEl}
           setOptions={{
               enableBasicAutocompletion: false,
               enableLiveAutocompletion: false,
@@ -191,7 +183,7 @@ const Editor = props => {
               wrap: true,
               useWrapMode: true,
           }}/>
-        <Terminal />
+        <Terminal currentFile={term} />
     </div>
 }
 

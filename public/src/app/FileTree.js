@@ -6,13 +6,13 @@ import Folder from "./Folder"
 
 import {StateContext} from './context';
 
-const recursivelyWriteTree = data => {
-    if (data.docstring) return <File data={data} />
+const recursivelyWriteTree = (data, props) => {
+    if (data.docstring) return <File data={data} {...props} />
 
     return Object.keys(data).reduce((arr, name) => {
         if (name.indexOf('session') > -1) return arr;
-        return arr.concat([<Folder key={name} name={name}>
-            {recursivelyWriteTree(data[name])}
+        return arr.concat([<Folder key={name} name={name} data={data[name]}>
+            {recursivelyWriteTree(data[name], props)}
         </Folder>])
     }, [])
 }
@@ -29,7 +29,7 @@ const FileTree = props => {
     }
     return <div className="file-browser">
         <ul style={{paddingLeft: '0'}}>
-            {recursivelyWriteTree(state.files)}
+            {recursivelyWriteTree(state.files, props)}
         </ul>
     </div>
 }

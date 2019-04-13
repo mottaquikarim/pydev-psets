@@ -6,6 +6,7 @@ const File = props => {
     const {state, dispatch} = useContext(StateContext)
     const {data,} = props;
     const handleClick = e => {
+        e.preventDefault();
         e.stopPropagation();
         dispatch({
             type: 'UPDATE_CURRENT_FILE',
@@ -23,6 +24,9 @@ const File = props => {
                     }),
                 })
             })
+            .then(() => {
+                props.history.push('/path/'+data.filename)
+            })
     }
 
     const _props = {
@@ -30,7 +34,7 @@ const File = props => {
         'onClick': handleClick,
     }
     const classNames = []
-    if (state.currentFile.filename === data.filename) {
+    if (state.currentFile.filename === data.filename || props.location.pathname.indexOf(data.filename) > -1) {
         classNames.push('active')
     }
     return <li {..._props}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import "../App.css"
 
 import {StateProvider} from './context'
@@ -10,13 +10,11 @@ import Editor from './Editor';
 const App = props => {
     return (<div>
         <StateProvider>
-            <FileTree />
-            <HashRouter>
-                <Switch>
-                    <Route path='/' exact component={Editor} />
-                    <Route path='/path' component={Editor} />
-                </Switch>
-            </HashRouter>
+            <Route path='/' component={FileTree} />
+            <Switch>
+                <Route path='/' exact component={Editor} />
+                <Route path='/path' component={Editor} />
+            </Switch>
         </StateProvider>
     </div>)
 }
