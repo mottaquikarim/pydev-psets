@@ -9,7 +9,7 @@ from ansi2html import Ansi2HTMLConverter
 from flask import Flask, request
 from subprocess import Popen, PIPE
 
-from watch import get_psets
+from get_psets import get_psets
 
 app = Flask(__name__, static_folder='public/build',static_url_path='',)
 conv = Ansi2HTMLConverter()
