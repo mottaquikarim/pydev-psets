@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import "./Folder.css";
 
 import File from "./File"
@@ -27,7 +27,12 @@ const FileTree = props => {
                 payload: data,
             }))
     }
-    return <div className="file-browser">
+    const [isHiding, setIsHiding] = useState(false)
+
+    return <div className={"file-browser " + (isHiding ? "file-browser-hidden": "")}>
+        <div className="file-toggle" onClick={e => setIsHiding(!isHiding)}>
+            {isHiding ? "➡️➡️":"⬅️⬅️"}
+        </div>
         <ul style={{paddingLeft: '0'}}>
             {recursivelyWriteTree(state.files, props)}
         </ul>

@@ -6,8 +6,25 @@
      min-width: 215px;
      max-width: 250px;
      height: 100%;
-     overflow: auto;
      font-size: 14px;
+     transition: margin-left 0.5s;
+     position: relative;
+     overflow: hidden;
+}
+.file-browser > ul {
+    margin-top: 30px;
+    overflow: auto;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.file-browser-hidden {
+    margin-left: -230px;
+}
+.file-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
 }
  .file {
      color: #eee;
