@@ -101,6 +101,40 @@
 * **[Build a Pyramid](pset_loops/shapes/p2.py)** | **[Tests](pset_loops/shapes/tests/test_p2.py)**
 * **[Build a Diamond](pset_loops/shapes/p3.py)** | **[Tests](pset_loops/shapes/tests/test_p3.py)**
 
+### Functions & Modules
+
+#### Basic Function Operations (5 problems)
+
+* **[Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p1.py)**
+* **[Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p2.py)**
+* **[Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p3py)**
+* **[Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p4.py)**
+* **[Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p5.py)**
+
+#### Math (3 problems)
+
+* **[Simple Interest Calculator](pset_functions/math/p1.py)** | **[Tests](pset_functions/math/tests/test_p1.py)**
+* **[Permutations & Combinations](pset_functions/math/p2.py)** | **[Tests](pset_functions/math/tests/test_p2.py)**
+* **[Multiples](pset_functions/math/p3.py)** | **[Tests](pset_functions/math/tests/test_p3py)**
+
+#### Data Manipulation (4 problems)
+
+* **[File Organization](pset_functions/data_manipulation/p1.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p1.py)**
+* **[Clean Pairs](pset_functions/data_manipulation/p2.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p2.py)**
+* **[Password Requirements](pset_functions/data_manipulation/p3.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p3py)**
+* **[Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p4.py)**
+
+#### Database Searches (2 problems)
+
+* **[GPA Calculator](pset_functions/db_search/p1.py)** | **[Tests](pset_functions/db_search/tests/test_p1.py)**
+* **[RGB to HEX](pset_functions/db_search/p2.py)** | **[Tests](pset_functions/db_search/tests/test_p2.py)**
+
+#### Function Challenges (2 problems)
+
+* **[Sum of Squares](pset_functions/challenges/p1.py)** | **[Tests](pset_functions/challenges/tests/test_p1.py)**
+* **[Speeding Tickets](pset_functions/challenges/p2.py)** | **[Tests](pset_functions/challenges/tests/test_p2.py)**
+
+
 ## Getting Started
 
 CD into the directory
