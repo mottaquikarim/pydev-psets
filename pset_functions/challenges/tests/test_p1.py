@@ -2,11 +2,11 @@
 Sum of Squares
 """
 
-# import io
-# import pytest
-# from unittest import TestCase
-# from unittest.mock import patch
-
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
+from p1 import *
 
 @pytest.mark.describe('it returns correct sum given three individual integers')
 def test_sum_squares():

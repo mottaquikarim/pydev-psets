@@ -1,5 +1,5 @@
 """
-Speeding Tickets - FOR FUNCTIONS UNIT
+Speeding Tickets
 """
 
 # Imagine you're a cop waiting on the side of the road to pick up speeders. Write a function called "speeders" to check the speed of drivers and record their license plate numbers.

@@ -2,12 +2,13 @@
 Speeding Tickets
 """
 
-# import io
-# import pytest
-# import math
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
+import math
+from p1 import *
 
-# from unittest import TestCase
-# from unittest.mock import patch
 
 @pytest.mark.describe('it passes if speed < 70 and it returns 0 new points')
 def test_speed_checker():
