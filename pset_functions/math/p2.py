@@ -10,5 +10,3 @@ Permutations & Combinations
 # permutation formula = n! / (n-r)!
 # combination formula = n! / (n−r)!r!
 
-
-

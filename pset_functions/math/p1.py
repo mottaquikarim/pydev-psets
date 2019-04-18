@@ -9,3 +9,4 @@ Simple Interest Calculator
 # P = principal amount of money
 # r = interest rate
 # t = number of time periods the principal will earn interest
+

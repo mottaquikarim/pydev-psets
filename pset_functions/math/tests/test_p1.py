@@ -2,12 +2,13 @@
 Simple Interest Calculator
 """
 
-# import io
-# import pytest
-# import math
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
 
-# from unittest import TestCase
-# from unittest.mock import patch
+import math
+from p1 import *
 
 
 @pytest.mark.describe('it returns correct value for the interest accrued')

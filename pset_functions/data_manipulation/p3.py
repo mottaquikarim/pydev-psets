@@ -11,3 +11,4 @@ Password Requirements
 ## At least 1 special character [~!@#$%&*].
 ## Min length 6 characters.
 ## Max length 16 characters.
+

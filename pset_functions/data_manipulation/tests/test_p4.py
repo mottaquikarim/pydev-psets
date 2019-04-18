@@ -2,11 +2,11 @@
 Rainbows & Wobniars
 """
 
-# import io
-# import pytest
-# from unittest import TestCase
-# from unittest.mock import patch
-
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
+from p4 import *
 
 @pytest.mark.describe('it returns a list with red, yellow, blue, & violet spelled backwards')
 def test_wobniar():

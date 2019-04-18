@@ -18,10 +18,12 @@ def sum_multiples(num1,num2,limit):
 
 	return sum
 
-num1 = int(input('Enter the first factor: '))
-num2 = int(input('Enter the second factor: '))
-limit = int(input('Enter a number for the upper limit: '))
 
-total = sum_multiples(num1,num2,limit)
+total1 = sum_multiples(3,17,12)
+print(total1)
 
-print(f'The sum of all the multiples of {num1} and {num2} up to {limit} is {total}.')
+total2 = sum_multiples(4,9,21)
+print(total2)
+
+total3 = sum_multiples(9,21,6)
+print(total3)

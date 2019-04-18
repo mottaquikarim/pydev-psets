@@ -2,10 +2,11 @@
 Password Requirements
 """
 
-# import io
-# import pytest
-# from unittest import TestCase
-# from unittest.mock import patch
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
+from p3 import *
 
 
 @pytest.mark.describe('it returns error if length < 6')

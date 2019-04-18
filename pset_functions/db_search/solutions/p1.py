@@ -47,5 +47,5 @@ def simple_gpa(grade):
   return gpa
 
 
-gpa = SimpleGPA('B+')
+gpa = simple_gpa('B+')
 print(gpa)

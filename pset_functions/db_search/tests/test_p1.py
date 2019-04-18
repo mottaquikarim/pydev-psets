@@ -2,12 +2,11 @@
 GPA Calculator
 """
 
-# import io
-# import pytest
-
-# from unittest import TestCase
-# from unittest.mock import patch
-
+import io
+import pytest
+from unittest import TestCase
+from unittest.mock import patch
+from p1 import *
 
 @pytest.mark.describe('asserts True if conversion is correct')
 def test_simple_gpa():
@@ -35,7 +34,7 @@ def test_simple_gpa():
 	assert gpa == 1.0
 	gpa = simple_gpa('D-')
 	assert gpa == 0.7
-	gpa = simple_gpa('D')
+	gpa = simple_gpa('F')
 	assert gpa == 0.0
 
 
