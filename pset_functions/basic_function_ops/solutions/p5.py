@@ -16,8 +16,8 @@ def high_low(*nums):
 
   sorted = group.sort()
   
-  high = f'The highest number is {group[length-1]}, and'
-  low = f'the lowest number is {group[0]}.'
+  high = group[length-1]
+  low = group[0]
 
   return high, low
 

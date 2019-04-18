@@ -14,4 +14,3 @@ product: 36
 quotient: 4
 """
 
-
