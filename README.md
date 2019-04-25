@@ -8,8 +8,23 @@
 #### Shopping List (3 problems)
 
 * **[Shopping List Calculator I](pset_basic_data_types/shopping_list/p1.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p1.py)**
-* **[Shopping List Calculator II](pset_basic_data_types/shopping_list/p2.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p2.py)**
+* **[Shopping List Calculator I](pset_basic_data_types/shopping_list/p2.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p2.py)**
 * **[Shopping List Calculator III](pset_basic_data_types/shopping_list/p3.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p3.py)**
+
+### Classes
+
+#### Class Basics (1 problems)
+
+* **[Phone Contacts](pset_classes/class_basics/p2.py)** | **[Tests](pset_classes/class_basics/tests/test_p2.py)**
+
+#### Fromagerie (6 problems)
+
+* **[Fromagerie](pset_classes/fromagerie/p1.py)** | **[Tests](pset_classes/fromagerie/tests/test_p1.py)**
+* **[Fromagerie](pset_classes/fromagerie/p2.py)** | **[Tests](pset_classes/fromagerie/tests/test_p2.py)**
+* **[Fromagerie](pset_classes/fromagerie/p3.py)** | **[Tests](pset_classes/fromagerie/tests/test_p3.py)**
+* **[Fromagerie](pset_classes/fromagerie/p4.py)** | **[Tests](pset_classes/fromagerie/tests/test_p4.py)**
+* **[Fromagerie](pset_classes/fromagerie/p5.py)** | **[Tests](pset_classes/fromagerie/tests/test_p5.py)**
+* **[Fromagerie](pset_classes/fromagerie/p6.py)** | **[Tests](pset_classes/fromagerie/tests/test_p6.py)**
 
 ### Conditionals
 
@@ -52,6 +67,39 @@
 #### Search Validation (1 problems)
 
 * **[Basic Login](pset_dicts/search_validation/p1.py)** | **[Tests](pset_dicts/search_validation/tests/test_p1.py)**
+
+### Functions
+
+#### Basic Function Ops (5 problems)
+
+* **[Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p1.py)**
+* **[Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p2.py)**
+* **[Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p3.py)**
+* **[Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p4.py)**
+* **[Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p5.py)**
+
+#### Challenges (2 problems)
+
+* **[Sum of Squares](pset_functions/challenges/p1.py)** | **[Tests](pset_functions/challenges/tests/test_p1.py)**
+* **[Speeding Tickets](pset_functions/challenges/p2.py)** | **[Tests](pset_functions/challenges/tests/test_p2.py)**
+
+#### Data Manipulation (4 problems)
+
+* **[File Organization](pset_functions/data_manipulation/p1.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p1.py)**
+* **[Clean Pairs](pset_functions/data_manipulation/p2.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p2.py)**
+* **[Password Requirements](pset_functions/data_manipulation/p3.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p3.py)**
+* **[Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p4.py)**
+
+#### Db Search (2 problems)
+
+* **[GPA Calculator](pset_functions/db_search/p1.py)** | **[Tests](pset_functions/db_search/tests/test_p1.py)**
+* **[RGB to HEX](pset_functions/db_search/p2.py)** | **[Tests](pset_functions/db_search/tests/test_p2.py)**
+
+#### Math (3 problems)
+
+* **[Simple Interest Calculator](pset_functions/math/p1.py)** | **[Tests](pset_functions/math/tests/test_p1.py)**
+* **[Permutations & Combinations](pset_functions/math/p2.py)** | **[Tests](pset_functions/math/tests/test_p2.py)**
+* **[Multiples](pset_functions/math/p3.py)** | **[Tests](pset_functions/math/tests/test_p3.py)**
 
 ### Lists
 
@@ -100,40 +148,6 @@
 * **[Build a Triangle](pset_loops/shapes/p1.py)** | **[Tests](pset_loops/shapes/tests/test_p1.py)**
 * **[Build a Pyramid](pset_loops/shapes/p2.py)** | **[Tests](pset_loops/shapes/tests/test_p2.py)**
 * **[Build a Diamond](pset_loops/shapes/p3.py)** | **[Tests](pset_loops/shapes/tests/test_p3.py)**
-
-### Functions & Modules
-
-#### Basic Function Operations (5 problems)
-
-* **[Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p1.py)**
-* **[Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p2.py)**
-* **[Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p3py)**
-* **[Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p4.py)**
-* **[Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p5.py)**
-
-#### Math (3 problems)
-
-* **[Simple Interest Calculator](pset_functions/math/p1.py)** | **[Tests](pset_functions/math/tests/test_p1.py)**
-* **[Permutations & Combinations](pset_functions/math/p2.py)** | **[Tests](pset_functions/math/tests/test_p2.py)**
-* **[Multiples](pset_functions/math/p3.py)** | **[Tests](pset_functions/math/tests/test_p3py)**
-
-#### Data Manipulation (4 problems)
-
-* **[File Organization](pset_functions/data_manipulation/p1.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p1.py)**
-* **[Clean Pairs](pset_functions/data_manipulation/p2.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p2.py)**
-* **[Password Requirements](pset_functions/data_manipulation/p3.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p3py)**
-* **[Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p4.py)**
-
-#### Database Searches (2 problems)
-
-* **[GPA Calculator](pset_functions/db_search/p1.py)** | **[Tests](pset_functions/db_search/tests/test_p1.py)**
-* **[RGB to HEX](pset_functions/db_search/p2.py)** | **[Tests](pset_functions/db_search/tests/test_p2.py)**
-
-#### Function Challenges (2 problems)
-
-* **[Sum of Squares](pset_functions/challenges/p1.py)** | **[Tests](pset_functions/challenges/tests/test_p1.py)**
-* **[Speeding Tickets](pset_functions/challenges/p2.py)** | **[Tests](pset_functions/challenges/tests/test_p2.py)**
-
 
 ## Getting Started
 
