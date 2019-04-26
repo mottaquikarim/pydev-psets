@@ -1,8 +1,6 @@
 """
-Fromagerie
+Fromagerie IV - Italian Cheese Sale
 """
-# For the problems in this set, imagine you own a fromagerie (a cheese shop). 
-
 
 # You're having a sale on Italian cheeses. Create a function called "gen_promo_copy" that dynamically creates a string of copy to be stored in a new attribute called promo_copy. 
 

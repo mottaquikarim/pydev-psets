@@ -107,12 +107,12 @@
 
 #### Fromagerie (6 problems)
 
-* **[Fromagerie](pset_classes/fromagerie/p5.py)** | **[Tests](pset_classes/fromagerie/tests/test_p5.py)**
-* **[Fromagerie](pset_classes/fromagerie/p1.py)** | **[Tests](pset_classes/fromagerie/tests/test_p1.py)**
-* **[Fromagerie](pset_classes/fromagerie/p4.py)** | **[Tests](pset_classes/fromagerie/tests/test_p4.py)**
-* **[Fromagerie](pset_classes/fromagerie/p3.py)** | **[Tests](pset_classes/fromagerie/tests/test_p3.py)**
-* **[Fromagerie](pset_classes/fromagerie/p6.py)** | **[Tests](pset_classes/fromagerie/tests/test_p6.py)**
-* **[Fromagerie](pset_classes/fromagerie/p2.py)** | **[Tests](pset_classes/fromagerie/tests/test_p2.py)**
+* **[Fromagerie V - Check Stock](pset_classes/fromagerie/p5.py)** | **[Tests](pset_classes/fromagerie/tests/test_p5.py)**
+* **[Fromagerie I - Create Inventory](pset_classes/fromagerie/p1.py)** | **[Tests](pset_classes/fromagerie/tests/test_p1.py)**
+* **[Fromagerie IV - Italian Cheese Sale](pset_classes/fromagerie/p4.py)** | **[Tests](pset_classes/fromagerie/tests/test_p4.py)**
+* **[Fromagerie III - Cheeses](pset_classes/fromagerie/p3.py)** | **[Tests](pset_classes/fromagerie/tests/test_p3.py)**
+* **[Fromagerie VI - Record Sales](pset_classes/fromagerie/p6.py)** | **[Tests](pset_classes/fromagerie/tests/test_p6.py)**
+* **[Fromagerie II - Product Categories](pset_classes/fromagerie/p2.py)** | **[Tests](pset_classes/fromagerie/tests/test_p2.py)**
 
 ### Dicts
 

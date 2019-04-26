@@ -1,8 +1,6 @@
 """
-Fromagerie
+Fromagerie III - Cheeses
 """
-# For the problems in this set, imagine you own a fromagerie (a cheese shop). 
-
 
 # Create a "Cheese" class that inherits from ProductCat. Create 10 instances based on info from cheese_inventory. 
 

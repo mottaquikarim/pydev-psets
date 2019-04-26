@@ -1,8 +1,6 @@
 """
-Fromagerie
+Fromagerie VI - Record Sales
 """
-# For the problems in this set, imagine you own a fromagerie (a cheese shop). 
-
 
 # Add an instance method called "record_sale" to the Cheese class. Hint: You will need to add instance attributes for profits_to_date and sales (i.e. number of items sold) to the __init__() method in your Cheese class definition BEFORE writing the instance method. 
 
