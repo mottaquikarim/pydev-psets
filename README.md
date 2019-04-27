@@ -99,11 +99,13 @@
 * **[Bank Accounts VI - Account Activity](pset_classes/bank_accounts/p6.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p6.py)**
 * **[Bank Accounts II - Deposit Money](pset_classes/bank_accounts/p2.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p2.py)**
 
-#### Class Basics (7 problems)
+#### Class Basics (9 problems)
 
 * **[Vehicles I ](pset_classes/class_basics/p5.py)** | **[Tests](pset_classes/class_basics/tests/test_p5.py)**
 * **[RGB to HEX](pset_classes/class_basics/p1.py)** | **[Tests](pset_classes/class_basics/tests/test_p1.py)**
 * **[Circle](pset_classes/class_basics/p4.py)** | **[Tests](pset_classes/class_basics/tests/test_p4.py)**
+* **[Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)** | **[Tests](pset_classes/class_basics/tests/test_p9.py)**
+* **[Dogs I - Breeds](pset_classes/class_basics/p8.py)** | **[Tests](pset_classes/class_basics/tests/test_p8.py)**
 * **[Rectangle](pset_classes/class_basics/p3.py)** | **[Tests](pset_classes/class_basics/tests/test_p3.py)**
 * **[Vehicles III](pset_classes/class_basics/p7.py)** | **[Tests](pset_classes/class_basics/tests/test_p7.py)**
 * **[Vehicles II](pset_classes/class_basics/p6.py)** | **[Tests](pset_classes/class_basics/tests/test_p6.py)**
