@@ -1,170 +1,446 @@
 # README
 
-## Problems
+## Problems (81)
 
 
-### Loops
+<details>
+<summary><strong>Basic data types (3)</strong></summary>
+Here are the problems, broken into subblocks.
 
-#### Loop Basics (6 problems)
+<details>
+<summary><strong>shopping_list (3)</strong></summary>
+<p>
 
-* **[Factors](pset_loops/loop_basics/p5.py)** | **[Tests](pset_loops/loop_basics/tests/test_p5.py)**
-* **[Odds & Evens](pset_loops/loop_basics/p1.py)** | **[Tests](pset_loops/loop_basics/tests/test_p1.py)**
-* **[Factorial](pset_loops/loop_basics/p4.py)** | **[Tests](pset_loops/loop_basics/tests/test_p4.py)**
-* **[Temperature Conversions](pset_loops/loop_basics/p3.py)** | **[Tests](pset_loops/loop_basics/tests/test_p3.py)**
-* **[GCD](pset_loops/loop_basics/p6.py)** | **[Tests](pset_loops/loop_basics/tests/test_p6.py)**
-* **[Lists with Duplicates](pset_loops/loop_basics/p2.py)** | **[Tests](pset_loops/loop_basics/tests/test_p2.py)**
+1. pset_basic_data_types/shopping_list/p1.py
+                
 
-#### Shapes (3 problems)
+2. pset_basic_data_types/shopping_list/p2.py
+                
 
-* **[Build a Triangle](pset_loops/shapes/p1.py)** | **[Tests](pset_loops/shapes/tests/test_p1.py)**
-* **[Build a Diamond](pset_loops/shapes/p3.py)** | **[Tests](pset_loops/shapes/tests/test_p3.py)**
-* **[Build a Pyramid](pset_loops/shapes/p2.py)** | **[Tests](pset_loops/shapes/tests/test_p2.py)**
+3. pset_basic_data_types/shopping_list/p3.py
+                
+</p>
+</details>
+            
+</details>
+        
 
-#### Loop Challenges (2 problems)
+<details>
+<summary><strong>Conditionals (12)</strong></summary>
+Here are the problems, broken into subblocks.
 
-* **[Valid Passwords](pset_loops/loop_challenges/p1.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p1.py)**
-* **[Prime Numbers I](pset_loops/loop_challenges/p2.py)** | **[Tests](pset_loops/loop_challenges/tests/test_p2.py)**
+<details>
+<summary><strong>random_nums (2)</strong></summary>
+<p>
 
-#### Control Flow (2 problems)
+1. pset_conditionals/random_nums/p1.py
+                
 
-* **[Control Flow - I](pset_loops/control_flow/p1.py)** | **[Tests](pset_loops/control_flow/tests/test_p1.py)**
-* **[Control Flow II](pset_loops/control_flow/p2.py)** | **[Tests](pset_loops/control_flow/tests/test_p2.py)**
+2. pset_conditionals/random_nums/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>rps (5)</strong></summary>
+<p>
 
-#### Dict Loops (3 problems)
+1. pset_conditionals/rps/p3.py
+                
 
-* **[Contacts](pset_loops/dict_loops/p1.py)** | **[Tests](pset_loops/dict_loops/tests/test_p1.py)**
-* **[Price Inventory](pset_loops/dict_loops/p3.py)** | **[Tests](pset_loops/dict_loops/tests/test_p3.py)**
-* **[Grades](pset_loops/dict_loops/p2.py)** | **[Tests](pset_loops/dict_loops/tests/test_p2.py)**
+2. pset_conditionals/rps/p4.py
+                
 
-### Basic Data Types
+3. pset_conditionals/rps/p5.py
+                
 
-#### Shopping List (3 problems)
+4. pset_conditionals/rps/p1.py
+                
 
-* **[Shopping List Calculator I](pset_basic_data_types/shopping_list/p1.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p1.py)**
-* **[Shopping List Calculator III](pset_basic_data_types/shopping_list/p3.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p3.py)**
-* **[Shopping List Calculator I](pset_basic_data_types/shopping_list/p2.py)** | **[Tests](pset_basic_data_types/shopping_list/tests/test_p2.py)**
+5. pset_conditionals/rps/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>logic (5)</strong></summary>
+<p>
 
-### Conditionals
+1. pset_conditionals/logic/p5.py
+                
 
-#### Rps (5 problems)
+2. pset_conditionals/logic/p4.py
+                
 
-* **[Play RPS against Computer](pset_conditionals/rps/p5.py)** | **[Tests](pset_conditionals/rps/tests/test_p5.py)**
-* **[Play RPS](pset_conditionals/rps/p1.py)** | **[Tests](pset_conditionals/rps/tests/test_p1.py)**
-* **[Play RPS w/Bad Input](pset_conditionals/rps/p4.py)** | **[Tests](pset_conditionals/rps/tests/test_p4.py)**
-* **[Play RPS w/Input](pset_conditionals/rps/p3.py)** | **[Tests](pset_conditionals/rps/tests/test_p3.py)**
-* **[Play RPS w/Computer](pset_conditionals/rps/p2.py)** | **[Tests](pset_conditionals/rps/tests/test_p2.py)**
+3. pset_conditionals/logic/p2.py
+                
 
-#### Logic (5 problems)
+4. pset_conditionals/logic/p3.py
+                
 
-* **[truthTableEvaluator](pset_conditionals/logic/p5.py)** | **[Tests](pset_conditionals/logic/tests/test_p5.py)**
-* **[Calculate Grade](pset_conditionals/logic/p1.py)** | **[Tests](pset_conditionals/logic/tests/test_p1.py)**
-* **[IsEmptyString](pset_conditionals/logic/p4.py)** | **[Tests](pset_conditionals/logic/tests/test_p4.py)**
-* **[Any Uppercase](pset_conditionals/logic/p3.py)** | **[Tests](pset_conditionals/logic/tests/test_p3.py)**
-* **[Sign of Product](pset_conditionals/logic/p2.py)** | **[Tests](pset_conditionals/logic/tests/test_p2.py)**
+5. pset_conditionals/logic/p1.py
+                
+</p>
+</details>
+            
+</details>
+        
 
-#### Random Nums (2 problems)
+<details>
+<summary><strong>Dicts (8)</strong></summary>
+Here are the problems, broken into subblocks.
 
-* **[Generate Traffic Light](pset_conditionals/random_nums/p1.py)** | **[Tests](pset_conditionals/random_nums/tests/test_p1.py)**
-* **[Generate Phone Number w/Area Code](pset_conditionals/random_nums/p2.py)** | **[Tests](pset_conditionals/random_nums/tests/test_p2.py)**
+<details>
+<summary><strong>counters (2)</strong></summary>
+<p>
 
-### Lists
+1. pset_dicts/counters/p1.py
+                
 
-#### List Manipulation (3 problems)
+2. pset_dicts/counters/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>dict_ops (5)</strong></summary>
+<p>
 
-* **[Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p5.py)**
-* **[CHALLENGE - Extensions](pset_lists/list_manipulation/p7.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p7.py)**
-* **[Phone Numbers](pset_lists/list_manipulation/p6.py)** | **[Tests](pset_lists/list_manipulation/tests/test_p6.py)**
+1. pset_dicts/dict_ops/p1.py
+                
 
-#### List Ops (4 problems)
+2. pset_dicts/dict_ops/p3.py
+                
 
-* **[Basic List Operations](pset_lists/list_ops/p1.py)** | **[Tests](pset_lists/list_ops/tests/test_p1.py)**
-* **[Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)** | **[Tests](pset_lists/list_ops/tests/test_p4.py)**
-* **[Cool Runnings!](pset_lists/list_ops/p3.py)** | **[Tests](pset_lists/list_ops/tests/test_p3.py)**
-* **[Core Statistics Calculations](pset_lists/list_ops/p2.py)** | **[Tests](pset_lists/list_ops/tests/test_p2.py)**
+3. pset_dicts/dict_ops/p4.py
+                
 
-### Classes
+4. pset_dicts/dict_ops/p5.py
+                
 
-#### Wedding Guests (3 problems)
+5. pset_dicts/dict_ops/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>search_validation (1)</strong></summary>
+<p>
 
-* **[Weddings I - Guest List](pset_classes/wedding_guests/p1.py)** | **[Tests](pset_classes/wedding_guests/tests/test_p1.py)**
-* **[Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)** | **[Tests](pset_classes/wedding_guests/tests/test_p3.py)**
-* **[Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)** | **[Tests](pset_classes/wedding_guests/tests/test_p2.py)**
+1. pset_dicts/search_validation/p1.py
+                
+</p>
+</details>
+            
+</details>
+        
 
-#### Bank Accounts (6 problems)
+<details>
+<summary><strong>Lists (10)</strong></summary>
+Here are the problems, broken into subblocks.
 
-* **[Bank Accounts V - Transfer Money](pset_classes/bank_accounts/p5.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p5.py)**
-* **[Bank Accounts I - Opening An Account](pset_classes/bank_accounts/p1.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p1.py)**
-* **[Bank Accounts IV - Checking Accounts](pset_classes/bank_accounts/p4.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p4.py)**
-* **[Bank Accounts III - Savings Accounts](pset_classes/bank_accounts/p3.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p3.py)**
-* **[Bank Accounts VI - Account Activity](pset_classes/bank_accounts/p6.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p6.py)**
-* **[Bank Accounts II - Deposit Money](pset_classes/bank_accounts/p2.py)** | **[Tests](pset_classes/bank_accounts/tests/test_p2.py)**
+<details>
+<summary><strong>list_manipulation (6)</strong></summary>
+<p>
 
-#### Class Basics (3 problems)
+1. pset_lists/list_manipulation/p6.py
+                
 
-* **[RGB to HEX](pset_classes/class_basics/p1.py)** | **[Tests](pset_classes/class_basics/tests/test_p1.py)**
-* **[Multiple Inheritance](pset_classes/class_basics/p3.py)** | **[Tests](pset_classes/class_basics/tests/test_p3.py)**
-* **[Phone Contacts](pset_classes/class_basics/p2.py)** | **[Tests](pset_classes/class_basics/tests/test_p2.py)**
+2. pset_lists/list_manipulation/p7.py
+                
 
-#### Fromagerie (6 problems)
+3. pset_lists/list_manipulation/test5.py
+                
 
-* **[Fromagerie V - Check Stock](pset_classes/fromagerie/p5.py)** | **[Tests](pset_classes/fromagerie/tests/test_p5.py)**
-* **[Fromagerie I - Create Inventory](pset_classes/fromagerie/p1.py)** | **[Tests](pset_classes/fromagerie/tests/test_p1.py)**
-* **[Fromagerie IV - Italian Cheese Sale](pset_classes/fromagerie/p4.py)** | **[Tests](pset_classes/fromagerie/tests/test_p4.py)**
-* **[Fromagerie III - Cheeses](pset_classes/fromagerie/p3.py)** | **[Tests](pset_classes/fromagerie/tests/test_p3.py)**
-* **[Fromagerie VI - Record Sales](pset_classes/fromagerie/p6.py)** | **[Tests](pset_classes/fromagerie/tests/test_p6.py)**
-* **[Fromagerie II - Product Categories](pset_classes/fromagerie/p2.py)** | **[Tests](pset_classes/fromagerie/tests/test_p2.py)**
+4. pset_lists/list_manipulation/test6.py
+                
 
-### Dicts
+5. pset_lists/list_manipulation/test7.py
+                
 
-#### Search Validation (1 problems)
+6. pset_lists/list_manipulation/p5.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>list_ops (4)</strong></summary>
+<p>
 
-* **[Basic Login](pset_dicts/search_validation/p1.py)** | **[Tests](pset_dicts/search_validation/tests/test_p1.py)**
+1. pset_lists/list_ops/p2.py
+                
 
-#### Dict Ops (5 problems)
+2. pset_lists/list_ops/p3.py
+                
 
-* **[Lists to Dicts](pset_dicts/dict_ops/p5.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p5.py)**
-* **[Basic Dict Concepts](pset_dicts/dict_ops/p1.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p1.py)**
-* **[Inverting Keys & Values](pset_dicts/dict_ops/p4.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p4.py)**
-* **[Math with Girl Scout Cookies](pset_dicts/dict_ops/p3.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p3.py)**
-* **[Merging Dicts](pset_dicts/dict_ops/p2.py)** | **[Tests](pset_dicts/dict_ops/tests/test_p2.py)**
+3. pset_lists/list_ops/p4.py
+                
 
-#### Counters (2 problems)
+4. pset_lists/list_ops/p1.py
+                
+</p>
+</details>
+            
+</details>
+        
 
-* **[Word Frequency](pset_dicts/counters/p1.py)** | **[Tests](pset_dicts/counters/tests/test_p1.py)**
-* **[Summing Dict Values](pset_dicts/counters/p2.py)** | **[Tests](pset_dicts/counters/tests/test_p2.py)**
+<details>
+<summary><strong>Loops (16)</strong></summary>
+Here are the problems, broken into subblocks.
 
-### Functions
+<details>
+<summary><strong>control_flow (2)</strong></summary>
+<p>
 
-#### Basic Function Ops (5 problems)
+1. pset_loops/control_flow/p2.py
+                
 
-* **[Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p5.py)**
-* **[Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p1.py)**
-* **[Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p4.py)**
-* **[Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p3.py)**
-* **[Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)** | **[Tests](pset_functions/basic_function_ops/tests/test_p2.py)**
+2. pset_loops/control_flow/p1.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>dict_loops (3)</strong></summary>
+<p>
 
-#### Db Search (2 problems)
+1. pset_loops/dict_loops/p2.py
+                
 
-* **[GPA Calculator](pset_functions/db_search/p1.py)** | **[Tests](pset_functions/db_search/tests/test_p1.py)**
-* **[RGB to HEX](pset_functions/db_search/p2.py)** | **[Tests](pset_functions/db_search/tests/test_p2.py)**
+2. pset_loops/dict_loops/p3.py
+                
 
-#### Challenges (2 problems)
+3. pset_loops/dict_loops/p1.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>loop_basics (6)</strong></summary>
+<p>
 
-* **[Sum of Squares](pset_functions/challenges/p1.py)** | **[Tests](pset_functions/challenges/tests/test_p1.py)**
-* **[Speeding Tickets](pset_functions/challenges/p2.py)** | **[Tests](pset_functions/challenges/tests/test_p2.py)**
+1. pset_loops/loop_basics/p4.py
+                
 
-#### Data Manipulation (4 problems)
+2. pset_loops/loop_basics/p6.py
+                
 
-* **[File Organization](pset_functions/data_manipulation/p1.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p1.py)**
-* **[Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p4.py)**
-* **[Password Requirements](pset_functions/data_manipulation/p3.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p3.py)**
-* **[Clean Pairs](pset_functions/data_manipulation/p2.py)** | **[Tests](pset_functions/data_manipulation/tests/test_p2.py)**
+3. pset_loops/loop_basics/p1.py
+                
 
-#### Math (3 problems)
+4. pset_loops/loop_basics/p2.py
+                
 
-* **[Simple Interest Calculator](pset_functions/math/p1.py)** | **[Tests](pset_functions/math/tests/test_p1.py)**
-* **[Multiples](pset_functions/math/p3.py)** | **[Tests](pset_functions/math/tests/test_p3.py)**
-* **[Permutations & Combinations](pset_functions/math/p2.py)** | **[Tests](pset_functions/math/tests/test_p2.py)**
+5. pset_loops/loop_basics/p3.py
+                
+
+6. pset_loops/loop_basics/p5.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>loop_challenges (2)</strong></summary>
+<p>
+
+1. pset_loops/loop_challenges/p1.py
+                
+
+2. pset_loops/loop_challenges/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>shapes (3)</strong></summary>
+<p>
+
+1. pset_loops/shapes/p1.py
+                
+
+2. pset_loops/shapes/p2.py
+                
+
+3. pset_loops/shapes/p3.py
+                
+</p>
+</details>
+            
+</details>
+        
+
+<details>
+<summary><strong>Functions (16)</strong></summary>
+Here are the problems, broken into subblocks.
+
+<details>
+<summary><strong>basic_function_ops (5)</strong></summary>
+<p>
+
+1. pset_functions/basic_function_ops/p1.py
+                
+
+2. pset_functions/basic_function_ops/p2.py
+                
+
+3. pset_functions/basic_function_ops/p3.py
+                
+
+4. pset_functions/basic_function_ops/p4.py
+                
+
+5. pset_functions/basic_function_ops/p5.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>challenges (2)</strong></summary>
+<p>
+
+1. pset_functions/challenges/p1.py
+                
+
+2. pset_functions/challenges/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>data_manipulation (4)</strong></summary>
+<p>
+
+1. pset_functions/data_manipulation/p1.py
+                
+
+2. pset_functions/data_manipulation/p2.py
+                
+
+3. pset_functions/data_manipulation/p3.py
+                
+
+4. pset_functions/data_manipulation/p4.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>db_search (2)</strong></summary>
+<p>
+
+1. pset_functions/db_search/p1.py
+                
+
+2. pset_functions/db_search/p2.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>math (3)</strong></summary>
+<p>
+
+1. pset_functions/math/p1.py
+                
+
+2. pset_functions/math/p2.py
+                
+
+3. pset_functions/math/p3.py
+                
+</p>
+</details>
+            
+</details>
+        
+
+<details>
+<summary><strong>Classes (19)</strong></summary>
+Here are the problems, broken into subblocks.
+
+<details>
+<summary><strong>class_basics (4)</strong></summary>
+<p>
+
+1. pset_classes/class_basics/p2.py
+                
+
+2. pset_classes/class_basics/p1.py
+                
+
+3. pset_classes/class_basics/p3.py
+                
+
+4. pset_classes/class_basics/p4.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>bank_accounts (6)</strong></summary>
+<p>
+
+1. pset_classes/bank_accounts/p1.py
+                
+
+2. pset_classes/bank_accounts/p2.py
+                
+
+3. pset_classes/bank_accounts/p3.py
+                
+
+4. pset_classes/bank_accounts/p4.py
+                
+
+5. pset_classes/bank_accounts/p5.py
+                
+
+6. pset_classes/bank_accounts/p6.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>fromagerie (6)</strong></summary>
+<p>
+
+1. pset_classes/fromagerie/p1.py
+                
+
+2. pset_classes/fromagerie/p2.py
+                
+
+3. pset_classes/fromagerie/p3.py
+                
+
+4. pset_classes/fromagerie/p4.py
+                
+
+5. pset_classes/fromagerie/p5.py
+                
+
+6. pset_classes/fromagerie/p6.py
+                
+</p>
+</details>
+            
+<details>
+<summary><strong>wedding_guests (3)</strong></summary>
+<p>
+
+1. pset_classes/wedding_guests/p1.py
+                
+
+2. pset_classes/wedding_guests/p2.py
+                
+
+3. pset_classes/wedding_guests/p3.py
+                
+</p>
+</details>
+            
+</details>
+        
 
 ## Getting Started
 
