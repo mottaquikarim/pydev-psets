@@ -2,7 +2,8 @@ import json
 import os
 import pathlib
 import sys
-import threading, webbrowser
+import threading
+import webbrowser
 
 
 from ansi2html import Ansi2HTMLConverter
@@ -11,8 +12,9 @@ from subprocess import Popen, PIPE
 
 from get_psets import get_psets
 
-app = Flask(__name__, static_folder='public/build',static_url_path='',)
+app = Flask(__name__, static_folder='public/build', static_url_path='',)
 conv = Ansi2HTMLConverter()
+
 
 def get_newpath(subpath):
     return subpath
@@ -36,10 +38,12 @@ def get_newpath(subpath):
     # assemble newpath
     return f"{newpath_dir}/{filename}"
 
+
 @app.route("/list/problems", methods=['GET'])
 def list_problems():
     psets = get_psets('pset*/**/[!test]*.py')
-    return (json.dumps(psets), 200, {"Content-Type": "application/json",})
+    return (json.dumps(psets), 200, {"Content-Type": "application/json", })
+
 
 @app.route('/path/<path:subpath>', methods=["GET", "POST"])
 def filepath(subpath):
@@ -76,6 +80,7 @@ def filepath(subpath):
         "success": False,
     }), 200, {"Content-Type": "application/json"})
 
+
 @app.route('/test/<path:subpath>', methods=["POST"])
 def filepath_test(subpath):
 
@@ -92,7 +97,7 @@ def filepath_test(subpath):
     with Popen(['python3',
                 '-m',  # shorter traceback format
                 'pytest',
-                f"tests",], stdout=PIPE, bufsize=1, universal_newlines=True) as p:
+                f"tests", ], stdout=PIPE, bufsize=1, universal_newlines=True) as p:
         ansi = "".join(p.stdout)
 
     os.chdir(curr)
@@ -100,6 +105,7 @@ def filepath_test(subpath):
     return (json.dumps({
         "content": conv.convert(ansi),
     }), 200, {"Content-Type": "application/json"})
+
 
 @app.route('/run/<path:subpath>', methods=["POST"])
 def filepath_run(subpath):
@@ -114,7 +120,8 @@ def filepath_run(subpath):
     curr = os.getcwd()
     os.chdir(f"{os.getcwd()}/{app_dir}")
     output = ""
-    p = Popen(['python3', newpath.split('/')[-1],], stdout=PIPE, stderr=PIPE, bufsize=1, universal_newlines=True)
+    p = Popen(['python3', newpath.split('/')[-1], ], stdout=PIPE,
+              stderr=PIPE, bufsize=1, universal_newlines=True)
     output, error = p.communicate()
     ansi = "".join(output)
     ansi += "".join(error)
@@ -124,6 +131,7 @@ def filepath_run(subpath):
     return (json.dumps({
         "content": conv.convert(ansi),
     }), 200, {"Content-Type": "application/json"})
+
 
 @app.route("/pyversion", methods=['GET'])
 def py_version():
@@ -135,8 +143,12 @@ def py_version():
 @app.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    response.headers.add('Access-Control-Allow-Headers',
+                         'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods',
+                         'GET,PUT,POST,DELETE,OPTIONS')
     return response
 
-threading.Timer(1.25, lambda: webbrowser.open('http://localhost:5000/index.html') ).start()
+
+threading.Timer(1.25, lambda: webbrowser.open(
+    'http://localhost:5003/index.html')).start()

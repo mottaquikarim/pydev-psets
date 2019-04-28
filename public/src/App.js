@@ -8,7 +8,7 @@ const App = props => {
     const [data, setData] = useState({})
 
     if (Object.keys(data).length === 0) {
-        fetch('http://localhost:5000/list/problems')
+        fetch('http://localhost:5003/list/problems')
             .then(resp => resp.json())
             .then(data => setData(data))
     }

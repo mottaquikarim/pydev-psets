@@ -9,7 +9,7 @@ import "./Editor.css";
 const Editor = props => {
     const [val, setVal] = useState('')
     let loading = false
-    const url = 'http://localhost:5000' + props.locationData.pathname
+    const url = 'http://localhost:5003' + props.locationData.pathname
 
     fetch(url)
         .then(resp => resp.json())
@@ -38,9 +38,9 @@ const Editor = props => {
 
     const [term, setTerm] = useState('>> Loading...')
     const iframeEl = useRef(null);
-    const tUrl = 'http://localhost:5000' + '/test/' + props.locationData.pathname.split('/').slice(2).join('/')
+    const tUrl = 'http://localhost:5003' + '/test/' + props.locationData.pathname.split('/').slice(2).join('/')
     if (term === ">> Loading...") {
-        fetch('http://localhost:5000/pyversion')
+        fetch('http://localhost:5003/pyversion')
             .then(resp => resp.json())
             .then(data => {
                 const iframe = iframeEl.current;

@@ -13,7 +13,7 @@ const File = props => {
             payload: data,
         })
 
-        const url = 'http://localhost:5000/path/' + data.filename;
+        const url = 'http://localhost:5003/path/' + data.filename;
         fetch(url)
             .then(resp => resp.json())
             .then(fileContent => {

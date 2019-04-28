@@ -20,7 +20,7 @@ const recursivelyWriteTree = (data, props) => {
 const FileTree = props => {
     const {state, dispatch} = useContext(StateContext)
     if (Object.keys(state.files).length === 0) {
-        fetch('http://localhost:5000/list/problems')
+        fetch('http://localhost:5003/list/problems')
             .then(resp => resp.json())
             .then(data => dispatch({
                 type: 'UPDATE_FILES',

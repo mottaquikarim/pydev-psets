@@ -3,11 +3,12 @@ import glob
 
 import os
 import datetime
+
+
 def modification_date(filename):
     t = os.path.getmtime(filename)
     return datetime.datetime.fromtimestamp(t)
 
-    
 
 def get_psets(pattern):
     psets = {}
@@ -53,3 +54,9 @@ def get_psets(pattern):
                         ptr[as_module]["docstring"] = docstring
 
     return psets
+
+
+if __name__ == '__main__':
+    import json
+    p = get_psets('pset*/**/[!test]*.py')
+    print(json.dumps(p))

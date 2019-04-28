@@ -50,7 +50,7 @@ const Terminal = props => {
     const iframe = iframeEl.current;
 
     if (Object.keys(currentFile).length === 0 && iframe) {
-        fetch('http://localhost:5000/pyversion')
+        fetch('http://localhost:5003/pyversion')
             .then(resp => resp.json())
             .then(data => {
                 const doc = iframe.contentDocument;
@@ -92,7 +92,7 @@ const Editor = props => {
     }
 
     console.log(history, location)
-    const url = 'http://localhost:5000' + location.pathname;
+    const url = 'http://localhost:5003' + location.pathname;
     fetch(url)
         .then(resp => resp.json())
         .then(data => {
