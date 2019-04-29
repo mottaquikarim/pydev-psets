@@ -10,12 +10,12 @@ class Rectangle():
         self.length = l
         self.width  = w
 
-    def rect_area(self):
+    def area(self):
         return self.length*self.width
 
-    def rect_perimeter(self):
+    def perimeter(self):
     	return self.length*2 + self.width*2
 
 rect1 = Rectangle(12, 10)
-print(rect1.rect_area()) # 120 
-print(rect1.rect_perimeter()) # 44
+print(rect1.area()) # 120 
+print(rect1.perimeter()) # 44

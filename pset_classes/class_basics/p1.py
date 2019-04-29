@@ -6,5 +6,3 @@ RGB to HEX
 
 # Define a class called "Color" to store each color's rgb and hex values. Define a method called "convert_codes()" to retrieve one value given the other. Create at least one instance of Color and try the convert_codes() method.
 
-
-
