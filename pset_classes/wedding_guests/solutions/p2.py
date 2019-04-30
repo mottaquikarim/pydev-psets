@@ -1,5 +1,5 @@
 """
-Weddings II - Record Bridesmaid RSVPs
+Weddings II - Record RSVPs
 """
 
 # Create a method in Guest to record a guests's rsvp to your invitation. It should record whether they have any dietary restrictions (e.g. vegetarian, kosher, halal, etc.) and whether they're bringing a plus one. If they are bringing a plus one, it should record the name of the plus one and his/her dietary restrictions if any. These values should be stored in instance attributes.
@@ -10,7 +10,7 @@ class Guest():
     def __init__(self, name, phone, invite_sent = False):
         self.name = name
         self.phone = phone
-        self.invite_sent = False
+        self.invite_sent = invite_sent
         self.diet = None
         self.rsvp = None
         self.plus_one = None
@@ -39,7 +39,7 @@ class Bridesmaid(Guest):
     def __init__(self, name, phone, invite_sent = False):
         self.name = name
         self.phone = phone
-        self.invite_sent = False
+        self.invite_sent = invite_sent
         self.diet = None
         self.rsvp = None
         self.plus_one = None

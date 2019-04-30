@@ -33,7 +33,7 @@ class Bridesmaid(Guest):
     def __init__(self, name, phone, invite_sent = False):
         self.name = name
         self.phone = phone
-        self.invite_sent = False
+        self.invite_sent = invite_sent
 
 
 # C)
@@ -48,11 +48,15 @@ print(angelika.invite_sent) # False
 angelika.send_invite()
 print(angelika.invite_sent) # True
 
-print(isinstance(angelika, Bridesmaid)) # True
-print(isinstance(angelika, Guest)) # True
+def check_class(child, parent):
+    if isinstance(child, parent):
+        return True
+    else:
+        return False
 
-print(isinstance(michelle, Guest)) # True
-print(isinstance(michelle, Bridesmaid)) # False
+print(check_class(angelika, Bridesmaid)) # True
+print(check_class(angelika, Guest)) # True
 
+print(check_class(michelle, Guest)) # True
+print(check_class(michelle, Bridesmaid)) # False
 
-    

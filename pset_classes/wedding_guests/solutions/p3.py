@@ -8,7 +8,7 @@ class Guest():
     def __init__(self, name, phone, invite_sent = False):
         self.name = name
         self.phone = phone
-        self.invite_sent = False
+        self.invite_sent = invite_sent
         self.diet = None
         self.rsvp = None
         self.plus_one = None
