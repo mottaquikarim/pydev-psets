@@ -43,13 +43,14 @@ class CheckingAccount(Account):
         print(f'${amount} withdrawal complete.')
 
 
-brad = CheckingAccount('Brad Fenwick', '239055', 5000)
+brad = CheckingAccount('Brad Fenwick', 239055, 5000)
 
 brad.deposit(1000)
-print(f'${brad.balance}')
+print(f'${brad.balance}') # 6000
 
 brad.withdraw(250)
-print(f'${brad.balance}')
+print(f'${brad.balance}') # 5750
 
-print(brad.transactions)
+print(brad.transactions) # {'Deposit': [5000, 6000], 'Withdrawal': [6000, 5750]}
+
 brad.acc_details()

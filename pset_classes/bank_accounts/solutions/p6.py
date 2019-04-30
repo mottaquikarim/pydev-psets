@@ -53,17 +53,17 @@ class Account():
                 print(f'''
 Starting Balance: ${v[0]}
 Withdrawal: ({diff})
-Ending Balance: ${v[1]} ''')
+Ending Balance: ${v[1]}''')
             elif k == 'Outgoing Transfer':
                 print(f'''
 Starting Balance: ${v[0]}
 Outgoing Transfer: ({diff})
-Ending Balance: ${v[1]} ''')
+Ending Balance: ${v[1]}''')
             elif k == 'Deposit':
                 print(f'''
 Starting Balance: ${v[0]}
 Deposit: +{diff}
-Ending Balance: ${v[1]} ''')
+Ending Balance: ${v[1]}''')
             count += 1
 
 class SavingsAccount(Account):
@@ -94,9 +94,9 @@ class CheckingAccount(Account):
 
 
 
-alejandra = Account('Alejandra Ochoa', '554951', 20000)
-priya = SavingsAccount('Priya Ghadiya', '488812', 2500)
-brad = CheckingAccount('Brad Fenwick', '239055', 5000)
+alejandra = Account('Alejandra Ochoa', 554951, 20000)
+priya = SavingsAccount('Priya Ghadiya', 488812, 2500)
+brad = CheckingAccount('Brad Fenwick', 239055, 5000)
 
 alejandra.deposit(175)
 alejandra.acc_transfer(1750, priya)

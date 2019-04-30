@@ -62,8 +62,8 @@ class CheckingAccount(Account):
         print(f'${amount} withdrawal complete.')
 
 
-priya = SavingsAccount('Priya Ghadiya', '488812', 2500)
-alejandra = Account('Alejandra Ochoa', '554951', 20000)
+priya = SavingsAccount('Priya Ghadiya', 488812, 2500)
+alejandra = Account('Alejandra Ochoa', 554951, 20000)
 
 alejandra.acc_transfer(1750, priya)
 print(f'${alejandra.balance}')

@@ -29,10 +29,10 @@ class Account():
 
 
 
-alejandra = Account('Alejandra Ochoa', '554951', 20000)
+alejandra = Account('Alejandra Ochoa', 554951, 20000)
 
 alejandra.deposit(500)
-print(f'${alejandra.balance}')
+print(f'${alejandra.balance}') # 20500
+print(alejandra.transactions) # {'Deposit': [20000, 20500]}
 
-print(alejandra.transactions)
 alejandra.acc_details()

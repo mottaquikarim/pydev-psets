@@ -16,4 +16,7 @@ class Account():
         print(f'Account No.: {self.acc_num}\nAccount Holder: {self.name}\nInterest Rate: {self.int_rate}\nBalance: ${self.balance}\n')
 
 
-alejandra = Account('Alejandra Ochoa', '554951', 20000)
+alejandra = Account('Alejandra Ochoa', 554951, 20000)
+
+alejandra.acc_details()
+

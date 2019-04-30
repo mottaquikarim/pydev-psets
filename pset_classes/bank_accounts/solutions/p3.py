@@ -35,9 +35,10 @@ class SavingsAccount(Account):
     int_rate = 2.1
 
 
-priya = SavingsAccount('Priya Ghadiya', '488812', 2500)
+priya = SavingsAccount('Priya Ghadiya', 488812, 2500)
 
 priya.deposit(1500)
-print(f'${priya.balance}')
+print(f'${priya.balance}') # 4000
+print(priya.transactions) # {'Deposit': [2500, 4000]}
 
 priya.acc_details()
