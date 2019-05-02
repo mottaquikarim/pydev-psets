@@ -101,7 +101,7 @@
 
 #### Class Basics (9 problems)
 
-* **[Vehicles I ](pset_classes/class_basics/p5.py)** | **[Tests](pset_classes/class_basics/tests/test_p5.py)**
+* **[No Desc Provided](pset_classes/class_basics/p5.py)** | **[Tests](pset_classes/class_basics/tests/test_p5.py)**
 * **[RGB to HEX](pset_classes/class_basics/p1.py)** | **[Tests](pset_classes/class_basics/tests/test_p1.py)**
 * **[Circle](pset_classes/class_basics/p4.py)** | **[Tests](pset_classes/class_basics/tests/test_p4.py)**
 * **[Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)** | **[Tests](pset_classes/class_basics/tests/test_p9.py)**
