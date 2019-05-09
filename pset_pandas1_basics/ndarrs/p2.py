@@ -12,7 +12,3 @@ b = None
 
 # Create a 3X4 array with all zeros
 c = None
-
-
-# Create a constant value array of complex type
-d = None
