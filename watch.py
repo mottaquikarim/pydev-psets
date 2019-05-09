@@ -10,18 +10,69 @@ from watchdog.events import FileSystemEventHandler
 from get_psets import _get_psets
 
 
+def get_doc_str(file):
+    docstring = "No Desc Provided"
+    with open(file, "r") as fh:
+        code = ast.parse(fh.read())
+        valid_types = (ast.FunctionDef, ast.ClassDef, ast.Module)
+        for node in ast.walk(code):
+            if isinstance(node, valid_types):
+                docstring = ast.get_docstring(
+                    node)
+
+    return docstring
+
+
+def get_file_blocks(files):
+    fileblocks = [
+        '| PSET Desc  |',
+        '| ------------- |',
+    ]
+    for i, file in enumerate(files):
+        docstring = get_doc_str(file)
+        fileblocks.append(f"""| [{docstring}]({file})  |""")
+    fileblocks.append("")
+    return "\n".join(fileblocks)
+
+
+def get_sub_blocks(subk, files, fileblocks):
+    return f"""
+### {" ".join(subk.split("_")).capitalize()} ({len(files)})
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+{fileblocks}
+
+<br/><br/>
+</details>
+
+    """
+
+
+def get_block(label, total_problems, subblocks):
+    return f"""
+## {label} ({total_problems})
+
+{subblocks}
+    """
+
+
 def assemble_readme():
     psets, as_dict = _get_psets('pset*/**/*.py')
     num_problems = sum(
         [1 for pset in psets if not "solution" in pset[0] and not "test" in pset[0]])
-    print(num_problems)
-    str_ = [
+
+    str_ = []
+    header_ = [
         '# README',
         '',
         f'## Problems ({num_problems})',
         '',
-        # '| Problem        | Desc           |',
-        # '| -------------  |:-------------: |',
+    ]
+    table_ = [
+        '| PSET Name  | Num Problems |',
+        '| ------------- | ------------- |',
     ]
 
     for key, val in as_dict.items():
@@ -31,32 +82,24 @@ def assemble_readme():
         for subk, subv in val.items():
             files = subv["files"]
             total_problems += len(files)
-            fileblocks = ["<p>"]
-            for i, file in enumerate(files):
-                fileblocks.append(f"""
-{i+1}. {file}
-                """)
-            fileblocks.append("</p>")
-            fileblocks = "\n".join(fileblocks)
-            subblocks += f"""
-<details>
-<summary><strong>{subk} ({len(files)})</strong></summary>
-{fileblocks}
-</details>
-            """
+            subblocks += get_sub_blocks(subk, files, get_file_blocks(files))
 
-        label = " ".join(key.split('_')[1:]).capitalize()
-        block = f"""
-<details>
-<summary><strong>{label} ({total_problems})</strong></summary>
-Here are the problems, broken into subblocks.
-{subblocks}
-</details>
-        """
-        str_.append(block)
+        label = " ".join(key.split('_')[1:]).upper()
+        url = "-".join(key.split('_')[1:]) + '-' + str(total_problems)
+        table_.append(f'| **[{label}](PROBLEMS.md/#{url})**  | {total_problems}  |')
+        str_.append(get_block(label, total_problems, subblocks))
 
     f = open("README.md", "w")
-    f.write("\n".join(str_ + ['', open('running.md', 'r').read()]))
+    f.write("\n".join(header_ + [""] + table_ +
+                      ['', open('running.md', 'r').read()]))
+    f.close()
+
+    str_ = [
+        "# Problems",
+        "",
+        "Listing of all problems defined"] + str_
+    f = open("PROBLEMS.md", "w")
+    f.write("\n".join(str_))
     f.close()
 
 
