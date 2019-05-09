@@ -55,11 +55,9 @@ def get_block(label, total_problems, subblocks):
 ## {label} ({total_problems})
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 {subblocks}
 
-<br/><br/>
 </details>
 
     """

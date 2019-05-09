@@ -5,7 +5,6 @@ Listing of all problems defined
 ## BASIC DATA TYPES (3)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Shopping list (3)
@@ -25,7 +24,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -33,7 +31,6 @@ Listing of all problems defined
 ## CLASSES (29)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Bank accounts (6)
@@ -131,7 +128,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -139,7 +135,6 @@ Listing of all problems defined
 ## CONDITIONALS (12)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Logic (5)
@@ -194,7 +189,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -202,7 +196,6 @@ Listing of all problems defined
 ## DICTS (8)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Counters (2)
@@ -253,7 +246,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -261,7 +253,6 @@ Listing of all problems defined
 ## FUNCTIONS (16)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Basic function ops (5)
@@ -346,7 +337,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -354,7 +344,6 @@ Listing of all problems defined
 ## LISTS (7)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### List manipulation (3)
@@ -391,7 +380,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
@@ -399,7 +387,6 @@ Listing of all problems defined
 ## LOOPS (16)
 <details>
 <summary>View Problems</summary>
-<br/><br/>
 
 
 ### Control flow (2)
@@ -484,7 +471,6 @@ Listing of all problems defined
 
     
 
-<br/><br/>
 </details>
 
     
