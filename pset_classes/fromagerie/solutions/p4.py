@@ -13,7 +13,6 @@ Sustainably produced at Cheesequake Farms -
 organic, non-GMO, & carbon neutral.
 """
 
-
 class ProductCat():
     def __init__(self, name, inventory, *args):
         self.name = name
@@ -38,15 +37,10 @@ class Cheese(ProductCat):
         self.wholesale_price = wholesale_price
         self.profit_margin = retail_price - wholesale_price
 
-def gen_promo_copy(promo_items):
-  for i in promo_items:
-    i.promo_copy = f'''Taste Rome, Tuscany, and Naples.
-{i.name.capitalize()} for 
-${i.retail_price} during our Formaggio Italiano sale!
-Sustainably produced at {i.source} - 
-{i.production_standards[0]}, {i.production_standards[1]}, and {i.production_standards[2]}.
-    '''
-  return None
+    def gen_promo_copy(promo_items):
+      for i in promo_items:
+        i.promo_copy = f'''Taste Rome, Tuscany, and Naples.\n{i.name.capitalize()} for ${i.retail_price} during our Formaggio Italiano sale!\nSustainably produced at {i.source} - {i.production_standards[0]}, {i.production_standards[1]}, and {i.production_standards[2]}.'''
+      return None
 
 
 provolone = Cheese('DRY2523', 'provolone', 12, 16, 4)
@@ -59,5 +53,5 @@ pecorino_romano = Cheese('DRY1601', 'pecorino romano', 36, 14, 9)
 
 promoted_cheeses = [provolone, gorgonzola, mozzarella, ricotta, mascarpone, parmigiano_reggiano, pecorino_romano]
 
-gen_promo_copy(cheese_promotions)
+# gen_promo_copy(cheese_promotions)
 
