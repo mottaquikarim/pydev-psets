@@ -319,10 +319,10 @@ Listing of all problems defined
 
 | PSET Desc  |
 | ------------- |
-| [Basic List Operations](pset_lists/list_ops/p1.py)  |
 | [Core Statistics Calculations](pset_lists/list_ops/p2.py)  |
 | [Cool Runnings!](pset_lists/list_ops/p3.py)  |
 | [Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)  |
+| [Basic List Operations](pset_lists/list_ops/p1.py)  |
 
 
 <br/><br/>
