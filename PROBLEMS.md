@@ -3,6 +3,9 @@
 Listing of all problems defined
 
 ## BASIC DATA TYPES (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Shopping list (3)
@@ -21,9 +24,16 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## CLASSES (29)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Bank accounts (6)
@@ -110,19 +120,26 @@ Listing of all problems defined
 | PSET Desc  |
 | ------------- |
 | [Dog Class](pset_classes/class_basics_2/p1.py)  |
-| [Cat class](pset_classes/class_basics_2/p2.py)  |
-| [Student class](pset_classes/class_basics_2/p3.py)  |
 | [Person class](pset_classes/class_basics_2/p4.py)  |
 | [Vehicle class](pset_classes/class_basics_2/p5.py)  |
+| [Student class](pset_classes/class_basics_2/p3.py)  |
+| [Cat class](pset_classes/class_basics_2/p2.py)  |
 
 
 <br/><br/>
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## CONDITIONALS (12)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Logic (5)
@@ -176,9 +193,16 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## DICTS (8)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Counters (2)
@@ -228,9 +252,16 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## FUNCTIONS (16)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Basic function ops (5)
@@ -314,9 +345,16 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## LISTS (7)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### List manipulation (3)
@@ -352,9 +390,16 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
 
 ## LOOPS (16)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
 
 
 ### Control flow (2)
@@ -438,4 +483,8 @@ Listing of all problems defined
 </details>
 
     
+
+<br/><br/>
+</details>
+
     
