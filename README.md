@@ -1,6 +1,6 @@
 # README
 
-## Problems (165)
+## Problems (265)
 
 
 | PSET Name  | Num Problems | External? |
@@ -13,6 +13,7 @@
 | **[LISTS](PROBLEMS.md/#lists-7)**  | 7  | No  |
 | **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS EXT](PROBLEMS.md/#pandas-ext-74)**  | 74  | [Yes](exports/pset_pandas_ext)  |
+| **[CHALLENGING EXT](PROBLEMS.md/#challenging-ext-100)**  | 100  | [Yes](exports/pset_challenging_ext)  |
 
 ## Getting Started
 
