@@ -76,13 +76,16 @@ def assemble_readme():
         '',
     ]
     table_ = [
-        '| PSET Name  | Num Problems |',
-        '| ------------- | ------------- |',
+        '| PSET Name  | Num Problems | External? |',
+        '| ------------- | ------------- | ------------- |',
     ]
 
     for key, val in as_dict.items():
         total_problems = 0
         subblocks = ""
+        is_external = False
+        if "_ext" in key:
+            is_external = True
 
         for subk, subv in val.items():
             files = subv["files"]
@@ -91,7 +94,12 @@ def assemble_readme():
 
         label = " ".join(key.split('_')[1:]).upper()
         url = "-".join(key.split('_')[1:]) + '-' + str(total_problems)
-        table_.append(f'| **[{label}](PROBLEMS.md/#{url})**  | {total_problems}  |')
+
+        if is_external:
+            is_external = f"[Yes](exports/{key})"
+        else:
+            is_external = "No"
+        table_.append(f'| **[{label}](PROBLEMS.md/#{url})**  | {total_problems}  | {is_external}  |')
         str_.append(get_block(label, total_problems, subblocks))
 
     f = open("README.md", "w")

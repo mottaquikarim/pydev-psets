@@ -1,17 +1,18 @@
 # README
 
-## Problems (91)
+## Problems (165)
 
 
-| PSET Name  | Num Problems |
-| ------------- | ------------- |
-| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-3)**  | 3  |
-| **[CLASSES](PROBLEMS.md/#classes-29)**  | 29  |
-| **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  |
-| **[DICTS](PROBLEMS.md/#dicts-8)**  | 8  |
-| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  |
-| **[LISTS](PROBLEMS.md/#lists-7)**  | 7  |
-| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  |
+| PSET Name  | Num Problems | External? |
+| ------------- | ------------- | ------------- |
+| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-3)**  | 3  | No  |
+| **[CLASSES](PROBLEMS.md/#classes-29)**  | 29  | No  |
+| **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  | No  |
+| **[DICTS](PROBLEMS.md/#dicts-8)**  | 8  | No  |
+| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
+| **[LISTS](PROBLEMS.md/#lists-7)**  | 7  | No  |
+| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
+| **[PANDAS EXT](PROBLEMS.md/#pandas-ext-74)**  | 74  | [Yes](exports/pset_pandas_ext)  |
 
 ## Getting Started
 
