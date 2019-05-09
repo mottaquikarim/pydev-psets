@@ -23,7 +23,7 @@ Listing of all problems defined
     
     
 
-## CLASSES (19)
+## CLASSES (29)
 
 
 ### Bank accounts (6)
@@ -45,17 +45,22 @@ Listing of all problems defined
 </details>
 
     
-### Class basics (4)
+### Class basics (9)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [RGB to HEX](pset_classes/class_basics/p1.py)  |
 | [Phone Contacts](pset_classes/class_basics/p2.py)  |
 | [Rectangle](pset_classes/class_basics/p3.py)  |
+| [RGB to HEX](pset_classes/class_basics/p1.py)  |
 | [Circle](pset_classes/class_basics/p4.py)  |
+| [Vehicles I ](pset_classes/class_basics/p5.py)  |
+| [Vehicles II](pset_classes/class_basics/p6.py)  |
+| [Vehicles III](pset_classes/class_basics/p7.py)  |
+| [Dogs I - Breeds](pset_classes/class_basics/p8.py)  |
+| [Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)  |
 
 
 <br/><br/>
@@ -91,6 +96,24 @@ Listing of all problems defined
 | [Weddings I - Guest List](pset_classes/wedding_guests/p1.py)  |
 | [Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)  |
 | [Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Class basics 2 (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Dog Class](pset_classes/class_basics_2/p1.py)  |
+| [Cat class](pset_classes/class_basics_2/p2.py)  |
+| [Student class](pset_classes/class_basics_2/p3.py)  |
+| [Person class](pset_classes/class_basics_2/p4.py)  |
+| [Vehicle class](pset_classes/class_basics_2/p5.py)  |
 
 
 <br/><br/>
@@ -303,9 +326,9 @@ Listing of all problems defined
 
 | PSET Desc  |
 | ------------- |
-| [Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)  |
 | [Phone Numbers](pset_lists/list_manipulation/p6.py)  |
 | [CHALLENGE - Extensions](pset_lists/list_manipulation/p7.py)  |
+| [Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)  |
 
 
 <br/><br/>
