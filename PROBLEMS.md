@@ -28,115 +28,29 @@ Listing of all problems defined
 
     
 
-## CLASSES (29)
-<details>
-<summary>View Problems</summary>
-
-
-### Bank accounts (6)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Bank Accounts I - Opening An Account](pset_classes/bank_accounts/p1.py)  |
-| [Bank Accounts II - Deposit Money](pset_classes/bank_accounts/p2.py)  |
-| [Bank Accounts III - Savings Accounts](pset_classes/bank_accounts/p3.py)  |
-| [Bank Accounts IV - Checking Accounts](pset_classes/bank_accounts/p4.py)  |
-| [Bank Accounts V - Transfer Money](pset_classes/bank_accounts/p5.py)  |
-| [Bank Accounts VI - Account Activity](pset_classes/bank_accounts/p6.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-### Class basics (9)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Phone Contacts](pset_classes/class_basics/p2.py)  |
-| [Rectangle](pset_classes/class_basics/p3.py)  |
-| [RGB to HEX](pset_classes/class_basics/p1.py)  |
-| [Circle](pset_classes/class_basics/p4.py)  |
-| [Vehicles I ](pset_classes/class_basics/p5.py)  |
-| [Vehicles II](pset_classes/class_basics/p6.py)  |
-| [Vehicles III](pset_classes/class_basics/p7.py)  |
-| [Dogs I - Breeds](pset_classes/class_basics/p8.py)  |
-| [Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-### Fromagerie (6)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Fromagerie I - Create Inventory](pset_classes/fromagerie/p1.py)  |
-| [Fromagerie II - Product Categories](pset_classes/fromagerie/p2.py)  |
-| [Fromagerie III - Cheeses](pset_classes/fromagerie/p3.py)  |
-| [Fromagerie IV - Italian Cheese Sale](pset_classes/fromagerie/p4.py)  |
-| [Fromagerie V - Check Stock](pset_classes/fromagerie/p5.py)  |
-| [Fromagerie VI - Record Sales](pset_classes/fromagerie/p6.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-### Wedding guests (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Weddings I - Guest List](pset_classes/wedding_guests/p1.py)  |
-| [Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)  |
-| [Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-### Class basics 2 (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Dog Class](pset_classes/class_basics_2/p1.py)  |
-| [Person class](pset_classes/class_basics_2/p4.py)  |
-| [Vehicle class](pset_classes/class_basics_2/p5.py)  |
-| [Student class](pset_classes/class_basics_2/p3.py)  |
-| [Cat class](pset_classes/class_basics_2/p2.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
 ## CONDITIONALS (12)
 <details>
 <summary>View Problems</summary>
 
 
+### Rps (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Play RPS against Computer](pset_conditionals/rps/p5.py)  |
+| [Play RPS](pset_conditionals/rps/p1.py)  |
+| [Play RPS w/Bad Input](pset_conditionals/rps/p4.py)  |
+| [Play RPS w/Input](pset_conditionals/rps/p3.py)  |
+| [Play RPS w/Computer](pset_conditionals/rps/p2.py)  |
+
+
+<br/><br/>
+</details>
+
+    
 ### Logic (5)
 <details>
 <summary>View Problems</summary>
@@ -144,11 +58,11 @@ Listing of all problems defined
 
 | PSET Desc  |
 | ------------- |
-| [Calculate Grade](pset_conditionals/logic/p1.py)  |
-| [Any Uppercase](pset_conditionals/logic/p3.py)  |
 | [truthTableEvaluator](pset_conditionals/logic/p5.py)  |
-| [Sign of Product](pset_conditionals/logic/p2.py)  |
 | [IsEmptyString](pset_conditionals/logic/p4.py)  |
+| [Any Uppercase](pset_conditionals/logic/p3.py)  |
+| [Sign of Product](pset_conditionals/logic/p2.py)  |
+| [Calculate Grade](pset_conditionals/logic/p1.py)  |
 
 
 <br/><br/>
@@ -162,26 +76,51 @@ Listing of all problems defined
 
 | PSET Desc  |
 | ------------- |
-| [Generate Traffic Light](pset_conditionals/random_nums/p1.py)  |
 | [Generate Phone Number w/Area Code](pset_conditionals/random_nums/p2.py)  |
+| [Generate Traffic Light](pset_conditionals/random_nums/p1.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Rps (5)
+
+</details>
+
+    
+
+## LISTS (7)
+<details>
+<summary>View Problems</summary>
+
+
+### List manipulation (3)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Play RPS](pset_conditionals/rps/p1.py)  |
-| [Play RPS w/Computer](pset_conditionals/rps/p2.py)  |
-| [Play RPS w/Input](pset_conditionals/rps/p3.py)  |
-| [Play RPS w/Bad Input](pset_conditionals/rps/p4.py)  |
-| [Play RPS against Computer](pset_conditionals/rps/p5.py)  |
+| [CHALLENGE - Extensions](pset_lists/list_manipulation/p7.py)  |
+| [Phone Numbers](pset_lists/list_manipulation/p6.py)  |
+| [Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### List ops (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)  |
+| [Cool Runnings!](pset_lists/list_ops/p3.py)  |
+| [Core Statistics Calculations](pset_lists/list_ops/p2.py)  |
+| [Basic List Operations](pset_lists/list_ops/p1.py)  |
 
 
 <br/><br/>
@@ -198,6 +137,38 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
+### Search validation (1)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Basic Login](pset_dicts/search_validation/p1.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Dict ops (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Inverting Keys & Values](pset_dicts/dict_ops/p4.py)  |
+| [Math with Girl Scout Cookies](pset_dicts/dict_ops/p3.py)  |
+| [Merging Dicts](pset_dicts/dict_ops/p2.py)  |
+| [Lists to Dicts](pset_dicts/dict_ops/p5.py)  |
+| [Basic Dict Concepts](pset_dicts/dict_ops/p1.py)  |
+
+
+<br/><br/>
+</details>
+
+    
 ### Counters (2)
 <details>
 <summary>View Problems</summary>
@@ -213,32 +184,91 @@ Listing of all problems defined
 </details>
 
     
-### Dict ops (5)
+
+</details>
+
+    
+
+## LOOPS (16)
+<details>
+<summary>View Problems</summary>
+
+
+### Shapes (3)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Basic Dict Concepts](pset_dicts/dict_ops/p1.py)  |
-| [Merging Dicts](pset_dicts/dict_ops/p2.py)  |
-| [Math with Girl Scout Cookies](pset_dicts/dict_ops/p3.py)  |
-| [Inverting Keys & Values](pset_dicts/dict_ops/p4.py)  |
-| [Lists to Dicts](pset_dicts/dict_ops/p5.py)  |
+| [Build a Pyramid](pset_loops/shapes/p2.py)  |
+| [Build a Diamond](pset_loops/shapes/p3.py)  |
+| [Build a Triangle](pset_loops/shapes/p1.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Search validation (1)
+### Loop basics (6)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Basic Login](pset_dicts/search_validation/p1.py)  |
+| [Odds & Evens](pset_loops/loop_basics/p1.py)  |
+| [Lists with Duplicates](pset_loops/loop_basics/p2.py)  |
+| [Factorial](pset_loops/loop_basics/p4.py)  |
+| [GCD](pset_loops/loop_basics/p6.py)  |
+| [Temperature Conversions](pset_loops/loop_basics/p3.py)  |
+| [Factors](pset_loops/loop_basics/p5.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Dict loops (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Grades](pset_loops/dict_loops/p2.py)  |
+| [Price Inventory](pset_loops/dict_loops/p3.py)  |
+| [Contacts](pset_loops/dict_loops/p1.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Control flow (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Control Flow II](pset_loops/control_flow/p2.py)  |
+| [Control Flow - I](pset_loops/control_flow/p1.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Loop challenges (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Valid Passwords](pset_loops/loop_challenges/p1.py)  |
+| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  |
 
 
 <br/><br/>
@@ -255,18 +285,17 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
-### Basic function ops (5)
+### Data manipulation (4)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)  |
-| [Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)  |
-| [Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)  |
-| [Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)  |
-| [Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)  |
+| [Password Requirements](pset_functions/data_manipulation/p3.py)  |
+| [File Organization](pset_functions/data_manipulation/p1.py)  |
+| [Clean Pairs](pset_functions/data_manipulation/p2.py)  |
+| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  |
 
 
 <br/><br/>
@@ -288,17 +317,18 @@ Listing of all problems defined
 </details>
 
     
-### Data manipulation (4)
+### Basic function ops (5)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [File Organization](pset_functions/data_manipulation/p1.py)  |
-| [Clean Pairs](pset_functions/data_manipulation/p2.py)  |
-| [Password Requirements](pset_functions/data_manipulation/p3.py)  |
-| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  |
+| [Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)  |
+| [Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)  |
+| [Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)  |
+| [Function Basics IV - Multiple Return Values](pset_functions/basic_function_ops/p4.py)  |
+| [Function Basics V - Indeterminate Arguments](pset_functions/basic_function_ops/p5.py)  |
 
 
 <br/><br/>
@@ -327,9 +357,9 @@ Listing of all problems defined
 
 | PSET Desc  |
 | ------------- |
+| [Multiples](pset_functions/math/p3.py)  |
 | [Simple Interest Calculator](pset_functions/math/p1.py)  |
 | [Permutations & Combinations](pset_functions/math/p2.py)  |
-| [Multiples](pset_functions/math/p3.py)  |
 
 
 <br/><br/>
@@ -341,129 +371,222 @@ Listing of all problems defined
 
     
 
-## LISTS (7)
+## CLASSES (29)
 <details>
 <summary>View Problems</summary>
 
 
-### List manipulation (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  |
-| ------------- |
-| [Phone Numbers](pset_lists/list_manipulation/p6.py)  |
-| [CHALLENGE - Extensions](pset_lists/list_manipulation/p7.py)  |
-| [Merge Lists with Duplicates](pset_lists/list_manipulation/p5.py)  |
-
-
-<br/><br/>
-</details>
-
-    
-### List ops (4)
+### Bank accounts (6)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Core Statistics Calculations](pset_lists/list_ops/p2.py)  |
-| [Cool Runnings!](pset_lists/list_ops/p3.py)  |
-| [Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)  |
-| [Basic List Operations](pset_lists/list_ops/p1.py)  |
+| [Bank Accounts II - Deposit Money](pset_classes/bank_accounts/p2.py)  |
+| [Bank Accounts I - Opening An Account](pset_classes/bank_accounts/p1.py)  |
+| [Bank Accounts IV - Checking Accounts](pset_classes/bank_accounts/p4.py)  |
+| [Bank Accounts V - Transfer Money](pset_classes/bank_accounts/p5.py)  |
+| [Bank Accounts III - Savings Accounts](pset_classes/bank_accounts/p3.py)  |
+| [Bank Accounts VI - Account Activity](pset_classes/bank_accounts/p6.py)  |
 
 
 <br/><br/>
 </details>
 
     
-
-</details>
-
-    
-
-## LOOPS (16)
-<details>
-<summary>View Problems</summary>
-
-
-### Control flow (2)
+### Class basics (9)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Control Flow - I](pset_loops/control_flow/p1.py)  |
-| [Control Flow II](pset_loops/control_flow/p2.py)  |
+| [Vehicles II](pset_classes/class_basics/p6.py)  |
+| [Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)  |
+| [Vehicles III](pset_classes/class_basics/p7.py)  |
+| [Rectangle](pset_classes/class_basics/p3.py)  |
+| [Dogs I - Breeds](pset_classes/class_basics/p8.py)  |
+| [Circle](pset_classes/class_basics/p4.py)  |
+| [Phone Contacts](pset_classes/class_basics/p2.py)  |
+| [RGB to HEX](pset_classes/class_basics/p1.py)  |
+| [Vehicles I ](pset_classes/class_basics/p5.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Dict loops (3)
+### Wedding guests (3)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Contacts](pset_loops/dict_loops/p1.py)  |
-| [Grades](pset_loops/dict_loops/p2.py)  |
-| [Price Inventory](pset_loops/dict_loops/p3.py)  |
+| [Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)  |
+| [Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)  |
+| [Weddings I - Guest List](pset_classes/wedding_guests/p1.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Loop basics (6)
+### Fromagerie (6)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Odds & Evens](pset_loops/loop_basics/p1.py)  |
-| [Lists with Duplicates](pset_loops/loop_basics/p2.py)  |
-| [Temperature Conversions](pset_loops/loop_basics/p3.py)  |
-| [Factorial](pset_loops/loop_basics/p4.py)  |
-| [Factors](pset_loops/loop_basics/p5.py)  |
-| [GCD](pset_loops/loop_basics/p6.py)  |
+| [Fromagerie IV - Italian Cheese Sale](pset_classes/fromagerie/p4.py)  |
+| [Fromagerie II - Product Categories](pset_classes/fromagerie/p2.py)  |
+| [Fromagerie III - Cheeses](pset_classes/fromagerie/p3.py)  |
+| [Fromagerie I - Create Inventory](pset_classes/fromagerie/p1.py)  |
+| [Fromagerie VI - Record Sales](pset_classes/fromagerie/p6.py)  |
+| [Fromagerie V - Check Stock](pset_classes/fromagerie/p5.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Loop challenges (2)
+### Class basics 2 (5)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Valid Passwords](pset_loops/loop_challenges/p1.py)  |
-| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  |
+| [Dog Class](pset_classes/class_basics_2/p1.py)  |
+| [Cat class](pset_classes/class_basics_2/p2.py)  |
+| [Student class](pset_classes/class_basics_2/p3.py)  |
+| [Person class](pset_classes/class_basics_2/p4.py)  |
+| [Vehicle class](pset_classes/class_basics_2/p5.py)  |
 
 
 <br/><br/>
 </details>
 
     
-### Shapes (3)
+
+</details>
+
+    
+
+## CHALLENGING EXT (100)
+<details>
+<summary>View Problems</summary>
+
+
+### Exercises (100)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Build a Triangle](pset_loops/shapes/p1.py)  |
-| [Build a Pyramid](pset_loops/shapes/p2.py)  |
-| [Build a Diamond](pset_loops/shapes/p3.py)  |
+| [Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,](pset_challenging_ext/exercises/p1.py)  |
+| [Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.](pset_challenging_ext/exercises/p10.py)  |
+| [Write a program to solve a classic ancient Chinese puzzle: ](pset_challenging_ext/exercises/p100.py)  |
+| [Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.](pset_challenging_ext/exercises/p11.py)  |
+| [Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.](pset_challenging_ext/exercises/p12.py)  |
+| [Write a program that accepts a sentence and calculate the number of letters and digits.](pset_challenging_ext/exercises/p13.py)  |
+| [Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.](pset_challenging_ext/exercises/p14.py)  |
+| [Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.](pset_challenging_ext/exercises/p15.py)  |
+| [Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.](pset_challenging_ext/exercises/p16.py)  |
+| [Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:](pset_challenging_ext/exercises/p17.py)  |
+| [A website requires the users to input username and password to register. Write a program to check the validity of password input by users.](pset_challenging_ext/exercises/p18.py)  |
+| [You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:](pset_challenging_ext/exercises/p19.py)  |
+| [Write a program which can compute the factorial of a given numbers.](pset_challenging_ext/exercises/p2.py)  |
+| [Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.](pset_challenging_ext/exercises/p20.py)  |
+| [A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:](pset_challenging_ext/exercises/p21.py)  |
+| [Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. ](pset_challenging_ext/exercises/p22.py)  |
+| [Write a method which can calculate square value of number](pset_challenging_ext/exercises/p23.py)  |
+| [Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.](pset_challenging_ext/exercises/p24.py)  |
+| [Define a class, which have a class parameter and have a same instance parameter.](pset_challenging_ext/exercises/p25.py)  |
+| [Define a function which can compute the sum of two numbers.](pset_challenging_ext/exercises/p26.py)  |
+| [Define a function that can convert a integer into a string and print it in console.](pset_challenging_ext/exercises/p27.py)  |
+| [Define a function that can convert a integer into a string and print it in console.](pset_challenging_ext/exercises/p28.py)  |
+| [Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.](pset_challenging_ext/exercises/p29.py)  |
+| [With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.](pset_challenging_ext/exercises/p3.py)  |
+| [Define a function that can accept two strings as input and concatenate them and then print it in console.](pset_challenging_ext/exercises/p30.py)  |
+| [Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.](pset_challenging_ext/exercises/p31.py)  |
+| [Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".](pset_challenging_ext/exercises/p32.py)  |
+| [Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p33.py)  |
+| [Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p34.py)  |
+| [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.](pset_challenging_ext/exercises/p35.py)  |
+| [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.](pset_challenging_ext/exercises/p36.py)  |
+| [Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p37.py)  |
+| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.](pset_challenging_ext/exercises/p38.py)  |
+| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.](pset_challenging_ext/exercises/p39.py)  |
+| [Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.](pset_challenging_ext/exercises/p4.py)  |
+| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.](pset_challenging_ext/exercises/p40.py)  |
+| [Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). ](pset_challenging_ext/exercises/p41.py)  |
+| [With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. ](pset_challenging_ext/exercises/p42.py)  |
+| [Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). ](pset_challenging_ext/exercises/p43.py)  |
+| [Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". ](pset_challenging_ext/exercises/p44.py)  |
+| [Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p45.py)  |
+| [Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p46.py)  |
+| [Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p47.py)  |
+| [Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).](pset_challenging_ext/exercises/p48.py)  |
+| [Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p49.py)  |
+| [Define a class which has at least two methods:](pset_challenging_ext/exercises/p5.py)  |
+| [Define a class named American which has a static method called printNationality.](pset_challenging_ext/exercises/p50.py)  |
+| [Define a class named American and its subclass NewYorker. ](pset_challenging_ext/exercises/p51.py)  |
+| [Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. ](pset_challenging_ext/exercises/p52.py)  |
+| [Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. ](pset_challenging_ext/exercises/p53.py)  |
+| [Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.](pset_challenging_ext/exercises/p54.py)  |
+| [](pset_challenging_ext/exercises/p55.py)  |
+| [Write a function to compute 5/0 and use try/except to catch the exceptions.](pset_challenging_ext/exercises/p56.py)  |
+| [Define a custom exception class which takes a string message as attribute.](pset_challenging_ext/exercises/p57.py)  |
+| [Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.](pset_challenging_ext/exercises/p58.py)  |
+| [Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.](pset_challenging_ext/exercises/p59.py)  |
+| [Write a program that calculates and prints the value according to the given formula:](pset_challenging_ext/exercises/p6.py)  |
+| [Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.](pset_challenging_ext/exercises/p60.py)  |
+| [Print a unicode string "hello world".](pset_challenging_ext/exercises/p61.py)  |
+| [Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.](pset_challenging_ext/exercises/p62.py)  |
+| [Write a special comment to indicate a Python source code file is in unicode.](pset_challenging_ext/exercises/p63.py)  |
+| [Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).](pset_challenging_ext/exercises/p64.py)  |
+| [Write a program to compute:](pset_challenging_ext/exercises/p65.py)  |
+| [](pset_challenging_ext/exercises/p66.py)  |
+| [](pset_challenging_ext/exercises/p67.py)  |
+| [](pset_challenging_ext/exercises/p68.py)  |
+| [](pset_challenging_ext/exercises/p69.py)  |
+| [Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.](pset_challenging_ext/exercises/p7.py)  |
+| [](pset_challenging_ext/exercises/p70.py)  |
+| [Please write a program which accepts basic mathematic expression from console and print the evaluation result.](pset_challenging_ext/exercises/p71.py)  |
+| [Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.](pset_challenging_ext/exercises/p72.py)  |
+| [Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.](pset_challenging_ext/exercises/p73.py)  |
+| [Please generate a random float where the value is between 10 and 100 using Python math module.](pset_challenging_ext/exercises/p74.py)  |
+| [Please generate a random float where the value is between 5 and 95 using Python math module.](pset_challenging_ext/exercises/p75.py)  |
+| [Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.](pset_challenging_ext/exercises/p76.py)  |
+| [Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.](pset_challenging_ext/exercises/p77.py)  |
+| [](pset_challenging_ext/exercises/p78.py)  |
+| [Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.](pset_challenging_ext/exercises/p79.py)  |
+| [Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.](pset_challenging_ext/exercises/p8.py)  |
+| [Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.](pset_challenging_ext/exercises/p80.py)  |
+| [](pset_challenging_ext/exercises/p81.py)  |
+| [](pset_challenging_ext/exercises/p82.py)  |
+| [Please write a program to print the running time of execution of "1+1" for 100 times.](pset_challenging_ext/exercises/p83.py)  |
+| [Please write a program to shuffle and print the list [3,6,7,8].](pset_challenging_ext/exercises/p84.py)  |
+| [Please write a program to shuffle and print the list [3,6,7,8].](pset_challenging_ext/exercises/p85.py)  |
+| [Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].](pset_challenging_ext/exercises/p86.py)  |
+| [Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].](pset_challenging_ext/exercises/p87.py)  |
+| [By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p88.py)  |
+| [By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p89.py)  |
+| [Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.](pset_challenging_ext/exercises/p9.py)  |
+| [](pset_challenging_ext/exercises/p90.py)  |
+| [By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p91.py)  |
+| [](pset_challenging_ext/exercises/p92.py)  |
+| [With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.](pset_challenging_ext/exercises/p93.py)  |
+| [](pset_challenging_ext/exercises/p94.py)  |
+| [Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.](pset_challenging_ext/exercises/p95.py)  |
+| [Please write a program which count and print the numbers of each character in a string input by console.](pset_challenging_ext/exercises/p96.py)  |
+| [](pset_challenging_ext/exercises/p97.py)  |
+| [](pset_challenging_ext/exercises/p98.py)  |
+| [](pset_challenging_ext/exercises/p99.py)  |
 
 
 <br/><br/>
@@ -572,118 +695,86 @@ Listing of all problems defined
 
     
 
-## CHALLENGING EXT (100)
+## PANDAS1 WINE REVIEWS (16)
 <details>
 <summary>View Problems</summary>
 
 
-### Exercises (100)
+### Check imported data (4)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  |
 | ------------- |
-| [Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,](pset_challenging_ext/exercises/p1.py)  |
-| [Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.](pset_challenging_ext/exercises/p10.py)  |
-| [Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.](pset_challenging_ext/exercises/p11.py)  |
-| [Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.](pset_challenging_ext/exercises/p12.py)  |
-| [Write a program that accepts a sentence and calculate the number of letters and digits.](pset_challenging_ext/exercises/p13.py)  |
-| [Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.](pset_challenging_ext/exercises/p14.py)  |
-| [Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.](pset_challenging_ext/exercises/p15.py)  |
-| [Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.](pset_challenging_ext/exercises/p16.py)  |
-| [Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:](pset_challenging_ext/exercises/p17.py)  |
-| [A website requires the users to input username and password to register. Write a program to check the validity of password input by users.](pset_challenging_ext/exercises/p18.py)  |
-| [You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:](pset_challenging_ext/exercises/p19.py)  |
-| [Write a program which can compute the factorial of a given numbers.](pset_challenging_ext/exercises/p2.py)  |
-| [Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.](pset_challenging_ext/exercises/p20.py)  |
-| [A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:](pset_challenging_ext/exercises/p21.py)  |
-| [Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. ](pset_challenging_ext/exercises/p22.py)  |
-| [Write a method which can calculate square value of number](pset_challenging_ext/exercises/p23.py)  |
-| [Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.](pset_challenging_ext/exercises/p24.py)  |
-| [Define a class, which have a class parameter and have a same instance parameter.](pset_challenging_ext/exercises/p25.py)  |
-| [Define a function which can compute the sum of two numbers.](pset_challenging_ext/exercises/p26.py)  |
-| [Define a function that can convert a integer into a string and print it in console.](pset_challenging_ext/exercises/p27.py)  |
-| [Define a function that can convert a integer into a string and print it in console.](pset_challenging_ext/exercises/p28.py)  |
-| [Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.](pset_challenging_ext/exercises/p29.py)  |
-| [With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.](pset_challenging_ext/exercises/p3.py)  |
-| [Define a function that can accept two strings as input and concatenate them and then print it in console.](pset_challenging_ext/exercises/p30.py)  |
-| [Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.](pset_challenging_ext/exercises/p31.py)  |
-| [Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".](pset_challenging_ext/exercises/p32.py)  |
-| [Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p33.py)  |
-| [Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p34.py)  |
-| [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.](pset_challenging_ext/exercises/p35.py)  |
-| [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.](pset_challenging_ext/exercises/p36.py)  |
-| [Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p37.py)  |
-| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.](pset_challenging_ext/exercises/p38.py)  |
-| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.](pset_challenging_ext/exercises/p39.py)  |
-| [Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.](pset_challenging_ext/exercises/p4.py)  |
-| [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.](pset_challenging_ext/exercises/p40.py)  |
-| [Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). ](pset_challenging_ext/exercises/p41.py)  |
-| [With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. ](pset_challenging_ext/exercises/p42.py)  |
-| [Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). ](pset_challenging_ext/exercises/p43.py)  |
-| [Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". ](pset_challenging_ext/exercises/p44.py)  |
-| [Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p45.py)  |
-| [Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p46.py)  |
-| [Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p47.py)  |
-| [Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).](pset_challenging_ext/exercises/p48.py)  |
-| [Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p49.py)  |
-| [Define a class which has at least two methods:](pset_challenging_ext/exercises/p5.py)  |
-| [Define a class named American which has a static method called printNationality.](pset_challenging_ext/exercises/p50.py)  |
-| [Define a class named American and its subclass NewYorker. ](pset_challenging_ext/exercises/p51.py)  |
-| [Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. ](pset_challenging_ext/exercises/p52.py)  |
-| [Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. ](pset_challenging_ext/exercises/p53.py)  |
-| [Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.](pset_challenging_ext/exercises/p54.py)  |
-| [](pset_challenging_ext/exercises/p55.py)  |
-| [Write a function to compute 5/0 and use try/except to catch the exceptions.](pset_challenging_ext/exercises/p56.py)  |
-| [Define a custom exception class which takes a string message as attribute.](pset_challenging_ext/exercises/p57.py)  |
-| [Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.](pset_challenging_ext/exercises/p58.py)  |
-| [Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.](pset_challenging_ext/exercises/p59.py)  |
-| [Write a program that calculates and prints the value according to the given formula:](pset_challenging_ext/exercises/p6.py)  |
-| [Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.](pset_challenging_ext/exercises/p60.py)  |
-| [Print a unicode string "hello world".](pset_challenging_ext/exercises/p61.py)  |
-| [Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.](pset_challenging_ext/exercises/p62.py)  |
-| [Write a special comment to indicate a Python source code file is in unicode.](pset_challenging_ext/exercises/p63.py)  |
-| [Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).](pset_challenging_ext/exercises/p64.py)  |
-| [Write a program to compute:](pset_challenging_ext/exercises/p65.py)  |
-| [](pset_challenging_ext/exercises/p66.py)  |
-| [](pset_challenging_ext/exercises/p67.py)  |
-| [](pset_challenging_ext/exercises/p68.py)  |
-| [](pset_challenging_ext/exercises/p69.py)  |
-| [Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.](pset_challenging_ext/exercises/p7.py)  |
-| [](pset_challenging_ext/exercises/p70.py)  |
-| [Please write a program which accepts basic mathematic expression from console and print the evaluation result.](pset_challenging_ext/exercises/p71.py)  |
-| [Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.](pset_challenging_ext/exercises/p72.py)  |
-| [Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.](pset_challenging_ext/exercises/p73.py)  |
-| [Please generate a random float where the value is between 10 and 100 using Python math module.](pset_challenging_ext/exercises/p74.py)  |
-| [Please generate a random float where the value is between 5 and 95 using Python math module.](pset_challenging_ext/exercises/p75.py)  |
-| [Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.](pset_challenging_ext/exercises/p76.py)  |
-| [Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.](pset_challenging_ext/exercises/p77.py)  |
-| [](pset_challenging_ext/exercises/p78.py)  |
-| [Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.](pset_challenging_ext/exercises/p79.py)  |
-| [Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.](pset_challenging_ext/exercises/p8.py)  |
-| [Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.](pset_challenging_ext/exercises/p80.py)  |
-| [](pset_challenging_ext/exercises/p81.py)  |
-| [](pset_challenging_ext/exercises/p82.py)  |
-| [Please write a program to print the running time of execution of "1+1" for 100 times.](pset_challenging_ext/exercises/p83.py)  |
-| [Please write a program to shuffle and print the list [3,6,7,8].](pset_challenging_ext/exercises/p84.py)  |
-| [Please write a program to shuffle and print the list [3,6,7,8].](pset_challenging_ext/exercises/p85.py)  |
-| [Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].](pset_challenging_ext/exercises/p86.py)  |
-| [Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].](pset_challenging_ext/exercises/p87.py)  |
-| [By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p88.py)  |
-| [By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p89.py)  |
-| [Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.](pset_challenging_ext/exercises/p9.py)  |
-| [](pset_challenging_ext/exercises/p90.py)  |
-| [By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p91.py)  |
-| [](pset_challenging_ext/exercises/p92.py)  |
-| [With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.](pset_challenging_ext/exercises/p93.py)  |
-| [](pset_challenging_ext/exercises/p94.py)  |
-| [Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.](pset_challenging_ext/exercises/p95.py)  |
-| [Please write a program which count and print the numbers of each character in a string input by console.](pset_challenging_ext/exercises/p96.py)  |
-| [](pset_challenging_ext/exercises/p97.py)  |
-| [](pset_challenging_ext/exercises/p98.py)  |
-| [](pset_challenging_ext/exercises/p99.py)  |
-| [Write a program to solve a classic ancient Chinese puzzle: ](pset_challenging_ext/exercises/p100.py)  |
+| [Checking Imported Data I - Data Dictionary](pset_pandas1_wine_reviews/check_imported_data/p1.py)  |
+| [Checking Imported Data II - How Big is the Data?](pset_pandas1_wine_reviews/check_imported_data/p2.py)  |
+| [Checking Imported Data III - DataFrame Labels](pset_pandas1_wine_reviews/check_imported_data/p3.py)  |
+| [Checking Imported Data IV - Preview Data](pset_pandas1_wine_reviews/check_imported_data/p4.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Selecting data (6)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  |
+| [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  |
+| [Selecting Data III - Access Single Values](pset_pandas1_wine_reviews/selecting_data/p3.py)  |
+| [Selecting Data IV - Access Slices](pset_pandas1_wine_reviews/selecting_data/p4.py)  |
+| [Selecting Data V - Subsets](pset_pandas1_wine_reviews/selecting_data/p5.py)  |
+| [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Edit existing data (1)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Editing Existing Data I - Rename](pset_pandas1_wine_reviews/edit_existing_data/p1.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Data cleaning (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [Cleaning Data I - View Null Values](pset_pandas1_wine_reviews/data_cleaning/p1.py)  |
+| [Cleaning Data II - Find Null Values](pset_pandas1_wine_reviews/data_cleaning/p2.py)  |
+| [Cleaning Data III - Drop Null Values](pset_pandas1_wine_reviews/data_cleaning/p3.py)  |
+| [Cleaning Data IV - Fill Null Values](pset_pandas1_wine_reviews/data_cleaning/p4.py)  |
+
+
+<br/><br/>
+</details>
+
+    
+### Winereviews (1)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  |
+| ------------- |
+| [None](pset_pandas1_wine_reviews/WineReviews/main.py)  |
 
 
 <br/><br/>
