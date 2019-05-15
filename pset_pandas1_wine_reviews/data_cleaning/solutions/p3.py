@@ -1,42 +1,45 @@
 """
-Cleaning Data III - Drop Null Values
+Data Cleaning III - Bulk Replace in a Series
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# Using this Series, replace all instances of 'US' with 'DEMOCRATIC REPUBLIC OF CONGO'.
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
+countries = wine_reviews['country']
 
-
-# Drop the rows containing null values in any column.
-
-
-# Note: Doing this first helps verify that you dropped the correct items!
-print(wine_ratings.isnull().sum())
+countries = countries.replace('US', 'DEMOCRATIC REPUBLIC OF CONGO', inplace=True)
+print(countries.head(10))
 """
-title         0
-country      63
-rating        0
-price      8996
-"""
-print(len(wine_ratings)) # 129971
-
-
-wine_ratings = wine_ratings.dropna(subset=['country', 'price'])
-
-
-# Return a count of the null values in wine_ratings.
-print(wine_ratings.isnull().sum())
-"""
-title       0
-country     0
-rating      0
-price       0
+0                           Italy
+1                        Portugal
+2    DEMOCRATIC REPUBLIC OF CONGO
+3    DEMOCRATIC REPUBLIC OF CONGO
+4    DEMOCRATIC REPUBLIC OF CONGO
+5                           Spain
+6                           Italy
+7                          France
+8                         Germany
+9                          France
 """
 
+# Again using the original Series, replace all instances of 'US' with 'MADAGASCAR' and all instances of 'Italy' with 'DEMOCRATIC REPUBLIC OF CONGO'.
 
-# Print out the number of rows in wine_ratings.
-print(len(wine_ratings)) # 120916
+countries = wine_reviews['country']
+
+countries = countries.replace(['US', 'Italy'], ['MADAGASCAR', 'DEMOCRATIC REPUBLIC OF CONGO'])
+print(countries.head(10), inplace=True)
+"""
+0    DEMOCRATIC REPUBLIC OF CONGO
+1                        Portugal
+2                      MADAGASCAR
+3                      MADAGASCAR
+4                      MADAGASCAR
+5                           Spain
+6    DEMOCRATIC REPUBLIC OF CONGO
+7                          France
+8                         Germany
+9                          France
+"""

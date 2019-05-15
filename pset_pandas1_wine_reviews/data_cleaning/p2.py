@@ -1,18 +1,9 @@
 """
-Cleaning Data II - Find Null Values
+Data Cleaning II - Rename Columns
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
-
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
-
-
-# Return a count of the null values in wine_ratings.
-
-
-# Print out the number of rows in wine_ratings.
-
+# Rename the 'designation' column to 'vineyard' and the 'points' column to 'rating'.

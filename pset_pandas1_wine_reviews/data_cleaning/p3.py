@@ -1,24 +1,15 @@
 """
-Cleaning Data III - Drop Null Values
+Data Cleaning III - Bulk Replace in a Series
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# Using this Series, replace all instances of 'US' with 'DEMOCRATIC REPUBLIC OF CONGO'.
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
-
-
-# Drop the rows containing null values in any column.
+countries = wine_reviews['country']
 
 
 
-# Return a count of the null values in wine_ratings.
-
-
-
-# Print out the number of rows in wine_ratings.
-
-
+# Again using the original Series, replace all instances of 'US' with 'FRENCH POLYNESIA' and all instances of 'Italy' with 'MADAGASCAR'.

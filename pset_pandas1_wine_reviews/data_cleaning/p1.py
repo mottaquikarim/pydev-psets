@@ -1,19 +1,10 @@
 """
-Cleaning Data I - View Null Values
+Cleaning Data I - Drop Columns
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
-
-
-
-# Return a dataframe of booleans that show True for null values.
-
-
-
-# Return a dataframe of booleans that show True for values that exist.
+# Drop the 'region_2' and 'taster_twitter_handle' columns.

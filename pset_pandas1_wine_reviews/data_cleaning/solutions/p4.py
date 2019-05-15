@@ -1,52 +1,50 @@
 """
-Cleaning Data IV - Fill Null Values
+Data Cleaning IV - Bulk Replace in a DataFrame
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# Using this DataFrame, replace all instances of 'US' with 'UNITED ARAB EMIRATES'.
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
-
-
-# Replace all the null 'price' values with the mean of the existing 
-
-prices = wine_reviews['price']
-m = prices.mean()
-replace_value = {'price': prices.mean()}
-wine_ratings = wine_ratings.fillna(value=replace_value)
+wine_geography = wine_reviews.copy()[['variety', 'country', 'province']]
 
 
-# Return a count of the null values in wine_ratings.
-print(wine_ratings.isnull().sum())
+wine_geography.replace({'country': {'US': 'UNITED ARAB EMIRATES'}}, inplace=True)
+
+print(wine_geography.head(10))
 """
-title       0
-country    63
-rating      0
-price       0
-"""
-
-
-# Print out the number of rows in wine_ratings.
-print(len(wine_ratings)) # 129971
-
-
-# Replace all the missing values in the 'country' column with 'Unknown'. Hint: Remember this should be the only column left with null values.
-wine_ratings = wine_ratings.fillna(value='Unknown')
-
-
-# Return a count of the null values in wine_ratings.
-print(wine_ratings.isnull().sum())
-"""
-title       0
-country     0
-rating      0
-price       0
+              variety               country           province
+0         White Blend                 Italy  Sicily & Sardinia
+1      Portuguese Red              Portugal              Douro
+2          Pinot Gris  UNITED ARAB EMIRATES             Oregon
+3            Riesling  UNITED ARAB EMIRATES           Michigan
+4          Pinot Noir  UNITED ARAB EMIRATES             Oregon
+5  Tempranillo-Merlot                 Spain     Northern Spain
+6            Frappato                 Italy  Sicily & Sardinia
+7      Gewürztraminer                France             Alsace
+8      Gewürztraminer               Germany        Rheinhessen
+9          Pinot Gris                France             Alsace
 """
 
-# Print out the number of rows in wine_ratings.
-print(len(wine_ratings)) # 129971
+# Again using the original DataFrame, replace all instances of 'US' in the 'country' column with 'COSTA RICA' and all instances of 'Italy' with 'UNITED ARAB EMIRATES'.
 
+wine_geography = wine_reviews[['variety', 'country', 'province']]
 
+wine_geography['country'].replace(['US', 'Italy'], ['COSTA RICA', 'UNITED ARAB EMIRATES'], inplace=True)
+
+print(wine_geography.head(10))
+"""
+              variety               country           province
+0         White Blend  UNITED ARAB EMIRATES  Sicily & Sardinia
+1      Portuguese Red              Portugal              Douro
+2          Pinot Gris            COSTA RICA             Oregon
+3            Riesling            COSTA RICA           Michigan
+4          Pinot Noir            COSTA RICA             Oregon
+5  Tempranillo-Merlot                 Spain     Northern Spain
+6            Frappato  UNITED ARAB EMIRATES  Sicily & Sardinia
+7      Gewürztraminer                France             Alsace
+8      Gewürztraminer               Germany        Rheinhessen
+9          Pinot Gris                France             Alsace
+"""
