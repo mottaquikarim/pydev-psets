@@ -1,18 +1,21 @@
 """
-Cleaning Data III - Find Null Values
+Data Cleaning VI - Bulk Replace Across Multiple DataFrame Columns
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# (Obviously, these changes are geographically incorrect and just for the sake of example.)
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
+# Using this DataFrame, replace all instances in the following columns according to the directions below. HINT: You should be able to do this in one function call!
+## 'country' column
+#### 'US' should become 'Morocco'
+#### 'France' should become 'Mexico'
+## 'province' column
+#### 'Oregon' should become 'Ouezzane'
+#### 'Michigan' should become 'Fahs-Anjra'
+#### 'Sicily & Sardinia' should become 'Tuscany'
 
-
-# Return a count of the null values in wine_ratings.
-
-
-# Print out the number of rows in wine_ratings.
+wine_geography = wine_reviews.copy()[['variety', 'country', 'province']]
 

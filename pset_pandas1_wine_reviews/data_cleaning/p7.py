@@ -1,5 +1,5 @@
 """
-Cleaning Data IV - Drop Null Values
+Cleaning Data VII - View Null Values
 """
 
 import numpy as np
@@ -11,14 +11,9 @@ wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
 
 
-# Drop the rows containing null values in any column.
+
+# Return a dataframe of booleans that show True for null values.
 
 
 
-# Return a count of the null values in wine_ratings.
-
-
-
-# Print out the number of rows in wine_ratings.
-
-
+# Return a dataframe of booleans that show True for values that exist.

@@ -1,26 +1,24 @@
 """
-Cleaning Data VI - Removing Duplicates
+Cleaning Data IX - Drop Null Values
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Using this DataFrame, drop the null values in the 'price' and 'country' columns. Then find the number of duplicates values in the 'title' column.
+# Use the below df for these problems:
 
 wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
 
 
-
-
-# Now, drop the duplicate rows in the 'title' column.
-
+# Drop the rows containing null values in any column.
 
 
 
-# Print out these statements with the correct values for the blanks.
+# Return a count of the null values in wine_ratings.
 
 
-# _____ rows w. null values removed
-# _____ duplicate rows removed
-# _____ total rows removed
+
+# Print out the number of rows in wine_ratings.
+
+

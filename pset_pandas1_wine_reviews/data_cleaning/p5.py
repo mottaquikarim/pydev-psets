@@ -1,19 +1,17 @@
 """
-Cleaning Data II - View Null Values
+Data Cleaning V - Bulk Replace in a Single DataFrame Column (Like a Dict)
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# (Obviously, these changes are geographically incorrect and just for the sake of example.)
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
+# Using this DataFrame, replace all instances of 'US' in the 'country' column with 'CZECH REPUBLIC'.
 
-
-
-# Return a dataframe of booleans that show True for null values.
+wine_geography = wine_reviews.copy()[['variety', 'country', 'province']]
 
 
 
-# Return a dataframe of booleans that show True for values that exist.
+# Again using the original DataFrame, replace all instances of 'US' in the 'country' column with 'COSTA RICA' and all instances of 'Italy' with 'CZECH REPUBLIC'.

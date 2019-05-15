@@ -1,17 +1,19 @@
 """
-Data Cleaning IV - Bulk Replace in a DataFrame
+Data Cleaning IV - Bulk Replace in a Single DataFrame Column (Like a Series)
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Using this DataFrame, replace all instances of 'US' with 'UNITED ARAB EMIRATES'.
+# (Obviously, these changes are geographically incorrect and just for the sake of example.)
+
+# Using this DataFrame, replace all instances of 'US' in the 'country' column with 'UNITED ARAB EMIRATES'.
 
 wine_geography = wine_reviews.copy()[['variety', 'country', 'province']]
 
 
-wine_geography.replace({'country': {'US': 'UNITED ARAB EMIRATES'}}, inplace=True)
+wine_geography['country'].replace('US', 'UNITED ARAB EMIRATES', inplace=True)
 
 print(wine_geography.head(10))
 """
@@ -28,7 +30,7 @@ print(wine_geography.head(10))
 9          Pinot Gris                France             Alsace
 """
 
-# Again using the original DataFrame, replace all instances of 'US' in the 'country' column with 'COSTA RICA' and all instances of 'Italy' with 'UNITED ARAB EMIRATES'.
+# Again using the original DataFrame, replace all instances of 'US' in the 'country' column with 'COSTA RICA' and all instances of 'Italy' in the 'country' column with 'UNITED ARAB EMIRATES'.
 
 wine_geography = wine_reviews[['variety', 'country', 'province']]
 

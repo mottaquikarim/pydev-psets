@@ -1,25 +1,41 @@
 """
-Cleaning Data III - Find Null Values
+Data Cleaning VI - Bulk Replace Across Multiple DataFrame Columns
 """
 
 import numpy as np
 import pandas as pd
 wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
 
-# Use the below df for these problems:
+# (Obviously, these changes are geographically incorrect and just for the sake of example.)
 
-wine_ratings = wine_reviews[['title', 'country', 'rating', 'price']]
+# Using this DataFrame, replace all instances in the following columns according to the directions below. HINT: You should be able to do this in one function call!
+## 'country' column
+#### 'US' should become 'Morocco'
+#### 'France' should become 'Mexico'
+## 'province' column
+#### 'Oregon' should become 'Ouezzane'
+#### 'Michigan' should become 'Fahs-Anjra'
+#### 'Sicily & Sardinia' should become 'Tuscany'
+
+wine_geography = wine_reviews.copy()[['variety', 'country', 'province']]
 
 
-# Return a count of the null values in wine_ratings.
-print(wine_ratings.isnull().sum())
+wine_geography.replace({
+	'country': {'US': 'Morocco', 'France': 'Mexico'},
+	'province': {'Oregon': 'Ouezzane', 'Michigan': 'Fahs-Anjra', 'Sicily & Sardinia': 'Tuscany'}
+	}, inplace=True)
+
+print(wine_geography.head(10))
 """
-title         0
-country      63
-rating        0
-price      8996
+              variety   country        province
+0         White Blend     Italy         Tuscany
+1      Portuguese Red  Portugal           Douro
+2          Pinot Gris   Morocco        Ouezzane
+3            Riesling   Morocco      Fahs-Anjra
+4          Pinot Noir   Morocco        Ouezzane
+5  Tempranillo-Merlot     Spain  Northern Spain
+6            Frappato     Italy         Tuscany
+7      Gewürztraminer    Mexico          Alsace
+8      Gewürztraminer   Germany     Rheinhessen
+9          Pinot Gris    Mexico          Alsace
 """
-
-# Print out the number of rows in wine_ratings.
-print(len(wine_ratings)) # 129971
-
