@@ -19,6 +19,8 @@ commit_to_git() {
 }
 
 push_to_git() {
+  echo ${GH_TOKEN}
+  echo https://${GH_TOKEN}@github.com/mottaquikarim/pydev-psets.git
   git push --quiet --set-upstream origin $TRAVIS_BRANCH
 }
 

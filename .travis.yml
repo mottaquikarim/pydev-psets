@@ -13,5 +13,6 @@ install:
 # command to run tests
 script:
   - python watch.py
-after_success:
-  - .travis/push.sh
+deploy:
+  provider: script
+  script: .travis/push.sh
