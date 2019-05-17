@@ -1,0 +1,14 @@
+dist: xenial   # required for Python >= 3.7
+language: python
+python:
+  - "3.7"
+virtualenv:
+  system_site_packages: true
+# command to install dependencies
+install:
+  - pip install -r requirements.dev.txt
+# command to run tests
+script:
+  - python watch.py
+after_success:
+  - .travis/push.sh
