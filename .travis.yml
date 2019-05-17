@@ -12,7 +12,4 @@ install:
   - pip install -r requirements.dev.txt
 # command to run tests
 script:
-  - python watch.py
-deploy:
-  provider: script
-  script: .travis/push.sh
+  - .travis/push.sh
