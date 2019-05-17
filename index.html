@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+            const {hash} = window.location
+            const path = hash.slice(1)
+            const end = path.replace('.py', '.ipynb').split('/')
+            const fn = end.pop()
+            const finalpath = end.concat(['nb', fn]).join('/')
+            window.redirect_colab_url = `https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/${finalpath}`
+            window.location.href = window.redirect_colab_url;
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <span></span>.
+        <script>
+            document.querySelector('span').innerHTML = `
+                <a href='${window.redirect_colab_url}'>link to problem</a>
+            `
+        </script>
+    </body>
+</html>
