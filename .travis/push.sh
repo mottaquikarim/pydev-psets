@@ -12,6 +12,8 @@ commit_to_git() {
   git checkout -f $TRAVIS_BRANCH 
   git pull
 
+  python watch.py
+
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [ci skip]"
 }
