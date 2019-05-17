@@ -79,7 +79,8 @@ def assemble_readme():
     header_ = [
         '# README',
         '',
-        f'{open('header.md', 'r').read()}',
+        open('header.md', 'r').read(),
+        '',
         f'## Problems ({num_problems})',
         '',
     ]
