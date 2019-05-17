@@ -94,7 +94,6 @@ def assemble_readme():
             is_external = True
 
         for subk, subv in val.items():
-            print(subv)
             files = subv["files"]
             total_problems += len(files)
             subblocks += get_sub_blocks(subk, files, get_file_blocks(files))

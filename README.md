@@ -1,11 +1,11 @@
 # README
 
-## Problems (303)
+## Problems (304)
 
 
 | PSET Name  | Num Problems | External? |
 | ------------- | ------------- | ------------- |
-| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-6)**  | 6  | No  |
+| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-7)**  | 7  | No  |
 | **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  | No  |
 | **[LISTS](PROBLEMS.md/#lists-7)**  | 7  | No  |
 | **[DICTS](PROBLEMS.md/#dicts-8)**  | 8  | No  |

@@ -2,7 +2,7 @@
 
 Listing of all problems defined
 
-## BASIC DATA TYPES (6)
+## BASIC DATA TYPES (7)
 <details>
 <summary>View Problems</summary>
 
@@ -38,7 +38,7 @@ Listing of all problems defined
 </details>
 
     
-### Basics (1)
+### Basics (2)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
@@ -46,6 +46,7 @@ Listing of all problems defined
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
 | [None](pset_basic_data_types/basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p1.ipynb) |
+| [Basic variables](pset_basic_data_types/basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p2.ipynb) |
 
 
 <br/><br/>
