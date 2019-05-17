@@ -5,11 +5,17 @@
         <script type="text/javascript">
             const {hash} = window.location
             const path = hash.slice(1)
-            const end = path.replace('.py', '.ipynb').split('/')
-            const fn = end.pop()
-            const finalpath = end.concat(['nb', fn]).join('/')
-            window.redirect_colab_url = `https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/${finalpath}`
-            window.location.href = window.redirect_colab_url;
+            if (!path) {
+                alert('No path detected! Please add something like "#pset_basic_data_types/shopping_list/p1.py" and HARD refresh to redirect to Google colab')
+            }
+            else {
+                const end = path.replace('.py', '.ipynb').split('/')
+                const fn = end.pop()
+                const finalpath = end.concat(['nb', fn]).join('/')
+                window.redirect_colab_url = `https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/${finalpath}`
+                window.location.href = window.redirect_colab_url;
+            }
+            
         </script>
         <title>Page Redirection</title>
     </head>
