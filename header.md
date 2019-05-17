@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/mottaquikarim/pydev-psets.svg?branch=master)](https://travis-ci.org/mottaquikarim/pydev-psets)

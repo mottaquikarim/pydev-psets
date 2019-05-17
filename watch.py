@@ -34,7 +34,8 @@ def get_file_blocks(files):
         # build the `**/nb/**.ipynb` path
         dir_ = "/".join(file.split('/')[:-1] + ['nb'])
         filename = file.split('/').pop().split('.')[0]
-        ipynb = "https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/" + dir_ + '/' + filename + '.ipynb'
+        ipynb = "https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/" + \
+            dir_ + '/' + filename + '.ipynb'
 
         fileblocks.append(f"""| [{docstring}]({file})  | [Notebook]({ipynb}) |""")
     fileblocks.append("")
@@ -78,6 +79,7 @@ def assemble_readme():
     header_ = [
         '# README',
         '',
+        f'{open('header.md', 'r').read()}',
         f'## Problems ({num_problems})',
         '',
     ]
