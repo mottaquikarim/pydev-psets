@@ -11,6 +11,7 @@ commit_to_git() {
   echo "IN commit_to_git"
   echo "----------------"
 
+  git remote add origin https://$GH_TOKEN@github.com/mottaquikarim/pydev-psets.git
   git checkout -f $TRAVIS_BRANCH 
 
   echo "CALL PY"
@@ -28,7 +29,7 @@ commit_to_git() {
 push_to_git() {
   echo "IN push_to_git"
   echo ${GH_TOKEN}
-  echo https://${GH_TOKEN}@github.com/mottaquikarim/pydev-psets.git
+  echo https://$GH_TOKEN@github.com/mottaquikarim/pydev-psets.git
   git push --quiet --set-upstream origin $TRAVIS_BRANCH
   echo "DONE push_to_git"
 }
