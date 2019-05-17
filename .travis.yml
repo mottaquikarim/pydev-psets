@@ -6,10 +6,10 @@ env:
   global:
     - GH_TOKEN=$GH_TOKEN
 before_install:
-  - chmod +x .travis/push.sh
+  - chmod +x push.sh
 # command to install dependencies
 install:
   - pip install -r requirements.dev.txt
 # command to run tests
 script:
-  - .travis/push.sh
+  - ./push.sh
