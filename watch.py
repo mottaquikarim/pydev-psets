@@ -25,12 +25,18 @@ def get_doc_str(file):
 
 def get_file_blocks(files):
     fileblocks = [
-        '| PSET Desc  |',
-        '| ------------- |',
+        '| PSET Desc  | Jupyter Notebook |',
+        '| ------------- | ------------- |',
     ]
     for i, file in enumerate(files):
         docstring = get_doc_str(file)
-        fileblocks.append(f"""| [{docstring}]({file})  |""")
+
+        # build the `**/nb/**.ipynb` path
+        dir_ = "/".join(file.split('/')[:-1] + ['nb'])
+        filename = file.split('/').pop().split('.')[0]
+        ipynb = "https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/" + dir_ + '/' + filename + '.ipynb'
+
+        fileblocks.append(f"""| [{docstring}]({file})  | [Notebook]({ipynb}) |""")
     fileblocks.append("")
     return "\n".join(fileblocks)
 
@@ -88,6 +94,7 @@ def assemble_readme():
             is_external = True
 
         for subk, subv in val.items():
+            print(subv)
             files = subv["files"]
             total_problems += len(files)
             subblocks += get_sub_blocks(subk, files, get_file_blocks(files))
@@ -122,14 +129,16 @@ class MyFileSystemEventHandler(FileSystemEventHandler):
 
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else '.'
-    event_handler = MyFileSystemEventHandler()
-    observer = Observer()
-    observer.schedule(event_handler, path, recursive=True)
-    observer.start()
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-    observer.join()
+    assemble_readme()
+
+    # path = sys.argv[1] if len(sys.argv) > 1 else '.'
+    # event_handler = MyFileSystemEventHandler()
+    # observer = Observer()
+    # observer.schedule(event_handler, path, recursive=True)
+    # observer.start()
+    # try:
+    #     while True:
+    #         time.sleep(1)
+    # except KeyboardInterrupt:
+    #     observer.stop()
+    # observer.join()
