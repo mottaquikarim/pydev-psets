@@ -21,11 +21,19 @@
     </head>
     <body>
         <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <span></span>.
+        <div>
+            If you are not redirected automatically, follow this <span></span>.
+        </div>
         <script>
-            document.querySelector('span').innerHTML = `
+            let str = "";
+            if (!window.redirect_colab_url) {
+                document.querySelector('div').innerHTML = 'No path detected! Please add something like "#pset_basic_data_types/shopping_list/p1.py" and HARD refresh to redirect to Google colab'
+            }
+            else {
+                document.querySelector('span').innerHTML = `
                 <a href='${window.redirect_colab_url}'>link to problem</a>
-            `
+                `   
+            }
         </script>
     </body>
 </html>
