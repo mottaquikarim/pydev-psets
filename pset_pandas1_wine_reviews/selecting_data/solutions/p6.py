@@ -4,7 +4,7 @@ Selecting Data VI - Min & Max (CHALLENGE!)
 
 import numpy as np
 import pandas as pd
-wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
+wine_reviews = pd.read_csv('../../winemag-data-130k.csv')
 
 
 # Find the 5 rows with the highest-priced wine and the 5 rows with the lowest-priced wine. Assign them to variables called 'a' and 'b' respectively. Print 'a' and 'b'.

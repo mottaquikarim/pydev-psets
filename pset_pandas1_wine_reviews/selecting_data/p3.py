@@ -4,7 +4,7 @@ Selecting Data III - Access Single Values
 
 import numpy as np
 import pandas as pd
-wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
+wine_reviews = pd.read_csv('../winemag-data-130k.csv')
 
 # Print the value in the 5th column of the 7th row.
 

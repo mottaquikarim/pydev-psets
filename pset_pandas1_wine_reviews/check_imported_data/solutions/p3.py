@@ -4,7 +4,7 @@ Checking Imported Data III - DataFrame Labels
 
 import numpy as np
 import pandas as pd
-wine_reviews = pd.read_csv('raw_data/winemag-data-130k.csv')
+wine_reviews = pd.read_csv('../../winemag-data-130k.csv')
 
 
 # Access the labels on the rows of data.
