@@ -16,18 +16,19 @@ item_name_4 = input('Name your fourth item: ')
 item_name_5 = input('Name your fifth item: ') 
 
 # use input() function and ask user to name prices
-item_price_1 = input(f'How much do {item_name_1} cost? ')
-item_price_2 = input(f'How much do {item_name_2} cost? ')
-item_price_3 = input(f'How much do {item_name_3} cost? ')
-item_price_4 = input(f'How much do {item_name_4} cost? ')
-item_price_5 = input(f'How much do {item_name_5} cost? ')
+item_price_1 = float(input(f'How much do {item_name_1} cost? '))
+item_price_2 = float(input(f'How much do {item_name_2} cost? '))
+item_price_3 = float(input(f'How much do {item_name_3} cost? '))
+item_price_4 = float(input(f'How much do {item_name_4} cost? '))
+item_price_5 = float(input(f'How much do {item_name_5} cost? '))
+
 
 # use input() function and ask user to name quants
-item_quant_1 = input(f'How many of {item_name_1} do you need? ')
-item_quant_2 = input(f'How many of {item_name_2} do you need? ')
-item_quant_3 = input(f'How many of {item_name_3} do you need? ')
-item_quant_4 = input(f'How many of {item_name_4} do you need? ')
-item_quant_5 = input(f'How many of {item_name_5} do you need? ')
+item_quant_1 = int(input(f'How many of {item_name_1} do you need? '))
+item_quant_2 = int(input(f'How many of {item_name_2} do you need? '))
+item_quant_3 = int(input(f'How many of {item_name_3} do you need? '))
+item_quant_4 = int(input(f'How many of {item_name_4} do you need? '))
+item_quant_5 = int(input(f'How many of {item_name_5} do you need? '))
 
 # Print to the console the name and price of each item defined above as follows:
 # 1 Coco Puffs = $8.95.
