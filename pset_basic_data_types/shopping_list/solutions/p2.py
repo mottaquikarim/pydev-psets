@@ -37,3 +37,17 @@ item_quant_5 = input(f'How many of {item_name_5} do you need? ')
 # 8.95 would be item_name_2
 
 # JUST REMEMBER: now this will be defined by the user!!
+
+item_price_1 = format(item_price_1 * item_quant_1, '.2f')
+item_price_2 = format(item_price_2 * item_quant_2, '.2f')
+item_price_3 = format(item_price_3 * item_quant_3, '.2f')
+item_price_4 = format(item_price_4 * item_quant_4, '.2f')
+item_price_5 = format(item_price_5 * item_quant_5, '.2f')
+
+print(f'''
+{item_quant_1} {item_name_1} = ${item_price_1}
+{item_quant_2} {item_name_2} = ${item_price_2}
+{item_quant_3} {item_name_3} = ${item_price_3}
+{item_quant_4} {item_name_4} = ${item_price_4}
+{item_quant_5} {item_name_5} = ${item_price_5}
+''')

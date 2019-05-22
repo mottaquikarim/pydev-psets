@@ -14,11 +14,11 @@ item_name_5 = 'walnuts'
 # Create five more variables,
 # set them to floats that represent the prices of each of the items above
 
-item_price_1 = format(1.50, '.2f')
-item_price_2 = format(6.99, '.2f')
-item_price_3 = format(11.99, '.2f')
-item_price_4 = format(9.00, '.2f')
-item_price_5 = format(7.50, '.2f')
+item_price_1 = 1.50
+item_price_2 = 6.99
+item_price_3 = 4.99
+item_price_4 = 9.00
+item_price_5 = 7.50
 
 # Create five more variables,
 # set them to ints that represent the quantity of each of the items above
@@ -35,6 +35,12 @@ item_quant_5 = 1
 # 1 would be item_quant_1
 # Coco Puffs would be item_name_1
 # 8.95 would be item_name_2
+
+item_price_1 = format(item_price_1 * item_quant_1, '.2f')
+item_price_2 = format(item_price_2 * item_quant_2, '.2f')
+item_price_3 = format(item_price_3 * item_quant_3, '.2f')
+item_price_4 = format(item_price_4 * item_quant_4, '.2f')
+item_price_5 = format(item_price_5 * item_quant_5, '.2f')
 
 print(f'''
 {item_quant_1} {item_name_1} = ${item_price_1}
