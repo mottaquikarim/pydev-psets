@@ -7,6 +7,7 @@ Shopping List Calculator II
 item_name_1 = input('Name your first item') 
 	# ^ this will ask user to input value of item_name_1
 
+
 # use input() function and ask user to name items
 item_name_1 = None
 item_name_2 = None
