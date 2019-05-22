@@ -1,14 +1,20 @@
 """
-Play RPS against Computer
+Play RPS w/Bad Input
 """
 
-p1 = None  # from user input - we still want validation from above!
-p2 = None  # randomly generated against computer
+p1 = None  # can be invalid!
+p2 = None  # can be invalid!
 
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
+"""
+This is the same as the original RPS problem, 
+except that cannot expect the input to be valid. 
+While we *want* `r` or `p` or `s`, there is a possibility 
+that input can be anything like...
+
+* `ROCK` (all caps)
+* `R` (`r` but capitalized)
+* `PAPrrRR` (incorrectly spelled, upper/lowercased)
+
+Implement conditional statements that will sanitize the 
+user input or let user know that input is invalid.
+"""

@@ -1,44 +1,58 @@
 """
-Play RPS against Computer
+Play RPS w/Bad Input
 """
 
-p1 = None  # from user input - we still want validation from above!
-p2 = None  # randomly generated against computer
+p1 = None  # can be invalid!
+p2 = None  # can be invalid!
 
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
+"""
+This is the same as the original RPS problem, 
+except that cannot expect the input to be valid. 
+While we *want* `r` or `p` or `s`, there is a possibility 
+that input can be anything like...
+
+* `ROCK` (all caps)
+* `R` (`r` but capitalized)
+* `PAPrrRR` (incorrectly spelled, upper/lowercased)
+
+Implement conditional statements that will sanitize the 
+user input or let user know that input is invalid.
+"""
 
 
-import random
+p1 = input('Choose r, p , or s, Player 1: ')  # from user input
+p2 = input('Choose r, p , or s, Player 2: ')  # from user input
 
 
-# obtain and validate user value
-p1 = input('Choose r, p , or s, Player 1: ')
+##### with data that must be corrected by user
+
+p1 = 'R'
+p2 = 'ROCK'
+
 p1 = p1.lower()
+p2 = p2.lower()
+
+
 if p1 == 'r' or 'p' or 's':
     val1 = True
 else:
 	print("Player 1, please enter 'r', 'p', or 's' in the correct format.")
 
-
-# generate computer value
-import random
-
-p2 = random.randint(1, 3)
-if p2 == 1:
-    p2 = 'r'
-elif p2 == 2:
-    p2 = 'p'
+if p2 == 'r' or 'p' or 's':
+    val2 = True
 else:
-    p2 = 's'
+	print("Player 2, please enter 'r', 'p', or 's' in the correct format.")
 
 
-# game play logic
+
+#### with data that can be sanitized
+
+p1 = 'R'
+p2 = 'p'
+
+p1 = p1.lower()
+p2 = p2.lower()
+
 if p1 == p2:
     print(0)
 elif p1 == 'r' and p2 == 's':

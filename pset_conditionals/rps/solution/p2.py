@@ -1,11 +1,20 @@
 """
-Play RPS w/Computer
+Have two computers play RPS
 """
 
-import random
+# Given a p1 and p2
+# print 1 if p1 has won
+# print 2 if p2 has won
+# print 0 if tie
+# print -1 if invalid input
+# expects both p1 and p2 inputs to be either
+# "r", "p", or "s"
 
-p1 = random.randint(1, 3)  # randomly choose 'r' or 'p' or 's'
-p2 = random.randint(1, 3)  # randomly choose 'r' or 'p' or 's'
+
+from random import randint
+
+p1 = randint(1, 3)  # randomly choose 'r' or 'p' or 's'
+p2 = randint(1, 3)  # randomly choose 'r' or 'p' or 's'
 
 if p1 == 1:
     p1val = 'r'
@@ -37,12 +46,3 @@ elif p1val == 's' and p2val == 'r':
     print(2)
 elif p1val == 's' and p2val == 'p':
     print(1)
-
-
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"

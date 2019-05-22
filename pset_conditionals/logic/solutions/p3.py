@@ -10,8 +10,6 @@ Any Uppercase
 str1 = 'teSt'
 str2 = 'test'
 
-
-
 if str1.islower() == True:
 	print('Y')
 else:

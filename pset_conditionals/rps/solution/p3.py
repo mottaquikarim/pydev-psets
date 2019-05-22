@@ -2,8 +2,8 @@
 Play RPS w/Input
 """
 
-p1 = input('player 1 choice')  # from user input
-p2 = input('player 2 choice')  # from user input
+p1 = input('player 1 choice: ')  # from user input
+p2 = input('player 2 choice: ')  # from user input
 
 if p1 == p2:
     print(0)
