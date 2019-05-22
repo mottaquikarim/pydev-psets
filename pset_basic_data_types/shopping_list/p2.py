@@ -4,7 +4,7 @@ Shopping List Calculator II
 
 # Rewrite p1, but this time use the input() command to solicit user input for name, price, quantity. Here's how it works:
 
-item_name_1 = input('Name your first item') 
+item_name_1 = input('Name your first item: ') 
 	# ^ this will ask user to input value of item_name_1
 
 # use input() function and ask user to name items

@@ -16,9 +16,9 @@ item_name_5 = 'walnuts'
 
 item_price_1 = format(1.50, '.2f')
 item_price_2 = format(6.99, '.2f')
-item_price_3 = format(3.99, '.2f')
-item_price_4 = format(5.00, '.2f')
-item_price_5 = format(8.50, '.2f')
+item_price_3 = format(11.99, '.2f')
+item_price_4 = format(9.00, '.2f')
+item_price_5 = format(7.50, '.2f')
 
 # Create five more variables,
 # set them to ints that represent the quantity of each of the items above
