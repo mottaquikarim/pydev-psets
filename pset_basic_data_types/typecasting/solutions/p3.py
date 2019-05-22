@@ -1,5 +1,5 @@
 """
-Booleans I - Typecasting w. Numbers
+Typecasting Booleans I
 """
 
 # A) Use typecasting to turn these variables into boolean values. Print the result and the datatype of the result. 
@@ -30,7 +30,7 @@ zero = bool(zero)
 print(one, type(one)) # True <class 'bool'>
 print(zero, type(zero)) # False <class 'bool'>
 
-# C) Use typecasting to turn the resultant variables from part C into integers. Print the result and the datatype of the result.
+# D) Use typecasting to turn the resultant variables from part C into integers. Print the result and the datatype of the result.
 
 one = int(one)
 zero = int(zero)
