@@ -18,8 +18,8 @@
 | **[DICTS](PROBLEMS.md/#dicts-8)**  | 8  | No  |
 | **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  | No  |
 | **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
-| **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |
 | **[LISTS](PROBLEMS.md/#lists-7)**  | 7  | No  |
+| **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |
 | **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS1 WINE REVIEWS](PROBLEMS.md/#pandas1-wine-reviews-26)**  | 26  | No  |
 | **[PANDAS EXT](PROBLEMS.md/#pandas-ext-74)**  | 74  | [Yes](exports/pset_pandas_ext)  |
