@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb4028d7.chunk.css",
-    "main.js": "/static/js/main.86e0f5bc.chunk.js",
-    "main.js.map": "/static/js/main.86e0f5bc.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.23a4a6bf.chunk.js": "/static/js/2.23a4a6bf.chunk.js",
-    "static/js/2.23a4a6bf.chunk.js.map": "/static/js/2.23a4a6bf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d28bbcf478b59fa1825183d1d83b13e3.js": "/precache-manifest.d28bbcf478b59fa1825183d1d83b13e3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.eb4028d7.chunk.css.map": "/static/css/main.eb4028d7.chunk.css.map"
+    "main.css": "/pydev-psets/generate-pset/build/static/css/main.eb4028d7.chunk.css",
+    "main.js": "/pydev-psets/generate-pset/build/static/js/main.86e0f5bc.chunk.js",
+    "main.js.map": "/pydev-psets/generate-pset/build/static/js/main.86e0f5bc.chunk.js.map",
+    "runtime~main.js": "/pydev-psets/generate-pset/build/static/js/runtime~main.966b980f.js",
+    "runtime~main.js.map": "/pydev-psets/generate-pset/build/static/js/runtime~main.966b980f.js.map",
+    "static/js/2.23a4a6bf.chunk.js": "/pydev-psets/generate-pset/build/static/js/2.23a4a6bf.chunk.js",
+    "static/js/2.23a4a6bf.chunk.js.map": "/pydev-psets/generate-pset/build/static/js/2.23a4a6bf.chunk.js.map",
+    "index.html": "/pydev-psets/generate-pset/build/index.html",
+    "precache-manifest.f6502a69b60f85ec1e7af6759949d2a7.js": "/pydev-psets/generate-pset/build/precache-manifest.f6502a69b60f85ec1e7af6759949d2a7.js",
+    "service-worker.js": "/pydev-psets/generate-pset/build/service-worker.js",
+    "static/css/main.eb4028d7.chunk.css.map": "/pydev-psets/generate-pset/build/static/css/main.eb4028d7.chunk.css.map"
   }
 }

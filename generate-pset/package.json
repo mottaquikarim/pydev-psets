@@ -19,6 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://mottaquikarim.github.io/pydev-psets/generate-pset/build",
   "browserslist": {
     "production": [
       ">0.2%",
