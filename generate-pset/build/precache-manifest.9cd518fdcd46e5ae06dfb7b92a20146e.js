@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba32f60e0ef8a0d4ac1ece3f0e77357a",
+    "revision": "6260601da59f89faddae96247bf0f3ad",
     "url": "/pydev-psets/generate-pset/build/index.html"
   },
   {
-    "revision": "18909bd452fee7149b46",
+    "revision": "676b962e05893043025b",
     "url": "/pydev-psets/generate-pset/build/static/css/main.eb4028d7.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pydev-psets/generate-pset/build/static/js/2.23a4a6bf.chunk.js"
   },
   {
-    "revision": "18909bd452fee7149b46",
-    "url": "/pydev-psets/generate-pset/build/static/js/main.86e0f5bc.chunk.js"
+    "revision": "676b962e05893043025b",
+    "url": "/pydev-psets/generate-pset/build/static/js/main.4d43ac4a.chunk.js"
   },
   {
     "revision": "4034315744ed0c802294",

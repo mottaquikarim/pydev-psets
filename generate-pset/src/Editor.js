@@ -139,6 +139,9 @@ export default class Editor extends React.Component {
 
                 <button className="input-btn"
                     onClick={this.save}>Save</button>
+
+                <button className="input-btn"
+                    onClick={this.clear}>Clear</button>
             </div>
             <div className="wrapper-flex-right" style={{
                 'width': '85%',
@@ -156,6 +159,10 @@ export default class Editor extends React.Component {
     }
     goBack = e => {
         this.props.prevStateMode();
+    }
+    clear = e => {
+        this.storage.removeItem('content')
+        alert('cleared your content, now hit the BACK button to go back and create additional PSETs')
     }
 
     save = e => {

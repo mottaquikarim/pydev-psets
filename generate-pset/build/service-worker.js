@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pydev-psets/generate-pset/build/precache-manifest.f6502a69b60f85ec1e7af6759949d2a7.js"
+  "/pydev-psets/generate-pset/build/precache-manifest.9cd518fdcd46e5ae06dfb7b92a20146e.js"
 );
 
 self.addEventListener('message', (event) => {

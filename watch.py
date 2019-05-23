@@ -4,8 +4,6 @@ import time
 
 
 import glob
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 
 from get_psets import _get_psets
 
@@ -121,12 +119,6 @@ def assemble_readme():
     f = open("PROBLEMS.md", "w")
     f.write("\n".join(str_))
     f.close()
-
-
-class MyFileSystemEventHandler(FileSystemEventHandler):
-    def on_any_event(self, evt):
-        assemble_readme()
-
 
 if __name__ == "__main__":
     assemble_readme()
