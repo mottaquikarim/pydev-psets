@@ -1,8 +1,15 @@
 """
-CHALLENGE - Extensions
+Cool Runnings!
 """
 
-# ** Challenge** Add each element of the tuple1 to list1 *individually* and print the result.
+# Here's a quote from the movie 'Cool Runnings'. :)
 
-list1 = [6, 12, 9, 4, 10, 1]
-tuple1 = [(15,3), (6,2), (1, 8)]
+# Replace the word bobsled with "YOLO" and print the resultant list as 4 sentences (i.e. NOT a list), each on a new line.
+
+cool_runnings = [
+	'Feel', 'the', 'rhythm.',
+	'Feel', 'the', 'rhyme.',
+	'Get', 'on', 'up.',
+	'It\'s', 'bobsled', 'time!'
+]
+
