@@ -1,32 +1,30 @@
 """
-Cool Runnings!
+Math Operations
 """
 
-cool_runnings = [
-	'Feel', 'the', 'rhythm.',
-	'Feel', 'the', 'rhyme.',
-	'Get', 'on', 'up.',
-	'It\'s', 'bobsled', 'time!'
-]
+# Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`. Use this variable for all the problems in this PSET.
 
-bobsled = cool_runnings.index('bobsled')
-cool_runnings[bobsled] = 'YOLO'
+numbers = [2, 4, 6, 8]
 
-l1 = cool_runnings[:3]
-l1 = ' '.join(l1)
+# Print the max of `numbers`.
+print(max(numbers))
 
-l2 = cool_runnings[3:6]
-l2 = ' '.join(l2)
+# Pop the last element in `numbers` off; re-insert it at index `2`.
 
-l3 = cool_runnings[6:9]
-l3 = ' '.join(l3)
 
-l4 = cool_runnings[9:12]
-l4 = ' '.join(l4)
 
-print(f'''
-{l1}
-{l2}
-{l3}
-{l4}
-''')
+# Pop the second number in `numbers` off.
+print(numbers.pop(1))
+
+
+# Append `3` to `numbers`.
+print(numbers.append(3))
+
+
+# Print out the average number.
+avg = sum(numbers) / len(numbers)
+print(avg)
+
+
+# Print `numbers`.
+print(numbers)
