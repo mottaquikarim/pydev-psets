@@ -13,11 +13,11 @@
 | PSET Name  | Num Problems | External? |
 | ------------- | ------------- | ------------- |
 | **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-11)**  | 11  | No  |
+| **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  | No  |
 | **[CHALLENGING EXT](PROBLEMS.md/#challenging-ext-100)**  | 100  | [Yes](exports/pset_challenging_ext)  |
 | **[CLASSES](PROBLEMS.md/#classes-29)**  | 29  | No  |
-| **[CONDITIONALS](PROBLEMS.md/#conditionals-12)**  | 12  | No  |
-| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
 | **[DICTS](PROBLEMS.md/#dicts-8)**  | 8  | No  |
+| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
 | **[LISTS](PROBLEMS.md/#lists-7)**  | 7  | No  |
 | **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |

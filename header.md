@@ -5,3 +5,5 @@
 *🎉🎈🎂🍾🎊🍻💃*
 
 *Hand crafted and script harvested python problems presented as `.py` files and `.ipynb` jupyter notebooks*
+
+(**[PSET Generator](https://mottaquikarim.github.io/pydev-psets/generate-pset/build/index.html)**)

@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-field {
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+    display: block;
+    width: 350px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    max-height: 30px;
+}
+
+.input-field-sm {
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-btn {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.pset-wrap {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.pset-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+}
+
+.pset-title-sub {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.wrapper-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-flex-left {
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.wrapper-flex-right {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+
