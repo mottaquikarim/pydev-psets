@@ -1,6 +1,14 @@
 """
-Core Statistics Calculations - SOLUTION
+Basic Math Ops
 """
+
+# Given the list below, assign the correct values to the variables below.
+	# my_sum = 
+	# my_min = 
+	# my_max = 
+	# my_range = 
+	# my_mean =
+
 
 import statistics
 
@@ -11,11 +19,6 @@ my_min = min(nums)
 my_max = max(nums)
 my_range = max(nums) - min(nums)
 my_mean = my_sum / len(nums)
-my_median = statistics.median_grouped(nums)
-my_mode = statistics.mode(nums)
-my_variance = statistics.variance(nums, my_mean)
-my_stdev = statistics.stdev(nums, my_mean)
-
 
 print(f'''
   sum = {my_sum}
@@ -25,9 +28,5 @@ print(f'''
   mean = {my_mean}
 ''')
 
-print(f'''
-  median = {my_median}
-  mode = {my_mode}
-  variance = {my_variance}
-  standard deviation = {my_stdev}
-''')
+
+# Once you finish, print out each value **on its own line** in this format: "sum = " etc.
