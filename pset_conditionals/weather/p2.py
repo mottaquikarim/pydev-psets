@@ -4,12 +4,11 @@ Weather II - Precipitation
 
 # Repeat the same process as p1, using this new set of variables.
 
+sunny = True
+raining = True
+snowing = False
 
-is_it_raining = True
-is_it_snowing = False
-
-
-do_i_need_snow_boots = None
-can_i_skip_snow_boots = None
-do_i_need_rain_boots = None
-can_i_skip_rain_boots = None
+is_it_sunny = None
+is_there_precipitation = None
+is_it_sleeting = None
+is_there_rainbow = None

@@ -5,18 +5,18 @@ Weather II - Precipitation
 # Repeat the same process as p1, using this new set of variables.
 
 
-is_it_raining = True
-is_it_snowing = False
+sunny = True
+raining = True
+snowing = False
 
+is_it_sunny = sunny
+print(is_it_sunny) # True
 
-do_i_need_snow_boots = is_it_snowing # False
-print(do_i_need_snow_boots)
+is_there_precipitation = raining or snowing
+print(is_there_precipitation) # True
 
-can_i_skip_snow_boots = not is_it_snowing # True
-print(can_i_skip_snow_boots)
+is_it_sleeting = raining and snowing
+print(is_it_sleeting) # False
 
-do_i_need_rain_boots = is_it_raining # True
-print(do_i_need_rain_boots)
-
-can_i_skip_rain_boots = not is_it_raining # False
-print(can_i_skip_rain_boots)
+is_there_rainbow = raining and sunny
+print(is_there_rainbow) # True
