@@ -224,6 +224,28 @@ Listing of all problems defined
 </details>
 
     
+### Class basics (9)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Circle](pset_classes/class_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p4.ipynb) |
+| [Vehicles I ](pset_classes/class_basics/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p5.ipynb) |
+| [Rectangle](pset_classes/class_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p3.ipynb) |
+| [Vehicles II](pset_classes/class_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p6.ipynb) |
+| [Phone Contacts](pset_classes/class_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p2.ipynb) |
+| [Vehicles III](pset_classes/class_basics/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p7.ipynb) |
+| [Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p9.ipynb) |
+| [Dogs I - Breeds](pset_classes/class_basics/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p8.ipynb) |
+| [RGB to HEX](pset_classes/class_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Wedding guests (3)
 <details>
 <summary>View Problems</summary>
@@ -258,28 +280,6 @@ Listing of all problems defined
 </details>
 
     
-### Class basics (9)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Circle](pset_classes/class_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p4.ipynb) |
-| [Vehicles I ](pset_classes/class_basics/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p5.ipynb) |
-| [Rectangle](pset_classes/class_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p3.ipynb) |
-| [Vehicles II](pset_classes/class_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p6.ipynb) |
-| [Phone Contacts](pset_classes/class_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p2.ipynb) |
-| [Vehicles III](pset_classes/class_basics/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p7.ipynb) |
-| [Dogs II - Tricks (CHALLENGE!)](pset_classes/class_basics/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p9.ipynb) |
-| [Dogs I - Breeds](pset_classes/class_basics/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p8.ipynb) |
-| [RGB to HEX](pset_classes/class_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Fromagerie (6)
 <details>
 <summary>View Problems</summary>
@@ -304,11 +304,105 @@ Listing of all problems defined
 
     
 
+## CONDITIONALS (15)
+<details>
+<summary>View Problems</summary>
+
+
+### Logic (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Empty Strings](pset_conditionals/logic/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p4.ipynb) |
+| [truthTableEvaluator](pset_conditionals/logic/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p5.ipynb) |
+| [Any Uppercase](pset_conditionals/logic/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p3.ipynb) |
+| [Sign of Product](pset_conditionals/logic/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p2.ipynb) |
+| [Calculate Grade](pset_conditionals/logic/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Random nums (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Generate Phone Number w/Area Code](pset_conditionals/random_nums/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/random_nums/nb/p2.ipynb) |
+| [Generate Traffic Light](pset_conditionals/random_nums/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/random_nums/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Rps (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Play RPS against Computer](pset_conditionals/rps/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p4.ipynb) |
+| [Play RPS w/Bad Input](pset_conditionals/rps/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p5.ipynb) |
+| [Play RPS w/Input](pset_conditionals/rps/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p3.ipynb) |
+| [Play RPS w/Computer](pset_conditionals/rps/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p2.ipynb) |
+| [Play RPS](pset_conditionals/rps/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Weather (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Weather III - Describe Conditions](pset_conditionals/weather/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p3.ipynb) |
+| [Weather II - Precipitation](pset_conditionals/weather/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p2.ipynb) |
+| [Weather I - Do you need boots?](pset_conditionals/weather/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
 ## FUNCTIONS (16)
 <details>
 <summary>View Problems</summary>
 
 
+### Data manipulation (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
+| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
+| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
+| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Basic function ops (5)
 <details>
 <summary>View Problems</summary>
@@ -321,23 +415,6 @@ Listing of all problems defined
 | [Function Basics III - Default Arguments](pset_functions/basic_function_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/basic_function_ops/nb/p3.ipynb) |
 | [Function Basics II - Arguments](pset_functions/basic_function_ops/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/basic_function_ops/nb/p2.ipynb) |
 | [Function Basics I - No Input](pset_functions/basic_function_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/basic_function_ops/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Data manipulation (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
-| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
-| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
-| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -452,84 +529,7 @@ Listing of all problems defined
 
     
 
-## CONDITIONALS (15)
-<details>
-<summary>View Problems</summary>
-
-
-### Logic (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Empty Strings](pset_conditionals/logic/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p4.ipynb) |
-| [truthTableEvaluator](pset_conditionals/logic/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p5.ipynb) |
-| [Any Uppercase](pset_conditionals/logic/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p3.ipynb) |
-| [Sign of Product](pset_conditionals/logic/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p2.ipynb) |
-| [Calculate Grade](pset_conditionals/logic/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/logic/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Random nums (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Generate Phone Number w/Area Code](pset_conditionals/random_nums/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/random_nums/nb/p2.ipynb) |
-| [Generate Traffic Light](pset_conditionals/random_nums/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/random_nums/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Rps (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Play RPS against Computer](pset_conditionals/rps/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p4.ipynb) |
-| [Play RPS w/Bad Input](pset_conditionals/rps/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p5.ipynb) |
-| [Play RPS w/Input](pset_conditionals/rps/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p3.ipynb) |
-| [Play RPS w/Computer](pset_conditionals/rps/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p2.ipynb) |
-| [Play RPS](pset_conditionals/rps/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Weather (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Weather III - Describe Conditions](pset_conditionals/weather/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p3.ipynb) |
-| [Weather II - Precipitation](pset_conditionals/weather/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p2.ipynb) |
-| [Weather I - Do you need boots?](pset_conditionals/weather/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/weather/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
-## LISTS (7)
+## LISTS (10)
 <details>
 <summary>View Problems</summary>
 
@@ -541,26 +541,29 @@ Listing of all problems defined
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [Spotify Playlists - Sorting](pset_lists/list_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p4.ipynb) |
-| [Cool Runnings!](pset_lists/list_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p3.ipynb) |
-| [Core Statistics Calculations](pset_lists/list_ops/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p2.ipynb) |
-| [Basic List Operations](pset_lists/list_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p1.ipynb) |
+| [Ordering Random Numbers](pset_lists/list_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p4.ipynb) |
+| [Math Operations](pset_lists/list_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p3.ipynb) |
+| [Basic List Operations II](pset_lists/list_ops/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p2.ipynb) |
+| [Basic List Operations I](pset_lists/list_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_ops/nb/p1.ipynb) |
 
 
 <br/><br/>
 </details>
 
     
-### List manipulation (3)
+### List manipulation (6)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [CHALLENGE - Extensions](pset_lists/list_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p3.ipynb) |
-| [Phone Numbers](pset_lists/list_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p2.ipynb) |
-| [Merge Lists with Duplicates](pset_lists/list_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p1.ipynb) |
+| [Spotify Playlists - Sorting](pset_lists/list_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p4.ipynb) |
+| [Cool Runnings!](pset_lists/list_manipulation/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p5.ipynb) |
+| [Merge Lists with Duplicates](pset_lists/list_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p3.ipynb) |
+| [CHALLENGE - Extensions](pset_lists/list_manipulation/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p6.ipynb) |
+| [Core Statistics Calculations](pset_lists/list_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p2.ipynb) |
+| [Phone Numbers](pset_lists/list_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -586,37 +589,6 @@ Listing of all problems defined
 | ------------- | ------------- |
 | [Control Flow II](pset_loops/control_flow/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/control_flow/nb/p2.ipynb) |
 | [Control Flow - I](pset_loops/control_flow/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/control_flow/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Loop challenges (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
-| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Shapes (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
-| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
-| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -652,6 +624,37 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Loop challenges (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
+| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Shapes (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
+| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
+| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -712,23 +715,6 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
-### Check imported data (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Checking Imported Data IV - Preview Data](pset_pandas1_wine_reviews/check_imported_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p4.ipynb) |
-| [Checking Imported Data III - DataFrame Labels](pset_pandas1_wine_reviews/check_imported_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p3.ipynb) |
-| [Checking Imported Data II - How Big is the Data?](pset_pandas1_wine_reviews/check_imported_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p2.ipynb) |
-| [Checking Imported Data I - Data Dictionary](pset_pandas1_wine_reviews/check_imported_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Data cleaning (11)
 <details>
 <summary>View Problems</summary>
@@ -753,19 +739,17 @@ Listing of all problems defined
 </details>
 
     
-### Selecting data (6)
+### Check imported data (4)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [Selecting Data IV - Access Slices](pset_pandas1_wine_reviews/selecting_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p4.ipynb) |
-| [Selecting Data V - Subsets](pset_pandas1_wine_reviews/selecting_data/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p5.ipynb) |
-| [Selecting Data III - Access Single Values](pset_pandas1_wine_reviews/selecting_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p3.ipynb) |
-| [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p6.ipynb) |
-| [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p2.ipynb) |
-| [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p1.ipynb) |
+| [Checking Imported Data IV - Preview Data](pset_pandas1_wine_reviews/check_imported_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p4.ipynb) |
+| [Checking Imported Data III - DataFrame Labels](pset_pandas1_wine_reviews/check_imported_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p3.ipynb) |
+| [Checking Imported Data II - How Big is the Data?](pset_pandas1_wine_reviews/check_imported_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p2.ipynb) |
+| [Checking Imported Data I - Data Dictionary](pset_pandas1_wine_reviews/check_imported_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -781,6 +765,25 @@ Listing of all problems defined
 | ------------- | ------------- |
 | [Exploratory Data Analysis II - Unique Values](pset_pandas1_wine_reviews/eda/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/eda/nb/p2.ipynb) |
 | [Exploratory Data Analysis I - Core Stats Summary](pset_pandas1_wine_reviews/eda/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/eda/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Selecting data (6)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Selecting Data IV - Access Slices](pset_pandas1_wine_reviews/selecting_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p4.ipynb) |
+| [Selecting Data V - Subsets](pset_pandas1_wine_reviews/selecting_data/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p5.ipynb) |
+| [Selecting Data III - Access Single Values](pset_pandas1_wine_reviews/selecting_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p3.ipynb) |
+| [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p6.ipynb) |
+| [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p2.ipynb) |
+| [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -837,7 +840,6 @@ Listing of all problems defined
 | [47. How to format or suppress scientific notations in a pandas dataframe?](pset_pandas_ext/101problems/p47.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p47.ipynb) |
 | [13. How to find the positions of numbers that are multiples of 3 from a series?](pset_pandas_ext/101problems/p13.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p13.ipynb) |
 | [65. How to compute the correlation of each row with the suceeding row?](pset_pandas_ext/101problems/p64.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p64.ipynb) |
-| [75. How to split a text column into two separate columns?](pset_pandas_ext/101problems/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p74.ipynb) |
 | [69. How to compute grouped mean on pandas dataframe and keep the grouped column as another column (not index)?](pset_pandas_ext/101problems/p68.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p68.ipynb) |
 | [72. How to get the positions where values of two columns match?](pset_pandas_ext/101problems/p71.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p71.ipynb) |
 | [5. How to assign name to the series’ index?](pset_pandas_ext/101problems/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p5.ipynb) |
@@ -877,15 +879,12 @@ Listing of all problems defined
 | [64. How to normalize all columns in a dataframe?](pset_pandas_ext/101problems/p63.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p63.ipynb) |
 | [22. How to get the day of month, week number, day of year and day of week from a series of date strings?](pset_pandas_ext/101problems/p22.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p22.ipynb) |
 | [44. How to select a specific column from a dataframe as a dataframe instead of a series?](pset_pandas_ext/101problems/p44.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p44.ipynb) |
-| [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
 | [7. How to get the items not common to both series A and series B?](pset_pandas_ext/101problems/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p7.ipynb) |
-| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
 | [37. How to get the nrows, ncolumns, datatype, summary stats of each column of a dataframe? Also get the array and list equivalent.](pset_pandas_ext/101problems/p37.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p37.ipynb) |
 | [35. How to create a dataframe with rows as strides from a given series?](pset_pandas_ext/101problems/p35.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p35.ipynb) |
 | [67. How to get the particular group of a groupby dataframe by key?](pset_pandas_ext/101problems/p66.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p66.ipynb) |
 | [56. How to swap two rows of a dataframe?](pset_pandas_ext/101problems/p56.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p56.ipynb) |
 | [60. How to create a new column that contains the row number of nearest column by euclidean distance?](pset_pandas_ext/101problems/p59.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p59.ipynb) |
-| [8. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?](pset_pandas_ext/101problems/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p8.ipynb) |
 | [25. How to filter valid emails from a series?](pset_pandas_ext/101problems/p25.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p25.ipynb) |
 | [1. How to import pandas and check the version?](pset_pandas_ext/101problems/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p1.ipynb) |
 | [34. How to change column values when importing csv to a dataframe?](pset_pandas_ext/101problems/p34.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p34.ipynb) |
@@ -894,6 +893,10 @@ Listing of all problems defined
 | [50. How to create a primary key index by combining relevant columns?](pset_pandas_ext/101problems/p50.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p50.ipynb) |
 | [38. How to extract the row and column number of a particular cell with given criterion?](pset_pandas_ext/101problems/p38.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p38.ipynb) |
 | [51. How to get the row number of the nth largest value in a column?](pset_pandas_ext/101problems/p51.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p51.ipynb) |
+| [75. How to split a text column into two separate columns?](pset_pandas_ext/101problems/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p74.ipynb) |
+| [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
+| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
+| [8. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?](pset_pandas_ext/101problems/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p8.ipynb) |
 
 
 <br/><br/>
