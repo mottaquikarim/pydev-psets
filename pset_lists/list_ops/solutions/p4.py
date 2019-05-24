@@ -2,10 +2,23 @@
 Ordering Random Numbers
 """
 
-# Create a list of 6 randomly generated numbers called rand_nums and sort it in descending order.
+# Create a list of 6 randomly generated numbers called numbers and sort it in descending order.
 
 from random import randint
 
-rand_nums = randint(6)
+numbers = []
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
+numbers.append(randint(6, 100))
 
-sorted(rand_nums, reverse = True)
+print(f'Unsorted: {numbers}\n')
+
+
+numbers.sort(reverse = True)
+# OR... numbers = sorted(numbers, reverse = True)
+
+print(f'Sorted: {numbers}\n')

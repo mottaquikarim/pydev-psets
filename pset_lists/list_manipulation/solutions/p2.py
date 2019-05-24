@@ -1,5 +1,5 @@
 """
-Core Statistics Calculations
+Core Statistics Calculations - SOLUTION
 """
 
 import statistics

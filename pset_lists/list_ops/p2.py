@@ -3,7 +3,7 @@ Basic List Operations II
 """
 
 # Declare a list with 5 names, and print out the length of that list.
-
+names = None
 
 # Print the 3rd name on the list
 
