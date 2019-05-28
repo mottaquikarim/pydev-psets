@@ -9,7 +9,7 @@ numbers = None
 # Print the max of `numbers`.
 
 
-# Pop the last element in `numbers` off; re-insert it at index `2`.
+# Pop the last element in `numbers` off; re-insert it at index `2` and print the resultant list.
 
 
 
@@ -24,5 +24,3 @@ numbers = None
 # Print out the average number.
 
 
-
-# Print `numbers`.

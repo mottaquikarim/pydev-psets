@@ -20,6 +20,8 @@ my_max = max(nums)
 my_range = max(nums) - min(nums)
 my_mean = my_sum / len(nums)
 
+# Once you finish, print out each value **on its own line** in this format: "sum = " etc.
+
 print(f'''
   sum = {my_sum}
   min = {my_min}
@@ -27,6 +29,3 @@ print(f'''
   range = {my_range}
   mean = {my_mean}
 ''')
-
-
-# Once you finish, print out each value **on its own line** in this format: "sum = " etc.

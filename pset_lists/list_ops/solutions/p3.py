@@ -2,32 +2,30 @@
 Math Operations
 """
 
-# Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`. Use this variable for all the problems in this PSET.
+# A) Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`. Use this variable for all the problems in this PSET.
 
 numbers = [2, 4, 6, 8]
-print(numbers, '\n')
+print('A)', numbers)
 
-# Print the max of `numbers`.
-print(max(numbers), '\n')
+# B) Print the max of `numbers`.
+print('B)', max(numbers)) # 8
 
-# Pop the last element in `numbers` off; re-insert it at index `2`.
+
+# C) Pop the last element in `numbers` off; re-insert it at index `2` and print the resultant list.
 removed = numbers.pop()
-print(removed)
 numbers.insert(2, removed)
-print(numbers, '\n')
-
-# Pop the second number in `numbers` off.
-print(numbers.pop(1), '\n')
+print('C)', numbers) # [2, 4, 8, 6]
 
 
-# Append `3` to `numbers`.
+# D) Pop the second number in `numbers` off.
+print('D)', numbers.pop(1)) # 4
+
+
+# E) Append `3` to `numbers`.
 numbers.append(3)
+print('E)', numbers) # [2, 8, 6, 3]
 
 
-# Print out the average number.
+# F) Print out the average number.
 avg = sum(numbers) / len(numbers)
-print(avg, '\n')
-
-
-# Print `numbers`.
-print(numbers)
+print('F)', avg) # 4.75

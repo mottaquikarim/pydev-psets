@@ -2,27 +2,28 @@
 Basic List Operations II
 """
 
-# Declare a list with 5 names, and print out the length of that list.
+# A) Declare a list with 5 names, and print out the length of that list.
 names = ['Alana', 'Christen', 'Priya', 'Raina', 'Stacey']
-print(names, '\n')
+print('A)', names)
 
-# Print the 3rd name on the list
-print('2nd name:', names[2])
+# B) Print the 3rd name on the list
+print('B)', names[2]) # Priya
 
 
-# Delete the first name on the list
+# C) Delete the first name on the list
 removed = names.pop(0)
-print(f'Pop: {removed} \n')
+print('C)', removed) # Alana
+print(names) # ['Christen', 'Priya', 'Raina', 'Stacey']
 
 
-# Re-add the name you deleted to the end of the list
+# D) Re-add the name you deleted to the end of the list
 names.append(removed)
-print(names, '\n')
+print('D)', names) # ['Christen', 'Priya', 'Raina', 'Stacey', 'Alana']
 
-# Replace the 2nd name on the list with a new name.
+# E) Replace the 2nd name on the list with a new name.
 names.insert(1, 'Natasha')
-print(names, '\n')
+print('E)', names) # ['Christen', 'Natasha', 'Priya', 'Raina', 'Stacey', 'Alana']
 
-# Add 3 new names to the end of the list.
+# F) Add 3 new names to the end of the list.
 names.extend(['Christen', 'Anvesh', 'Taqqui'])
-print(names)
+print('F)', names) # ['Christen', 'Natasha', 'Priya', 'Raina', 'Stacey', 'Alana', 'Christen', 'Anvesh', 'Taqqui']
