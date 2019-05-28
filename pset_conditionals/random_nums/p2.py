@@ -3,7 +3,7 @@ Generate Phone Number w/Area Code
 """
 
 # import python randomint package
-import random
+
 
 # generate a random phone number of the form:
 # 1-718-786-2825
