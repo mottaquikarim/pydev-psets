@@ -14,11 +14,6 @@ users = {
 }
 
 
-# A user enters the below login info (email and password) for your app. Search your database of 
-
-
-	# .haskey ? ; if True: print('Successful login!')
-
-
+# A user enters the below login info (email and password) for your app. Search your database of user logins to see if this account exists and if the password matches what you have on file. If the login credentials are correct, print "Successful login!". Otherwise, print "The login info you entered does not match any of our records."
 
 current_user = { 'me@email.com': 'myPassword' }
