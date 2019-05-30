@@ -25,6 +25,6 @@ my_stdev = statistics.stdev(sample, my_mean)
 print(f'''
   median = {my_median}
   mode = {my_mode}
-  variance = {my_variance}
-  standard deviation = {my_stdev}
+  variance = {format(my_variance, '.2f')}
+  standard deviation = {format(my_stdev, '.2f')}
 ''')
