@@ -2,8 +2,6 @@
 Math with Girl Scout Cookies
 """
 
-# Please use all provided vars for these problems so that the tests work seamlessly!
-
 # Print out the number of boxes of girl scout cookies that each girl in the troop sold in the below format:
 	# Wendy: _____
 	# Connie: _____
