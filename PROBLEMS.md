@@ -205,24 +205,6 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
-### Class basics 2 (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Person class](pset_classes/class_basics_2/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p4.ipynb) |
-| [Vehicle class](pset_classes/class_basics_2/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p5.ipynb) |
-| [Student class](pset_classes/class_basics_2/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p3.ipynb) |
-| [Cat class](pset_classes/class_basics_2/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p2.ipynb) |
-| [Dog Class](pset_classes/class_basics_2/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Class basics (9)
 <details>
 <summary>View Problems</summary>
@@ -261,6 +243,24 @@ Listing of all problems defined
 </details>
 
     
+### Class basics 2 (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Person class](pset_classes/class_basics_2/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p4.ipynb) |
+| [Vehicle class](pset_classes/class_basics_2/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p5.ipynb) |
+| [Student class](pset_classes/class_basics_2/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p3.ipynb) |
+| [Cat class](pset_classes/class_basics_2/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p2.ipynb) |
+| [Dog Class](pset_classes/class_basics_2/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics_2/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 
 </details>
 
@@ -286,6 +286,22 @@ Listing of all problems defined
 </details>
 
     
+### Dict manip ops (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
+| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
+| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Dict basics (4)
 <details>
 <summary>View Problems</summary>
@@ -297,22 +313,6 @@ Listing of all problems defined
 | [Merging Dicts](pset_dicts/dict_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p3.ipynb) |
 | [Predators & Prey](pset_dicts/dict_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p2.ipynb) |
 | [Intro to Dict Concepts](pset_dicts/dict_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Dict manip ops (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
-| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
-| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -512,24 +512,6 @@ Listing of all problems defined
 </details>
 
     
-### List manipulation (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Basic Math Ops](pset_lists/list_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p2.ipynb) |
-| [Phone Numbers](pset_lists/list_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p1.ipynb) |
-| [Spotify Playlists - Sorting](pset_lists/list_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p4.ipynb) |
-| [Cool Runnings!](pset_lists/list_manipulation/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p5.ipynb) |
-| [Merge Lists with Duplicates](pset_lists/list_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p3.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### List ops (4)
 <details>
 <summary>View Problems</summary>
@@ -547,44 +529,18 @@ Listing of all problems defined
 </details>
 
     
-
-</details>
-
-    
-
-## PANDAS1 BASICS (8)
-<details>
-<summary>View Problems</summary>
-
-
-### Ndarrs (5)
+### List manipulation (5)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
-| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
-| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
-| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
-| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Series (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
-| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
-| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
+| [Spotify Playlists - Sorting](pset_lists/list_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p4.ipynb) |
+| [Cool Runnings!](pset_lists/list_manipulation/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p5.ipynb) |
+| [Merge Lists with Duplicates](pset_lists/list_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p3.ipynb) |
+| [Basic Math Ops](pset_lists/list_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p2.ipynb) |
+| [Phone Numbers](pset_lists/list_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_lists/list_manipulation/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -676,6 +632,50 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
+## PANDAS1 BASICS (8)
+<details>
+<summary>View Problems</summary>
+
+
+### Ndarrs (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
+| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
+| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
+| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
+| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Series (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
+| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
+| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -816,10 +816,6 @@ Listing of all problems defined
 | [42. How to replace missing values of multiple numeric columns with the mean?](pset_pandas_ext/101problems/p42.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p42.ipynb) |
 | [47. How to format or suppress scientific notations in a pandas dataframe?](pset_pandas_ext/101problems/p47.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p47.ipynb) |
 | [13. How to find the positions of numbers that are multiples of 3 from a series?](pset_pandas_ext/101problems/p13.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p13.ipynb) |
-| [65. How to compute the correlation of each row with the suceeding row?](pset_pandas_ext/101problems/p64.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p64.ipynb) |
-| [75. How to split a text column into two separate columns?](pset_pandas_ext/101problems/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p74.ipynb) |
-| [69. How to compute grouped mean on pandas dataframe and keep the grouped column as another column (not index)?](pset_pandas_ext/101problems/p68.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p68.ipynb) |
-| [72. How to get the positions where values of two columns match?](pset_pandas_ext/101problems/p71.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p71.ipynb) |
 | [5. How to assign name to the series’ index?](pset_pandas_ext/101problems/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p5.ipynb) |
 | [23. How to convert year-month string to dates corresponding to the 4th day of the month?](pset_pandas_ext/101problems/p23.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p23.ipynb) |
 | [3. How to convert the index of a series into a column of a dataframe?](pset_pandas_ext/101problems/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p3.ipynb) |
@@ -833,39 +829,26 @@ Listing of all problems defined
 | [48. How to format all the values in a dataframe as percentages?](pset_pandas_ext/101problems/p48.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p48.ipynb) |
 | [10. How to keep only top 2 most frequent values as it is and replace everything else as ‘Other’?](pset_pandas_ext/101problems/p10.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p10.ipynb) |
 | [46. How to set the number of rows and columns displayed in the output?](pset_pandas_ext/101problems/p46.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p46.ipynb) |
-| [68. How to get the n’th largest value of a column when grouped by another column?](pset_pandas_ext/101problems/p67.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p67.ipynb) |
 | [24. How to filter words that contain atleast 2 vowels from a series?](pset_pandas_ext/101problems/p24.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p24.ipynb) |
 | [26. How to get the mean of a series grouped by another series?](pset_pandas_ext/101problems/p26.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p26.ipynb) |
-| [73. How to create lags and leads of a column in a dataframe?](pset_pandas_ext/101problems/p72.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p72.ipynb) |
-| [66. How to replace both the diagonals of dataframe with 0?](pset_pandas_ext/101problems/p65.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p65.ipynb) |
-| [71. How to remove rows from a dataframe that are present in another dataframe?](pset_pandas_ext/101problems/p70.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p70.ipynb) |
 | [45. How to change the order of columns of a dataframe?](pset_pandas_ext/101problems/p45.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p45.ipynb) |
 | [57. How to reverse the rows of a dataframe?](pset_pandas_ext/101problems/p57.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p57.ipynb) |
 | [6. How to get the items of series A not present in series B?](pset_pandas_ext/101problems/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p6.ipynb) |
-| [63. How to create a column that contains the penultimate value in each row?](pset_pandas_ext/101problems/p62.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p62.ipynb) |
-| [70. How to join two dataframes by 2 columns so they have only the common rows?](pset_pandas_ext/101problems/p69.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p69.ipynb) |
 | [43. How to use apply function on existing columns with global variables as additional arguments?](pset_pandas_ext/101problems/p43.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p43.ipynb) |
 | [11. How to bin a numeric series to 10 groups of equal size?](pset_pandas_ext/101problems/p11.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p11.ipynb) |
 | [2. How to create a series from a list, numpy array and dict?](pset_pandas_ext/101problems/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p2.ipynb) |
 | [15. How to stack two series vertically and horizontally ?](pset_pandas_ext/101problems/p15.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p15.ipynb) |
 | [18. How to convert the first character of each element in a series to uppercase?](pset_pandas_ext/101problems/p18.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p18.ipynb) |
-| [62. How to create a column containing the minimum by maximum of each row?](pset_pandas_ext/101problems/p61.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p61.ipynb) |
 | [20. How to compute difference of differences between consequtive numbers of a series?](pset_pandas_ext/101problems/p20.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p20.ipynb) |
 | [39. How to rename a specific columns in a dataframe?](pset_pandas_ext/101problems/p39.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p39.ipynb) |
 | [12. How to convert a numpy array to a dataframe of given shape? (L1)](pset_pandas_ext/101problems/p12.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p12.ipynb) |
 | [40. How to check if a dataframe has any missing values?](pset_pandas_ext/101problems/p40.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p40.ipynb) |
-| [64. How to normalize all columns in a dataframe?](pset_pandas_ext/101problems/p63.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p63.ipynb) |
 | [22. How to get the day of month, week number, day of year and day of week from a series of date strings?](pset_pandas_ext/101problems/p22.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p22.ipynb) |
 | [44. How to select a specific column from a dataframe as a dataframe instead of a series?](pset_pandas_ext/101problems/p44.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p44.ipynb) |
-| [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
-| [7. How to get the items not common to both series A and series B?](pset_pandas_ext/101problems/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p7.ipynb) |
-| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
 | [37. How to get the nrows, ncolumns, datatype, summary stats of each column of a dataframe? Also get the array and list equivalent.](pset_pandas_ext/101problems/p37.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p37.ipynb) |
 | [35. How to create a dataframe with rows as strides from a given series?](pset_pandas_ext/101problems/p35.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p35.ipynb) |
-| [67. How to get the particular group of a groupby dataframe by key?](pset_pandas_ext/101problems/p66.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p66.ipynb) |
 | [56. How to swap two rows of a dataframe?](pset_pandas_ext/101problems/p56.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p56.ipynb) |
 | [60. How to create a new column that contains the row number of nearest column by euclidean distance?](pset_pandas_ext/101problems/p59.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p59.ipynb) |
-| [8. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?](pset_pandas_ext/101problems/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p8.ipynb) |
 | [25. How to filter valid emails from a series?](pset_pandas_ext/101problems/p25.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p25.ipynb) |
 | [1. How to import pandas and check the version?](pset_pandas_ext/101problems/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p1.ipynb) |
 | [34. How to change column values when importing csv to a dataframe?](pset_pandas_ext/101problems/p34.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p34.ipynb) |
@@ -874,6 +857,23 @@ Listing of all problems defined
 | [50. How to create a primary key index by combining relevant columns?](pset_pandas_ext/101problems/p50.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p50.ipynb) |
 | [38. How to extract the row and column number of a particular cell with given criterion?](pset_pandas_ext/101problems/p38.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p38.ipynb) |
 | [51. How to get the row number of the nth largest value in a column?](pset_pandas_ext/101problems/p51.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p51.ipynb) |
+| [65. How to compute the correlation of each row with the suceeding row?](pset_pandas_ext/101problems/p64.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p64.ipynb) |
+| [75. How to split a text column into two separate columns?](pset_pandas_ext/101problems/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p74.ipynb) |
+| [69. How to compute grouped mean on pandas dataframe and keep the grouped column as another column (not index)?](pset_pandas_ext/101problems/p68.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p68.ipynb) |
+| [72. How to get the positions where values of two columns match?](pset_pandas_ext/101problems/p71.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p71.ipynb) |
+| [68. How to get the n’th largest value of a column when grouped by another column?](pset_pandas_ext/101problems/p67.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p67.ipynb) |
+| [73. How to create lags and leads of a column in a dataframe?](pset_pandas_ext/101problems/p72.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p72.ipynb) |
+| [66. How to replace both the diagonals of dataframe with 0?](pset_pandas_ext/101problems/p65.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p65.ipynb) |
+| [71. How to remove rows from a dataframe that are present in another dataframe?](pset_pandas_ext/101problems/p70.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p70.ipynb) |
+| [63. How to create a column that contains the penultimate value in each row?](pset_pandas_ext/101problems/p62.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p62.ipynb) |
+| [70. How to join two dataframes by 2 columns so they have only the common rows?](pset_pandas_ext/101problems/p69.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p69.ipynb) |
+| [62. How to create a column containing the minimum by maximum of each row?](pset_pandas_ext/101problems/p61.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p61.ipynb) |
+| [64. How to normalize all columns in a dataframe?](pset_pandas_ext/101problems/p63.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p63.ipynb) |
+| [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
+| [7. How to get the items not common to both series A and series B?](pset_pandas_ext/101problems/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p7.ipynb) |
+| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
+| [67. How to get the particular group of a groupby dataframe by key?](pset_pandas_ext/101problems/p66.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p66.ipynb) |
+| [8. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?](pset_pandas_ext/101problems/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p8.ipynb) |
 
 
 <br/><br/>
