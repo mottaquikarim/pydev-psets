@@ -6,5 +6,8 @@ Summing Dict Values - SOLUTION
 
 from collections import Counter
 
+poll1 = {'apples': 8, 'bananas': 12}
+poll2 = {'apples': 6, 'bananas': 6, 'clementines': 8}
+
 shopping_list = Counter(poll1) + Counter(poll2)
 # print(final_tally) # Counter({'bananas': 18, 'apples': 14, 'clementines': 8})
