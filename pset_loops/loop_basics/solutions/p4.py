@@ -11,9 +11,9 @@ Factorial - SOLUTION
 """
 
 print('Enter a number to find its factorial: ')
-initial = input()
-num = int(initial)
+initial = int(input())
 
+num = initial
 fac = []
 
 while num >= 1:
@@ -30,4 +30,4 @@ for index, value in enumerate(fac):
   elif value == 1:
     factorial = factorial+str(value)
 
-print(factorial+'\n8! =', product)
+print(f'{factorial}\n{initial}! = {product}')
