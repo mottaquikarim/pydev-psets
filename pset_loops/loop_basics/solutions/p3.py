@@ -13,13 +13,15 @@ sample_temps = {}
 
 for f in sampleF:
   c = (f - 32)*(5/9)
-  sample_temps.update({f: c})
+  sample_temps.update({f: format(c, '.2f')})
 
-print(sample_temps)
+for k, v in sample_temps.items():
+    print(f'{k} F -> {v} C')
+
 """
-{91.4: 33.00000000000001, 
-82.4: 28.000000000000004,
-71.6: 21.999999999999996,
-107.6: 42.0,
-115.6: 46.44444444444444}
+91.4 F -> 33.00 C
+82.4 F -> 28.00 C
+71.6 F -> 22.00 C
+107.6 F -> 42.00 C
+115.6 F -> 46.44 C
 """
