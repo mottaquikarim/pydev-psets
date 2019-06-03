@@ -266,64 +266,6 @@ Listing of all problems defined
 
     
 
-## DICTS (9)
-<details>
-<summary>View Problems</summary>
-
-
-### Counters challenge (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Summing Dict Values](pset_dicts/counters_challenge/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p2.ipynb) |
-| [Word Frequency](pset_dicts/counters_challenge/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Dict manip ops (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
-| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
-| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Dict basics (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Lists to Dicts](pset_dicts/dict_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p4.ipynb) |
-| [Merging Dicts](pset_dicts/dict_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p3.ipynb) |
-| [Predators & Prey](pset_dicts/dict_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p2.ipynb) |
-| [Intro to Dict Concepts](pset_dicts/dict_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
 ## CONDITIONALS (15)
 <details>
 <summary>View Problems</summary>
@@ -492,6 +434,64 @@ Listing of all problems defined
 
     
 
+## DICTS (9)
+<details>
+<summary>View Problems</summary>
+
+
+### Dict manip ops (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
+| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
+| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Counters challenge (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Summing Dict Values](pset_dicts/counters_challenge/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p2.ipynb) |
+| [Word Frequency](pset_dicts/counters_challenge/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Dict basics (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Lists to Dicts](pset_dicts/dict_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p4.ipynb) |
+| [Merging Dicts](pset_dicts/dict_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p3.ipynb) |
+| [Predators & Prey](pset_dicts/dict_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p2.ipynb) |
+| [Intro to Dict Concepts](pset_dicts/dict_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
 ## LISTS (11)
 <details>
 <summary>View Problems</summary>
@@ -557,21 +557,6 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
-### Loop challenges (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
-| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Control flow (2)
 <details>
 <summary>View Problems</summary>
@@ -616,6 +601,21 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Loop challenges (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
+| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -716,25 +716,6 @@ Listing of all problems defined
 </details>
 
     
-### Selecting data (6)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Selecting Data III - Access Single Values](pset_pandas1_wine_reviews/selecting_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p3.ipynb) |
-| [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p2.ipynb) |
-| [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p1.ipynb) |
-| [Selecting Data IV - Access Slices](pset_pandas1_wine_reviews/selecting_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p4.ipynb) |
-| [Selecting Data V - Subsets](pset_pandas1_wine_reviews/selecting_data/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p5.ipynb) |
-| [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p6.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Check imported data (4)
 <details>
 <summary>View Problems</summary>
@@ -761,6 +742,25 @@ Listing of all problems defined
 | ------------- | ------------- |
 | [Exploratory Data Analysis II - Unique Values](pset_pandas1_wine_reviews/eda/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/eda/nb/p2.ipynb) |
 | [Exploratory Data Analysis I - Core Stats Summary](pset_pandas1_wine_reviews/eda/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/eda/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Selecting data (6)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Selecting Data IV - Access Slices](pset_pandas1_wine_reviews/selecting_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p4.ipynb) |
+| [Selecting Data V - Subsets](pset_pandas1_wine_reviews/selecting_data/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p5.ipynb) |
+| [Selecting Data III - Access Single Values](pset_pandas1_wine_reviews/selecting_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p3.ipynb) |
+| [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p6.ipynb) |
+| [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p2.ipynb) |
+| [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -859,7 +859,6 @@ Listing of all problems defined
 | [44. How to select a specific column from a dataframe as a dataframe instead of a series?](pset_pandas_ext/101problems/p44.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p44.ipynb) |
 | [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
 | [7. How to get the items not common to both series A and series B?](pset_pandas_ext/101problems/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p7.ipynb) |
-| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
 | [37. How to get the nrows, ncolumns, datatype, summary stats of each column of a dataframe? Also get the array and list equivalent.](pset_pandas_ext/101problems/p37.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p37.ipynb) |
 | [35. How to create a dataframe with rows as strides from a given series?](pset_pandas_ext/101problems/p35.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p35.ipynb) |
 | [67. How to get the particular group of a groupby dataframe by key?](pset_pandas_ext/101problems/p66.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p66.ipynb) |
@@ -874,6 +873,7 @@ Listing of all problems defined
 | [50. How to create a primary key index by combining relevant columns?](pset_pandas_ext/101problems/p50.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p50.ipynb) |
 | [38. How to extract the row and column number of a particular cell with given criterion?](pset_pandas_ext/101problems/p38.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p38.ipynb) |
 | [51. How to get the row number of the nth largest value in a column?](pset_pandas_ext/101problems/p51.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p51.ipynb) |
+| [9. How to get frequency counts of unique items of a series?](pset_pandas_ext/101problems/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p9.ipynb) |
 
 
 <br/><br/>
