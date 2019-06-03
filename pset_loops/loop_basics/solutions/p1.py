@@ -10,10 +10,11 @@ evens = []
 i = 1
 
 while i <= 10:
-  if i % 2 != 0:
-    odds.append(i)
-  else:
-    evens.append(i)
-  i += 1
+    if i % 2 != 0:
+        odds.append(i)
+        i += 1
+    else:
+        evens.append(i)
+        i += 1
 
 print(odds,'\n', evens)

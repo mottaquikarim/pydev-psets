@@ -14,15 +14,14 @@ x = []
 print(a)
 
 for i in a:
-  if i not in x:
-    x.append(i)
+    if i not in x:
+        x.append(i)
 
 a = x
-
 print(a)
 
 for i in b:
-  if i not in a:
-    a.append(i)
+    if i not in a:
+        a.append(i)
 
 print(a)
