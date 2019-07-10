@@ -2,7 +2,7 @@
 Typecasting Booleans II
 """
 
-# A) Use typecasting to turn these variables into boolean values. Print the result and the datatype of the result. 
+# A) Use typecasting to turn these variables into strings. Print the result and the datatype of the result. 
 
 one = 1
 zero = 0
