@@ -1,18 +1,32 @@
 """
-Spotify Playlists - Sorting
+Cool Runnings!
 """
 
-playlist_titles = ['Tiny Dancer', 'At Last', 'Fortunate Son', 
-'Hey Jude', 'Isn\'t She Lovely', 'Just the Way You Are', 'I\'m Yours',
-'Vienna', 'Roxanne', 'Dancing in the Moonlight']
+cool_runnings = [
+	'Feel', 'the', 'rhythm.',
+	'Feel', 'the', 'rhyme.',
+	'Get', 'on', 'up.',
+	'It\'s', 'bobsled', 'time!'
+]
 
-# Alphabetize these songs and print the result.
+bobsled = cool_runnings.index('bobsled')
+cool_runnings[bobsled] = 'YOLO'
 
-print(sorted(playlist_titles))
-"""['At Last', 'Dancing in the Moonlight', 'Fortunate Son', 'Hey Jude', "I'm Yours", "Isn't She Lovely", 'Just the Way You Are', 'Roxanne', 'Tiny Dancer', 'Vienna']"""
+l1 = cool_runnings[:3]
+l1 = ' '.join(l1)
 
+l2 = cool_runnings[3:6]
+l2 = ' '.join(l2)
 
-# Now do the reverse.
+l3 = cool_runnings[6:9]
+l3 = ' '.join(l3)
 
-print(sorted(playlist_titles, reverse=True))
-"""['Vienna', 'Tiny Dancer', 'Roxanne', 'Just the Way You Are', "Isn't She Lovely", "I'm Yours", 'Hey Jude', 'Fortunate Son', 'Dancing in the Moonlight', 'At Last']"""
+l4 = cool_runnings[9:12]
+l4 = ' '.join(l4)
+
+print(f'''
+{l1}
+{l2}
+{l3}
+{l4}
+''')
