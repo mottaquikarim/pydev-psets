@@ -18,4 +18,4 @@ pytest==3.6.0
 pytest-testdox==1.1.0
 PyYAML==5.1
 six==1.12.0
-Werkzeug==0.15.2
+Werkzeug==0.15.3
