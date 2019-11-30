@@ -1,8 +1,8 @@
 """
-Vehicles I 
+Circle
 """
 
-# Create a "Vehicle" class with a class attribute for category ('transportion') and a method called "start_engine()" that prints "Vroom!". Add "name" as an instance method and instantiate a Vehicle called "submarine". Access all its attributes and methods for practice.
+# Write a Python class named "Circle" constructed by a radius value and a class attribute for pi. You can use 3.14159 for the value of pi for simplicity. It should include two methods to calculate the "area" and the "perimeter" of a circle. Instantiate a Circle and call both methods.
 
-# Note: See Vehicles II in p6 for an explanation of why we chose "submarine" as a vehicle instance!
+
 

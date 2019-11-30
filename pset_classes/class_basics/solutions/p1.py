@@ -1,39 +1,22 @@
 """
-RGB to HEX
+Person class
 """
 
-# Remember our function "rgb_hex" from the functions pset? That function took a color in rgb format and returned it in hex format as well as vice versa. Wouldn't it be so much easier to do that with a class called Color?
-
-# Define a class called "Color" to store each color's rgb and hex values. Define a method called "convert_codes()" to retrieve one value given the other. Create at least one instance of Color and try the convert_codes() method.
-
-
-class Color():
-	def __init__(self, rgb, hex_code):
-		self.rgb = rgb
-		self.hex_code = hex_code
-
-	def convert_codes(self, color_code):
-		if color_code == self.rgb:
-			return self.hex_code
-		elif color_code == self.hex_code:
-			return self.rgb
-		else:
-			return 'Error: Invalid color'
+# Create a Person class with the following properties
+# 1. name
+# 2. age
+# 3. social security number
 
 
-
-black = Color('rgb(0, 0, 0)', '#000000')
-white = Color('rgb(255, 255, 255)', '#ffffff')
-
-
-# Convert rgb to hex
-print(black.convert_codes('rgb(0, 0, 0)')) # '#000000'
-print(white.convert_codes('rgb(255, 255, 255)')) # '#ffffff'
+class Person:
+    def __init__(self, name, age, social_number):
+        self.name = name
+        self.age = age
+        self.social = social_number
 
 
-# Convert hex to rgb
-print(black.convert_codes('#000000')) # 'rgb(0, 0, 0)'
-print(white.convert_codes('#ffffff')) # 'rgb(255, 255, 255)'
+p1 = Person("John", 36, "111-11-1111")
 
-
-
+print(p1.name)
+print(p1.age)
+print(p1.social)

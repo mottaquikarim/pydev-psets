@@ -1,26 +1,22 @@
 """
-Vehicles I 
+Circle
 """
 
-# Create a "Vehicle" class with a class attribute for category ('transportion') and a method called "start_engine()" that prints "Vroom!". Add "name" and "owner" as instance attributes and instantiate a Vehicle called "submarine". Access all its attributes and methods for practice.
-
-# Note: See Vehicles II in p6 for an explanation of why we chose "submarine" as a vehicle instance!
-
-class Vehicle():
-    def __init__(self, name, owner):
-        self.name = name
-        self.owner = owner
-
-    category = 'transportation'
-
-    def start_engine(self):
-        print('Vrrrrrooomm!')
+# Write a Python class named "Circle" constructed by a radius value and a class attribute for pi. You can use 3.14159 for the value of pi for simplicity. It should include two methods to calculate the "area" and the "perimeter" of a circle. Instantiate a Circle and call both methods.
 
 
-submarine = Vehicle('Yellow Submarine', 'Sgt. Pepper')
+class Circle():
+    def __init__(self, r):
+        self.radius = r
 
-print(submarine.category) # transportation
-print(submarine.name) # Yellow Submarine
-print(submarine.owner) # Sgt. Pepper
-submarine.start_engine() # Vrrrrrooomm!
+    pi = 3.14159
 
+    def area(self):
+        return self.radius**2*self.pi
+    
+    def perimeter(self):
+        return 2*self.radius*self.pi
+
+circle1 = Circle(12)
+print(circle1.area()) # 380.13239
+print(circle1.perimeter()) # 69.11498

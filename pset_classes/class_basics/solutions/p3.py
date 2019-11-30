@@ -1,21 +1,23 @@
 """
-Rectangle
-"""
+Phone Contacts
+""" 
 
-# Write a Python class named "Rectangle" constructed by values for length and width. It should include two methods to calculate the "area" and the "perimeter" of a rectangle. Instantiate a Rectangle and call both methods.
+# Create a class called "Contact" that will store the below items for each contact in your phone. The starred items should be required. Instantiate two Contact instance objects and access each of their attributes.
+    ### name (required)
+    ### mobile_num
+    ### work_num
+    ### email
+
+class Contact():
+    def __init__(self, first_name, last_name = None, mobile_num = None, work_num = None, email = None):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.mobile_num = mobile_num
+        self.work_num = work_num
+        self.email = email
 
 
-class Rectangle():
-    def __init__(self, l, w):
-        self.length = l
-        self.width  = w
+alejandra = Contact('Alejandra', 'Ochoa', 19034882739, 17243756608, 'alejandra.ochoa@gmail.com')
 
-    def area(self):
-        return self.length*self.width
+brad = Contact('Brad', 'Fenworth', 12284001753, email = 'brad.fenworth@gmail.com')
 
-    def perimeter(self):
-    	return self.length*2 + self.width*2
-
-rect1 = Rectangle(12, 10)
-print(rect1.area()) # 120 
-print(rect1.perimeter()) # 44

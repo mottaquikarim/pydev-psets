@@ -1,22 +1,21 @@
 """
-Circle
+Rectangle
 """
 
-# Write a Python class named "Circle" constructed by a radius value and a class attribute for pi. You can use 3.14159 for the value of pi for simplicity. It should include two methods to calculate the "area" and the "perimeter" of a circle. Instantiate a Circle and call both methods.
+# Write a Python class named "Rectangle" constructed by values for length and width. It should include two methods to calculate the "area" and the "perimeter" of a rectangle. Instantiate a Rectangle and call both methods.
 
 
-class Circle():
-    def __init__(self, r):
-        self.radius = r
-
-    pi = 3.14159
+class Rectangle():
+    def __init__(self, l, w):
+        self.length = l
+        self.width  = w
 
     def area(self):
-        return self.radius**2*self.pi
-    
-    def perimeter(self):
-        return 2*self.radius*self.pi
+        return self.length*self.width
 
-circle1 = Circle(12)
-print(circle1.area()) # 380.13239
-print(circle1.perimeter()) # 69.11498
+    def perimeter(self):
+    	return self.length*2 + self.width*2
+
+rect1 = Rectangle(12, 10)
+print(rect1.area()) # 120 
+print(rect1.perimeter()) # 44
