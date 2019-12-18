@@ -9,9 +9,6 @@ Basic Math Ops
 	# my_range = 
 	# my_mean =
 
-
-import statistics
-
 nums = [2, 19, 20, 12, 6, 24, 8, 30, 12, 25]
 
 my_sum = sum(nums)
