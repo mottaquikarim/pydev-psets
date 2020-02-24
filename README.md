@@ -21,9 +21,9 @@
 | **[CONDITIONALS](PROBLEMS.md/#conditionals-15)**  | 15  | No  |
 | **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
 | **[LISTS](PROBLEMS.md/#lists-11)**  | 11  | No  |
-| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |
 | **[PANDAS1 WINE REVIEWS](PROBLEMS.md/#pandas1-wine-reviews-26)**  | 26  | No  |
+| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS EXT](PROBLEMS.md/#pandas-ext-74)**  | 74  | [Yes](exports/pset_pandas_ext)  |
 
 ## Getting Started
