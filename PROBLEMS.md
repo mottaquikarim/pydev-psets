@@ -245,11 +245,11 @@ Listing of all problems defined
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
+| [Play RPS against Computer](pset_conditionals/rps/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p4.ipynb) |
+| [Play RPS w/Bad Input](pset_conditionals/rps/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p5.ipynb) |
 | [Play RPS w/Input](pset_conditionals/rps/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p3.ipynb) |
 | [Play RPS w/Computer](pset_conditionals/rps/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p2.ipynb) |
 | [Play RPS](pset_conditionals/rps/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p1.ipynb) |
-| [Play RPS against Computer](pset_conditionals/rps/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p4.ipynb) |
-| [Play RPS w/Bad Input](pset_conditionals/rps/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_conditionals/rps/nb/p5.ipynb) |
 
 
 <br/><br/>
@@ -507,50 +507,6 @@ Listing of all problems defined
 
     
 
-## PANDAS1 BASICS (8)
-<details>
-<summary>View Problems</summary>
-
-
-### Ndarrs (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
-| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
-| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
-| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
-| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Series (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
-| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
-| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
 ## LISTS (11)
 <details>
 <summary>View Problems</summary>
@@ -704,6 +660,50 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
+## PANDAS1 BASICS (8)
+<details>
+<summary>View Problems</summary>
+
+
+### Ndarrs (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
+| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
+| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
+| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
+| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Series (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
+| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
+| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
 
 
 <br/><br/>
