@@ -14,8 +14,8 @@
 
 | PSET Name  | Num Problems | External? |
 | ------------- | ------------- | ------------- |
-| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-13)**  | 13  | No  |
 | **[CHALLENGING EXT](PROBLEMS.md/#challenging-ext-100)**  | 100  | [Yes](exports/pset_challenging_ext)  |
+| **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-13)**  | 13  | No  |
 | **[CONDITIONALS](PROBLEMS.md/#conditionals-15)**  | 15  | No  |
 | **[CLASSES](PROBLEMS.md/#classes-19)**  | 19  | No  |
 | **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
