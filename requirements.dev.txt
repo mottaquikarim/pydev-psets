@@ -46,7 +46,7 @@ pyrsistent==0.15.2
 pytest==3.6.0
 pytest-testdox==1.1.0
 python-dateutil==2.8.0
-PyYAML==5.1
+PyYAML==5.4
 pyzmq==18.0.1
 qtconsole==4.4.4
 Send2Trash==1.5.0
