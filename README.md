@@ -14,16 +14,16 @@
 
 | PSET Name  | Num Problems | External? |
 | ------------- | ------------- | ------------- |
-| **[CHALLENGING EXT](PROBLEMS.md/#challenging-ext-100)**  | 100  | [Yes](exports/pset_challenging_ext)  |
 | **[BASIC DATA TYPES](PROBLEMS.md/#basic-data-types-13)**  | 13  | No  |
-| **[CONDITIONALS](PROBLEMS.md/#conditionals-15)**  | 15  | No  |
+| **[CHALLENGING EXT](PROBLEMS.md/#challenging-ext-100)**  | 100  | [Yes](exports/pset_challenging_ext)  |
 | **[CLASSES](PROBLEMS.md/#classes-19)**  | 19  | No  |
-| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
 | **[DICTS](PROBLEMS.md/#dicts-9)**  | 9  | No  |
-| **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |
+| **[CONDITIONALS](PROBLEMS.md/#conditionals-15)**  | 15  | No  |
+| **[FUNCTIONS](PROBLEMS.md/#functions-16)**  | 16  | No  |
 | **[LISTS](PROBLEMS.md/#lists-11)**  | 11  | No  |
-| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
+| **[PANDAS1 BASICS](PROBLEMS.md/#pandas1-basics-8)**  | 8  | No  |
 | **[PANDAS1 WINE REVIEWS](PROBLEMS.md/#pandas1-wine-reviews-26)**  | 26  | No  |
+| **[LOOPS](PROBLEMS.md/#loops-16)**  | 16  | No  |
 | **[PANDAS EXT](PROBLEMS.md/#pandas-ext-74)**  | 74  | [Yes](exports/pset_pandas_ext)  |
 
 ## Getting Started
