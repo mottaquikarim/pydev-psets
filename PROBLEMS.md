@@ -89,6 +89,8 @@ Listing of all problems defined
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
+| [With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.](pset_challenging_ext/exercises/p93.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p93.ipynb) |
+| [By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p88.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p88.ipynb) |
 | [Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. ](pset_challenging_ext/exercises/p53.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p53.ipynb) |
 | [Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.](pset_challenging_ext/exercises/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p4.ipynb) |
 | [Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".](pset_challenging_ext/exercises/p32.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p32.ipynb) |
@@ -100,6 +102,7 @@ Listing of all problems defined
 | [Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p49.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p49.ipynb) |
 | [Please write a program to shuffle and print the list [3,6,7,8].](pset_challenging_ext/exercises/p85.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p85.ipynb) |
 | [Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.](pset_challenging_ext/exercises/p14.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p14.ipynb) |
+| [By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p89.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p89.ipynb) |
 | [Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.](pset_challenging_ext/exercises/p16.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p16.ipynb) |
 | [Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. ](pset_challenging_ext/exercises/p52.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p52.ipynb) |
 | [Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].](pset_challenging_ext/exercises/p86.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p86.ipynb) |
@@ -112,6 +115,7 @@ Listing of all problems defined
 | [Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).](pset_challenging_ext/exercises/p64.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p64.ipynb) |
 | [Please generate a random float where the value is between 10 and 100 using Python math module.](pset_challenging_ext/exercises/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p74.ipynb) |
 | [](pset_challenging_ext/exercises/p68.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p68.ipynb) |
+| [](pset_challenging_ext/exercises/p99.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p99.ipynb) |
 | [Please write a program which accepts basic mathematic expression from console and print the evaluation result.](pset_challenging_ext/exercises/p71.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p71.ipynb) |
 | [Define a class which has at least two methods:](pset_challenging_ext/exercises/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p5.ipynb) |
 | [Write a method which can calculate square value of number](pset_challenging_ext/exercises/p23.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p23.ipynb) |
@@ -123,6 +127,7 @@ Listing of all problems defined
 | [Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p33.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p33.ipynb) |
 | [Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.](pset_challenging_ext/exercises/p54.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p54.ipynb) |
 | [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.](pset_challenging_ext/exercises/p36.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p36.ipynb) |
+| [](pset_challenging_ext/exercises/p90.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p90.ipynb) |
 | [Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).](pset_challenging_ext/exercises/p48.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p48.ipynb) |
 | [Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.](pset_challenging_ext/exercises/p10.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p10.ipynb) |
 | [Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].](pset_challenging_ext/exercises/p46.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p46.ipynb) |
@@ -141,6 +146,8 @@ Listing of all problems defined
 | [](pset_challenging_ext/exercises/p69.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p69.ipynb) |
 | [Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). ](pset_challenging_ext/exercises/p43.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p43.ipynb) |
 | [Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.](pset_challenging_ext/exercises/p11.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p11.ipynb) |
+| [](pset_challenging_ext/exercises/p97.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p97.ipynb) |
+| [](pset_challenging_ext/exercises/p94.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p94.ipynb) |
 | [Write a program which can compute the factorial of a given numbers.](pset_challenging_ext/exercises/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p2.ipynb) |
 | [Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.](pset_challenging_ext/exercises/p15.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p15.ipynb) |
 | [A website requires the users to input username and password to register. Write a program to check the validity of password input by users.](pset_challenging_ext/exercises/p18.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p18.ipynb) |
@@ -156,9 +163,12 @@ Listing of all problems defined
 | [Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. ](pset_challenging_ext/exercises/p22.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p22.ipynb) |
 | [Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". ](pset_challenging_ext/exercises/p44.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p44.ipynb) |
 | [Write a program to solve a classic ancient Chinese puzzle: ](pset_challenging_ext/exercises/p100.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p100.ipynb) |
+| [](pset_challenging_ext/exercises/p98.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p98.ipynb) |
 | [Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.](pset_challenging_ext/exercises/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p73.ipynb) |
 | [Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.](pset_challenging_ext/exercises/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p7.ipynb) |
+| [Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.](pset_challenging_ext/exercises/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p9.ipynb) |
 | [Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).](pset_challenging_ext/exercises/p37.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p37.ipynb) |
+| [Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].](pset_challenging_ext/exercises/p87.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p87.ipynb) |
 | [Please write a program to print the running time of execution of "1+1" for 100 times.](pset_challenging_ext/exercises/p83.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p83.ipynb) |
 | [Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.](pset_challenging_ext/exercises/p35.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p35.ipynb) |
 | [](pset_challenging_ext/exercises/p66.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p66.ipynb) |
@@ -170,164 +180,15 @@ Listing of all problems defined
 | [Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,](pset_challenging_ext/exercises/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p1.ipynb) |
 | [Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.](pset_challenging_ext/exercises/p34.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p34.ipynb) |
 | [You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:](pset_challenging_ext/exercises/p19.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p19.ipynb) |
+| [By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p91.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p91.ipynb) |
 | [Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.](pset_challenging_ext/exercises/p58.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p58.ipynb) |
 | [Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.](pset_challenging_ext/exercises/p77.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p77.ipynb) |
+| [Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.](pset_challenging_ext/exercises/p95.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p95.ipynb) |
+| [Please write a program which count and print the numbers of each character in a string input by console.](pset_challenging_ext/exercises/p96.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p96.ipynb) |
 | [Define a class named American which has a static method called printNationality.](pset_challenging_ext/exercises/p50.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p50.ipynb) |
 | [Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.](pset_challenging_ext/exercises/p38.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p38.ipynb) |
 | [Define a class named American and its subclass NewYorker. ](pset_challenging_ext/exercises/p51.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p51.ipynb) |
-| [With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.](pset_challenging_ext/exercises/p93.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p93.ipynb) |
-| [By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p88.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p88.ipynb) |
-| [By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p89.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p89.ipynb) |
-| [](pset_challenging_ext/exercises/p99.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p99.ipynb) |
-| [](pset_challenging_ext/exercises/p90.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p90.ipynb) |
-| [](pset_challenging_ext/exercises/p97.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p97.ipynb) |
-| [](pset_challenging_ext/exercises/p94.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p94.ipynb) |
-| [](pset_challenging_ext/exercises/p98.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p98.ipynb) |
-| [Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.](pset_challenging_ext/exercises/p9.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p9.ipynb) |
-| [Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].](pset_challenging_ext/exercises/p87.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p87.ipynb) |
-| [By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].](pset_challenging_ext/exercises/p91.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p91.ipynb) |
-| [Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.](pset_challenging_ext/exercises/p95.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p95.ipynb) |
-| [Please write a program which count and print the numbers of each character in a string input by console.](pset_challenging_ext/exercises/p96.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p96.ipynb) |
 | [](pset_challenging_ext/exercises/p92.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_challenging_ext/exercises/nb/p92.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
-## CLASSES (19)
-<details>
-<summary>View Problems</summary>
-
-
-### Class basics (6)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Rectangle](pset_classes/class_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p4.ipynb) |
-| [Circle](pset_classes/class_basics/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p5.ipynb) |
-| [Phone Contacts](pset_classes/class_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p3.ipynb) |
-| [RGB to HEX](pset_classes/class_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p6.ipynb) |
-| [Cat class](pset_classes/class_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p2.ipynb) |
-| [Person class](pset_classes/class_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Dogs (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Dogs IV - Tricks (CHALLENGE!)](pset_classes/dogs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p4.ipynb) |
-| [Dogs III](pset_classes/dogs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p3.ipynb) |
-| [Dogs II](pset_classes/dogs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p2.ipynb) |
-| [Dogs I](pset_classes/dogs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Wedding guests (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p3.ipynb) |
-| [Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p2.ipynb) |
-| [Weddings I - Guest List](pset_classes/wedding_guests/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Vehicles (6)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Vehicles IV](pset_classes/vehicles/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p4.ipynb) |
-| [Vehicles V](pset_classes/vehicles/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p5.ipynb) |
-| [Vehicles III](pset_classes/vehicles/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p3.ipynb) |
-| [Vehicles VI](pset_classes/vehicles/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p6.ipynb) |
-| [Vehicles II](pset_classes/vehicles/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p2.ipynb) |
-| [Vehicles I ](pset_classes/vehicles/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
-## DICTS (9)
-<details>
-<summary>View Problems</summary>
-
-
-### Dict manip ops (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
-| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
-| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Counters challenge (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Summing Dict Values](pset_dicts/counters_challenge/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p2.ipynb) |
-| [Word Frequency](pset_dicts/counters_challenge/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Dict basics (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Lists to Dicts](pset_dicts/dict_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p4.ipynb) |
-| [Merging Dicts](pset_dicts/dict_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p3.ipynb) |
-| [Predators & Prey](pset_dicts/dict_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p2.ipynb) |
-| [Intro to Dict Concepts](pset_dicts/dict_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -416,28 +277,92 @@ Listing of all problems defined
 
     
 
-## FUNCTIONS (16)
+## CLASSES (19)
 <details>
 <summary>View Problems</summary>
 
 
-### Data manipulation (4)
+### Wedding guests (3)
 <details>
 <summary>View Problems</summary>
 <br/><br/>
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
-| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
-| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
-| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
+| [Weddings III - Record Shower & Bachelorette RSVP](pset_classes/wedding_guests/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p3.ipynb) |
+| [Weddings II - Record Bridesmaid RSVPs](pset_classes/wedding_guests/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p2.ipynb) |
+| [Weddings I - Guest List](pset_classes/wedding_guests/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/wedding_guests/nb/p1.ipynb) |
 
 
 <br/><br/>
 </details>
 
     
+### Class basics (6)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Rectangle](pset_classes/class_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p4.ipynb) |
+| [Circle](pset_classes/class_basics/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p5.ipynb) |
+| [Phone Contacts](pset_classes/class_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p3.ipynb) |
+| [RGB to HEX](pset_classes/class_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p6.ipynb) |
+| [Cat class](pset_classes/class_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p2.ipynb) |
+| [Person class](pset_classes/class_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/class_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Vehicles (6)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Vehicles IV](pset_classes/vehicles/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p4.ipynb) |
+| [Vehicles V](pset_classes/vehicles/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p5.ipynb) |
+| [Vehicles III](pset_classes/vehicles/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p3.ipynb) |
+| [Vehicles VI](pset_classes/vehicles/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p6.ipynb) |
+| [Vehicles II](pset_classes/vehicles/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p2.ipynb) |
+| [Vehicles I ](pset_classes/vehicles/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/vehicles/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Dogs (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Dogs IV - Tricks (CHALLENGE!)](pset_classes/dogs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p4.ipynb) |
+| [Dogs III](pset_classes/dogs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p3.ipynb) |
+| [Dogs II](pset_classes/dogs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p2.ipynb) |
+| [Dogs I](pset_classes/dogs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_classes/dogs/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
+## FUNCTIONS (16)
+<details>
+<summary>View Problems</summary>
+
+
 ### Basic function ops (5)
 <details>
 <summary>View Problems</summary>
@@ -471,6 +396,23 @@ Listing of all problems defined
 </details>
 
     
+### Data manipulation (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
+| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
+| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
+| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Db search (2)
 <details>
 <summary>View Problems</summary>
@@ -496,6 +438,64 @@ Listing of all problems defined
 | [Multiples](pset_functions/math/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/math/nb/p3.ipynb) |
 | [Permutations & Combinations](pset_functions/math/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/math/nb/p2.ipynb) |
 | [Simple Interest Calculator](pset_functions/math/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/math/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
+## DICTS (9)
+<details>
+<summary>View Problems</summary>
+
+
+### Dict manip ops (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Inverting Keys & Values](pset_dicts/dict_manip_ops/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p4.ipynb) |
+| [Math with Girl Scout Cookies](pset_dicts/dict_manip_ops/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p3.ipynb) |
+| [Basic Login](pset_dicts/dict_manip_ops/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_manip_ops/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Counters challenge (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Summing Dict Values](pset_dicts/counters_challenge/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p2.ipynb) |
+| [Word Frequency](pset_dicts/counters_challenge/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/counters_challenge/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Dict basics (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Lists to Dicts](pset_dicts/dict_basics/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p4.ipynb) |
+| [Merging Dicts](pset_dicts/dict_basics/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p3.ipynb) |
+| [Predators & Prey](pset_dicts/dict_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p2.ipynb) |
+| [Intro to Dict Concepts](pset_dicts/dict_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_dicts/dict_basics/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -592,39 +592,8 @@ Listing of all problems defined
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
-| [Control Flow - I](pset_loops/control_flow/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/control_flow/nb/p1.ipynb) |
 | [Control Flow II](pset_loops/control_flow/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/control_flow/nb/p2.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Loop challenges (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
-| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Shapes (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
-| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
-| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
+| [Control Flow - I](pset_loops/control_flow/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/control_flow/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -660,6 +629,37 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Loop challenges (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
+| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Shapes (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
+| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
+| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -744,23 +744,6 @@ Listing of all problems defined
 </details>
 
     
-### Check imported data (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Checking Imported Data IV - Preview Data](pset_pandas1_wine_reviews/check_imported_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p4.ipynb) |
-| [Checking Imported Data III - DataFrame Labels](pset_pandas1_wine_reviews/check_imported_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p3.ipynb) |
-| [Checking Imported Data II - How Big is the Data?](pset_pandas1_wine_reviews/check_imported_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p2.ipynb) |
-| [Checking Imported Data I - Data Dictionary](pset_pandas1_wine_reviews/check_imported_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Selecting data (6)
 <details>
 <summary>View Problems</summary>
@@ -774,6 +757,23 @@ Listing of all problems defined
 | [Selecting Data VI - Min & Max (CHALLENGE!)](pset_pandas1_wine_reviews/selecting_data/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p6.ipynb) |
 | [Selecting Data II - Access a Column](pset_pandas1_wine_reviews/selecting_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p2.ipynb) |
 | [Selecting Data I - Access a Row](pset_pandas1_wine_reviews/selecting_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/selecting_data/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Check imported data (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Checking Imported Data IV - Preview Data](pset_pandas1_wine_reviews/check_imported_data/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p4.ipynb) |
+| [Checking Imported Data III - DataFrame Labels](pset_pandas1_wine_reviews/check_imported_data/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p3.ipynb) |
+| [Checking Imported Data II - How Big is the Data?](pset_pandas1_wine_reviews/check_imported_data/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p2.ipynb) |
+| [Checking Imported Data I - Data Dictionary](pset_pandas1_wine_reviews/check_imported_data/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_wine_reviews/check_imported_data/nb/p1.ipynb) |
 
 
 <br/><br/>
