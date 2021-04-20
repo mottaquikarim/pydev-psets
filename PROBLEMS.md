@@ -363,6 +363,23 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
+### Data manipulation (4)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
+| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
+| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
+| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Basic function ops (5)
 <details>
 <summary>View Problems</summary>
@@ -390,23 +407,6 @@ Listing of all problems defined
 | ------------- | ------------- |
 | [Speeding Tickets](pset_functions/challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/challenges/nb/p2.ipynb) |
 | [Sum of Squares](pset_functions/challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/challenges/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Data manipulation (4)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Rainbows & Wobniars](pset_functions/data_manipulation/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p4.ipynb) |
-| [Password Requirements](pset_functions/data_manipulation/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p3.ipynb) |
-| [Clean Pairs](pset_functions/data_manipulation/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p2.ipynb) |
-| [File Organization](pset_functions/data_manipulation/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_functions/data_manipulation/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -507,6 +507,50 @@ Listing of all problems defined
 
     
 
+## PANDAS1 BASICS (8)
+<details>
+<summary>View Problems</summary>
+
+
+### Ndarrs (5)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
+| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
+| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
+| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
+| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Series (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
+| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
+| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+
+</details>
+
+    
+
 ## LISTS (11)
 <details>
 <summary>View Problems</summary>
@@ -585,6 +629,37 @@ Listing of all problems defined
 <summary>View Problems</summary>
 
 
+### Loop challenges (2)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
+| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Shapes (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
+| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
+| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
 ### Control flow (2)
 <details>
 <summary>View Problems</summary>
@@ -629,81 +704,6 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Loop challenges (2)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Prime Numbers I](pset_loops/loop_challenges/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p2.ipynb) |
-| [Valid Passwords](pset_loops/loop_challenges/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_challenges/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Shapes (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
-| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
-| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-
-</details>
-
-    
-
-## PANDAS1 BASICS (8)
-<details>
-<summary>View Problems</summary>
-
-
-### Ndarrs (5)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [basic operations](pset_pandas1_basics/ndarrs/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p4.ipynb) |
-| [basic operations II](pset_pandas1_basics/ndarrs/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p5.ipynb) |
-| [ndarray indexing](pset_pandas1_basics/ndarrs/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p3.ipynb) |
-| [ndarrays operations ](pset_pandas1_basics/ndarrs/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p2.ipynb) |
-| [ndarray properties](pset_pandas1_basics/ndarrs/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/ndarrs/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
-### Series (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Series operations](pset_pandas1_basics/series/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p3.ipynb) |
-| [Indexing and Selecting Series](pset_pandas1_basics/series/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p2.ipynb) |
-| [Simple Series](pset_pandas1_basics/series/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas1_basics/series/nb/p1.ipynb) |
 
 
 <br/><br/>
