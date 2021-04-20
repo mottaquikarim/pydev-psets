@@ -13,7 +13,7 @@ MarkupSafe==1.1.1
 more-itertools==7.0.0
 pathtools==0.1.2
 pluggy==0.6.0
-py==1.8.0
+py==1.10.0
 pytest==3.6.0
 pytest-testdox==1.1.0
 PyYAML==5.1
