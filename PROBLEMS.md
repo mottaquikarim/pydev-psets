@@ -600,22 +600,6 @@ Listing of all problems defined
 </details>
 
     
-### Shapes (3)
-<details>
-<summary>View Problems</summary>
-<br/><br/>
-
-| PSET Desc  | Jupyter Notebook |
-| ------------- | ------------- |
-| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
-| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
-| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
-
-
-<br/><br/>
-</details>
-
-    
 ### Control flow (2)
 <details>
 <summary>View Problems</summary>
@@ -660,6 +644,22 @@ Listing of all problems defined
 | [GCD](pset_loops/loop_basics/p6.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p6.ipynb) |
 | [Lists with Duplicates](pset_loops/loop_basics/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p2.ipynb) |
 | [Odds & Evens](pset_loops/loop_basics/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/loop_basics/nb/p1.ipynb) |
+
+
+<br/><br/>
+</details>
+
+    
+### Shapes (3)
+<details>
+<summary>View Problems</summary>
+<br/><br/>
+
+| PSET Desc  | Jupyter Notebook |
+| ------------- | ------------- |
+| [Build a Diamond](pset_loops/shapes/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p3.ipynb) |
+| [Build a Pyramid](pset_loops/shapes/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p2.ipynb) |
+| [Build a Triangle](pset_loops/shapes/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_loops/shapes/nb/p1.ipynb) |
 
 
 <br/><br/>
@@ -828,53 +828,42 @@ Listing of all problems defined
 
 | PSET Desc  | Jupyter Notebook |
 | ------------- | ------------- |
+| [53. How to get the last n rows of a dataframe with row sum > 100?](pset_pandas_ext/101problems/p53.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p53.ipynb) |
+| [4. How to combine many series to form a dataframe?](pset_pandas_ext/101problems/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p4.ipynb) |
 | [32. How to compute the autocorrelations of a numeric series?](pset_pandas_ext/101problems/p32.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p32.ipynb) |
 | [17. How to compute the mean squared error on a truth and predicted series?](pset_pandas_ext/101problems/p17.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p17.ipynb) |
 | [31. How to fill an intermittent time series so all missing dates show up with values of previous non-missing date?](pset_pandas_ext/101problems/p31.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p31.ipynb) |
 | [28. How to find all the local maxima (or peaks) in a numeric series?](pset_pandas_ext/101problems/p28.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p28.ipynb) |
 | [30. How to create a TimeSeries starting ‘2000-01-01’ and 10 weekends (saturdays) after that having random numbers as values?](pset_pandas_ext/101problems/p30.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p30.ipynb) |
+| [49. How to filter every nth row in a dataframe?](pset_pandas_ext/101problems/p49.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p49.ipynb) |
 | [14. How to extract items at given positions from a series](pset_pandas_ext/101problems/p14.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p14.ipynb) |
 | [16. How to get the positions of items of series A in another series B?](pset_pandas_ext/101problems/p16.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p16.ipynb) |
-| [27. How to compute the euclidean distance between two series?](pset_pandas_ext/101problems/p27.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p27.ipynb) |
-| [13. How to find the positions of numbers that are multiples of 3 from a series?](pset_pandas_ext/101problems/p13.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p13.ipynb) |
-| [23. How to convert year-month string to dates corresponding to the 4th day of the month?](pset_pandas_ext/101problems/p23.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p23.ipynb) |
-| [3. How to convert the index of a series into a column of a dataframe?](pset_pandas_ext/101problems/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p3.ipynb) |
-| [21. How to convert a series of date-strings to a timeseries?](pset_pandas_ext/101problems/p21.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p21.ipynb) |
-| [29. How to replace missing spaces in a string with the least frequent character?](pset_pandas_ext/101problems/p29.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p29.ipynb) |
-| [33. How to import only every nth row from a csv file to create a dataframe?](pset_pandas_ext/101problems/p33.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p33.ipynb) |
-| [10. How to keep only top 2 most frequent values as it is and replace everything else as ‘Other’?](pset_pandas_ext/101problems/p10.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p10.ipynb) |
-| [24. How to filter words that contain atleast 2 vowels from a series?](pset_pandas_ext/101problems/p24.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p24.ipynb) |
-| [26. How to get the mean of a series grouped by another series?](pset_pandas_ext/101problems/p26.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p26.ipynb) |
-| [11. How to bin a numeric series to 10 groups of equal size?](pset_pandas_ext/101problems/p11.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p11.ipynb) |
-| [2. How to create a series from a list, numpy array and dict?](pset_pandas_ext/101problems/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p2.ipynb) |
-| [15. How to stack two series vertically and horizontally ?](pset_pandas_ext/101problems/p15.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p15.ipynb) |
-| [18. How to convert the first character of each element in a series to uppercase?](pset_pandas_ext/101problems/p18.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p18.ipynb) |
-| [20. How to compute difference of differences between consequtive numbers of a series?](pset_pandas_ext/101problems/p20.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p20.ipynb) |
-| [12. How to convert a numpy array to a dataframe of given shape? (L1)](pset_pandas_ext/101problems/p12.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p12.ipynb) |
-| [22. How to get the day of month, week number, day of year and day of week from a series of date strings?](pset_pandas_ext/101problems/p22.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p22.ipynb) |
-| [25. How to filter valid emails from a series?](pset_pandas_ext/101problems/p25.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p25.ipynb) |
-| [1. How to import pandas and check the version?](pset_pandas_ext/101problems/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p1.ipynb) |
-| [34. How to change column values when importing csv to a dataframe?](pset_pandas_ext/101problems/p34.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p34.ipynb) |
-| [19. How to calculate the number of characters in each word in a series?](pset_pandas_ext/101problems/p19.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p19.ipynb) |
-| [53. How to get the last n rows of a dataframe with row sum > 100?](pset_pandas_ext/101problems/p53.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p53.ipynb) |
-| [4. How to combine many series to form a dataframe?](pset_pandas_ext/101problems/p4.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p4.ipynb) |
-| [49. How to filter every nth row in a dataframe?](pset_pandas_ext/101problems/p49.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p49.ipynb) |
 | [52. How to find the position of the nth largest value greater than a given value?](pset_pandas_ext/101problems/p52.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p52.ipynb) |
+| [27. How to compute the euclidean distance between two series?](pset_pandas_ext/101problems/p27.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p27.ipynb) |
 | [61. How to know the maximum possible correlation value of each column against other columns?](pset_pandas_ext/101problems/p60.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p60.ipynb) |
 | [42. How to replace missing values of multiple numeric columns with the mean?](pset_pandas_ext/101problems/p42.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p42.ipynb) |
 | [47. How to format or suppress scientific notations in a pandas dataframe?](pset_pandas_ext/101problems/p47.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p47.ipynb) |
+| [13. How to find the positions of numbers that are multiples of 3 from a series?](pset_pandas_ext/101problems/p13.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p13.ipynb) |
 | [65. How to compute the correlation of each row with the suceeding row?](pset_pandas_ext/101problems/p64.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p64.ipynb) |
 | [75. How to split a text column into two separate columns?](pset_pandas_ext/101problems/p74.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p74.ipynb) |
 | [69. How to compute grouped mean on pandas dataframe and keep the grouped column as another column (not index)?](pset_pandas_ext/101problems/p68.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p68.ipynb) |
 | [72. How to get the positions where values of two columns match?](pset_pandas_ext/101problems/p71.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p71.ipynb) |
 | [5. How to assign name to the series’ index?](pset_pandas_ext/101problems/p5.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p5.ipynb) |
+| [23. How to convert year-month string to dates corresponding to the 4th day of the month?](pset_pandas_ext/101problems/p23.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p23.ipynb) |
+| [3. How to convert the index of a series into a column of a dataframe?](pset_pandas_ext/101problems/p3.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p3.ipynb) |
+| [21. How to convert a series of date-strings to a timeseries?](pset_pandas_ext/101problems/p21.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p21.ipynb) |
+| [29. How to replace missing spaces in a string with the least frequent character?](pset_pandas_ext/101problems/p29.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p29.ipynb) |
 | [55. How to reshape a dataframe to the largest possible square after removing the negative values?](pset_pandas_ext/101problems/p55.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p55.ipynb) |
 | [41. How to count the number of missing values in each column?](pset_pandas_ext/101problems/p41.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p41.ipynb) |
+| [33. How to import only every nth row from a csv file to create a dataframe?](pset_pandas_ext/101problems/p33.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p33.ipynb) |
 | [54. How to find and cap outliers from a series or dataframe column?](pset_pandas_ext/101problems/p54.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p54.ipynb) |
 | [36. How to import only specified columns from a csv file?](pset_pandas_ext/101problems/p36.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p36.ipynb) |
 | [48. How to format all the values in a dataframe as percentages?](pset_pandas_ext/101problems/p48.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p48.ipynb) |
+| [10. How to keep only top 2 most frequent values as it is and replace everything else as ‘Other’?](pset_pandas_ext/101problems/p10.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p10.ipynb) |
 | [46. How to set the number of rows and columns displayed in the output?](pset_pandas_ext/101problems/p46.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p46.ipynb) |
 | [68. How to get the n’th largest value of a column when grouped by another column?](pset_pandas_ext/101problems/p67.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p67.ipynb) |
+| [24. How to filter words that contain atleast 2 vowels from a series?](pset_pandas_ext/101problems/p24.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p24.ipynb) |
+| [26. How to get the mean of a series grouped by another series?](pset_pandas_ext/101problems/p26.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p26.ipynb) |
 | [73. How to create lags and leads of a column in a dataframe?](pset_pandas_ext/101problems/p72.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p72.ipynb) |
 | [66. How to replace both the diagonals of dataframe with 0?](pset_pandas_ext/101problems/p65.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p65.ipynb) |
 | [71. How to remove rows from a dataframe that are present in another dataframe?](pset_pandas_ext/101problems/p70.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p70.ipynb) |
@@ -884,10 +873,17 @@ Listing of all problems defined
 | [63. How to create a column that contains the penultimate value in each row?](pset_pandas_ext/101problems/p62.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p62.ipynb) |
 | [70. How to join two dataframes by 2 columns so they have only the common rows?](pset_pandas_ext/101problems/p69.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p69.ipynb) |
 | [43. How to use apply function on existing columns with global variables as additional arguments?](pset_pandas_ext/101problems/p43.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p43.ipynb) |
+| [11. How to bin a numeric series to 10 groups of equal size?](pset_pandas_ext/101problems/p11.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p11.ipynb) |
+| [2. How to create a series from a list, numpy array and dict?](pset_pandas_ext/101problems/p2.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p2.ipynb) |
+| [15. How to stack two series vertically and horizontally ?](pset_pandas_ext/101problems/p15.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p15.ipynb) |
+| [18. How to convert the first character of each element in a series to uppercase?](pset_pandas_ext/101problems/p18.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p18.ipynb) |
 | [62. How to create a column containing the minimum by maximum of each row?](pset_pandas_ext/101problems/p61.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p61.ipynb) |
+| [20. How to compute difference of differences between consequtive numbers of a series?](pset_pandas_ext/101problems/p20.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p20.ipynb) |
 | [39. How to rename a specific columns in a dataframe?](pset_pandas_ext/101problems/p39.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p39.ipynb) |
+| [12. How to convert a numpy array to a dataframe of given shape? (L1)](pset_pandas_ext/101problems/p12.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p12.ipynb) |
 | [40. How to check if a dataframe has any missing values?](pset_pandas_ext/101problems/p40.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p40.ipynb) |
 | [64. How to normalize all columns in a dataframe?](pset_pandas_ext/101problems/p63.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p63.ipynb) |
+| [22. How to get the day of month, week number, day of year and day of week from a series of date strings?](pset_pandas_ext/101problems/p22.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p22.ipynb) |
 | [44. How to select a specific column from a dataframe as a dataframe instead of a series?](pset_pandas_ext/101problems/p44.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p44.ipynb) |
 | [74. How to get the frequency of unique values in the entire dataframe?](pset_pandas_ext/101problems/p73.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p73.ipynb) |
 | [7. How to get the items not common to both series A and series B?](pset_pandas_ext/101problems/p7.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p7.ipynb) |
@@ -898,6 +894,10 @@ Listing of all problems defined
 | [56. How to swap two rows of a dataframe?](pset_pandas_ext/101problems/p56.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p56.ipynb) |
 | [60. How to create a new column that contains the row number of nearest column by euclidean distance?](pset_pandas_ext/101problems/p59.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p59.ipynb) |
 | [8. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?](pset_pandas_ext/101problems/p8.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p8.ipynb) |
+| [25. How to filter valid emails from a series?](pset_pandas_ext/101problems/p25.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p25.ipynb) |
+| [1. How to import pandas and check the version?](pset_pandas_ext/101problems/p1.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p1.ipynb) |
+| [34. How to change column values when importing csv to a dataframe?](pset_pandas_ext/101problems/p34.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p34.ipynb) |
+| [19. How to calculate the number of characters in each word in a series?](pset_pandas_ext/101problems/p19.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p19.ipynb) |
 | [58. How to create one-hot encodings of a categorical variable (dummy variables)?](pset_pandas_ext/101problems/p58.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p58.ipynb) |
 | [50. How to create a primary key index by combining relevant columns?](pset_pandas_ext/101problems/p50.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p50.ipynb) |
 | [38. How to extract the row and column number of a particular cell with given criterion?](pset_pandas_ext/101problems/p38.py)  | [Notebook](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_pandas_ext/101problems/nb/p38.ipynb) |
